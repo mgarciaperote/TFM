@@ -1,0 +1,29 @@
+{
+  "package_name": "agri_interfaces",
+  "output_dir": "/home/maria/agri_ws/build/agri_interfaces/rosidl_typesupport_c/agri_interfaces",
+  "template_dir": "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces:msg/SoilMoisture.idl",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces:msg/IrrigationCommand.idl",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces:msg/IrrigationState.idl",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces:msg/RobotCommand.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/home/maria/ros2_lyrical/ros2-linux/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/home/maria/ros2_lyrical/ros2-linux/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/home/maria/ros2_lyrical/ros2-linux/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/home/maria/ros2_lyrical/ros2-linux/lib/python3.14/site-packages/rosidl_typesupport_c/__init__.py",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces/msg/SoilMoisture.idl",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces/msg/IrrigationCommand.idl",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces/msg/IrrigationState.idl",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces/msg/RobotCommand.idl",
+    "/home/maria/ros2_lyrical/ros2-linux/share/builtin_interfaces/msg/Duration.idl",
+    "/home/maria/ros2_lyrical/ros2-linux/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

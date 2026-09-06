@@ -1,0 +1,4 @@
+builtin_interfaces/Time timestamp
+string sensor_id
+float32 moisture
+string unit

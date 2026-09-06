@@ -1,0 +1,28 @@
+[4.570s] Invoking command in '/home/maria/agri_ws/src/agri_orchestrator': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/maria/agri_ws/build/agri_orchestrator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agri_orchestrator build --build-base /home/maria/agri_ws/build/agri_orchestrator/build install --record /home/maria/agri_ws/build/agri_orchestrator/install.log --install-scripts $base/lib/agri_orchestrator --single-version-externally-managed install_data
+[6.426s] running egg_info
+[6.498s] writing ../../build/agri_orchestrator/agri_orchestrator.egg-info/PKG-INFO
+[6.503s] writing dependency_links to ../../build/agri_orchestrator/agri_orchestrator.egg-info/dependency_links.txt
+[6.504s] writing entry points to ../../build/agri_orchestrator/agri_orchestrator.egg-info/entry_points.txt
+[6.505s] writing requirements to ../../build/agri_orchestrator/agri_orchestrator.egg-info/requires.txt
+[6.506s] writing top-level names to ../../build/agri_orchestrator/agri_orchestrator.egg-info/top_level.txt
+[6.665s] reading manifest file '../../build/agri_orchestrator/agri_orchestrator.egg-info/SOURCES.txt'
+[6.670s] writing manifest file '../../build/agri_orchestrator/agri_orchestrator.egg-info/SOURCES.txt'
+[6.671s] running build
+[6.672s] running build_py
+[6.673s] copying agri_orchestrator/__init__.py -> /home/maria/agri_ws/build/agri_orchestrator/build/lib/agri_orchestrator
+[6.674s] copying agri_orchestrator/farm_orchestrator_node.py -> /home/maria/agri_ws/build/agri_orchestrator/build/lib/agri_orchestrator
+[6.675s] copying agri_orchestrator/py.typed -> /home/maria/agri_ws/build/agri_orchestrator/build/lib/agri_orchestrator
+[6.676s] running install
+[6.695s] running install_lib
+[6.782s] copying /home/maria/agri_ws/build/agri_orchestrator/build/lib/agri_orchestrator/farm_orchestrator_node.py -> /home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages/agri_orchestrator
+[6.785s] byte-compiling /home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages/agri_orchestrator/farm_orchestrator_node.py to farm_orchestrator_node.cpython-314.pyc
+[6.788s] running install_data
+[6.790s] copying resource/agri_orchestrator -> /home/maria/agri_ws/install/agri_orchestrator/share/ament_index/resource_index/packages
+[6.790s] copying package.xml -> /home/maria/agri_ws/install/agri_orchestrator/share/agri_orchestrator
+[6.792s] running install_egg_info
+[6.875s] removing '/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages/agri_orchestrator-0.0.0-py3.14.egg-info' (and everything under it)
+[6.877s] Copying ../../build/agri_orchestrator/agri_orchestrator.egg-info to /home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages/agri_orchestrator-0.0.0-py3.14.egg-info
+[6.884s] running install_scripts
+[7.265s] Installing farm_orchestrator_node script to /home/maria/agri_ws/install/agri_orchestrator/lib/agri_orchestrator
+[7.267s] writing list of installed files to '/home/maria/agri_ws/build/agri_orchestrator/install.log'
+[7.385s] Invoked command in '/home/maria/agri_ws/src/agri_orchestrator' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/maria/agri_ws/build/agri_orchestrator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agri_orchestrator build --build-base /home/maria/agri_ws/build/agri_orchestrator/build install --record /home/maria/agri_ws/build/agri_orchestrator/install.log --install-scripts $base/lib/agri_orchestrator --single-version-externally-managed install_data

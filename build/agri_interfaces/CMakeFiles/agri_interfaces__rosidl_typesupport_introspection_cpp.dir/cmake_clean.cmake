@@ -1,0 +1,26 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_cpp.dir/link.d"
+  "CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/irrigation_command__type_support.cpp.o"
+  "CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/irrigation_command__type_support.cpp.o.d"
+  "CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/irrigation_state__type_support.cpp.o"
+  "CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/irrigation_state__type_support.cpp.o.d"
+  "CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/robot_command__type_support.cpp.o"
+  "CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/robot_command__type_support.cpp.o.d"
+  "CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/soil_moisture__type_support.cpp.o"
+  "CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/soil_moisture__type_support.cpp.o.d"
+  "libagri_interfaces__rosidl_typesupport_introspection_cpp.pdb"
+  "libagri_interfaces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/irrigation_command__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/irrigation_command__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/irrigation_state__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/irrigation_state__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/robot_command__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/robot_command__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/soil_moisture__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/soil_moisture__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

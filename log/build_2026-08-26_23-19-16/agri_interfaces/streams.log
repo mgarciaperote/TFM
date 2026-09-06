@@ -1,0 +1,310 @@
+[0.052s] Invoking command in '/home/maria/agri_ws/build/agri_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maria/agri_ws/install/agri_sensors:/home/maria/agri_ws/install/agri_orchestrator:/home/maria/agri_ws/install/agri_irrigation DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/maria/agri_ws/agri_interfaces -DCMAKE_INSTALL_PREFIX=/home/maria/agri_ws/install/agri_interfaces
+[0.333s] -- The C compiler identification is GNU 15.2.0
+[0.554s] -- The CXX compiler identification is GNU 15.2.0
+[0.576s] -- Detecting C compiler ABI info
+[0.742s] -- Detecting C compiler ABI info - done
+[0.781s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.782s] -- Detecting C compile features
+[0.784s] -- Detecting C compile features - done
+[0.823s] -- Detecting CXX compiler ABI info
+[1.028s] -- Detecting CXX compiler ABI info - done
+[1.070s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.071s] -- Detecting CXX compile features
+[1.072s] -- Detecting CXX compile features - done
+[1.110s] -- Found ament_cmake: 2.8.8 (/home/maria/ros2_lyrical/ros2-linux/share/ament_cmake/cmake)
+[1.878s] -- Found rosidl_default_generators: 1.8.1 (/home/maria/ros2_lyrical/ros2-linux/share/rosidl_default_generators/cmake)
+[1.899s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.053s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.182s] -- Found rosidl_adapter: 5.2.1 (/home/maria/ros2_lyrical/ros2-linux/share/rosidl_adapter/cmake)
+[2.197s] -- Found builtin_interfaces: 2.4.5 (/home/maria/ros2_lyrical/ros2-linux/share/builtin_interfaces/cmake)
+[2.495s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[3.917s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.781s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.481s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter Development NumPy Development.Module Development.Embed
+[5.586s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[5.592s] -- Found ament_lint_auto: 0.20.6 (/home/maria/ros2_lyrical/ros2-linux/share/ament_lint_auto/cmake)
+[5.670s] -- Added test 'lint_cmake' to check CMake code style
+[5.677s] -- Added test 'xmllint' to check XML markup files
+[5.689s] -- Configuring done (5.6s)
+[5.788s] -- Generating done (0.1s)
+[5.825s] -- Build files have been written to: /home/maria/agri_ws/build/agri_interfaces
+[5.842s] Invoked command in '/home/maria/agri_ws/build/agri_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maria/agri_ws/install/agri_sensors:/home/maria/agri_ws/install/agri_orchestrator:/home/maria/agri_ws/install/agri_irrigation DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/maria/agri_ws/agri_interfaces -DCMAKE_INSTALL_PREFIX=/home/maria/agri_ws/install/agri_interfaces
+[5.842s] Invoking command in '/home/maria/agri_ws/build/agri_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maria/agri_ws/install/agri_sensors:/home/maria/agri_ws/install/agri_orchestrator:/home/maria/agri_ws/install/agri_irrigation DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/maria/agri_ws/build/agri_interfaces -- -j3 -l3
+[5.930s] [  1%] [1m[34mGenerating type hashes for ROS interfaces[0m
+[5.930s] [  3%] [1m[34mGenerating Rust code for ROS interfaces[0m
+[6.475s] [  3%] Built target agri_interfaces__rosidl_generator_type_description
+[6.642s] [  3%] Built target agri_interfaces__rs
+[6.664s] [  5%] [1m[34mGenerating C code for ROS interfaces[0m
+[6.692s] [  7%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[8.574s] [  7%] Built target agri_interfaces__cpp
+[8.879s] [ 10%] [32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_c.dir/rosidl_generator_c/agri_interfaces/msg/detail/soil_moisture__description.c.o[0m
+[8.883s] [ 12%] [32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_c.dir/rosidl_generator_c/agri_interfaces/msg/detail/soil_moisture__functions.c.o[0m
+[8.883s] [ 12%] [32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_c.dir/rosidl_generator_c/agri_interfaces/msg/detail/soil_moisture__type_support.c.o[0m
+[9.016s] [ 14%] [32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_c.dir/rosidl_generator_c/agri_interfaces/msg/detail/irrigation_command__functions.c.o[0m
+[9.115s] [ 16%] [32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_c.dir/rosidl_generator_c/agri_interfaces/msg/detail/irrigation_command__description.c.o[0m
+[9.115s] [ 18%] [32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_c.dir/rosidl_generator_c/agri_interfaces/msg/detail/irrigation_command__type_support.c.o[0m
+[9.192s] [ 20%] [32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_c.dir/rosidl_generator_c/agri_interfaces/msg/detail/irrigation_state__functions.c.o[0m
+[9.284s] [ 21%] [32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_c.dir/rosidl_generator_c/agri_interfaces/msg/detail/irrigation_state__type_support.c.o[0m
+[9.353s] [ 23%] [32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_c.dir/rosidl_generator_c/agri_interfaces/msg/detail/irrigation_state__description.c.o[0m
+[9.440s] [ 25%] [1m[32mLinking C shared library libagri_interfaces__rosidl_generator_c.so[0m
+[9.525s] [ 25%] Built target agri_interfaces__rosidl_generator_c
+[9.545s] [ 29%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[9.545s] [ 29%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.241s] [ 30%] [32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/agri_interfaces/msg/soil_moisture__type_support.cpp.o[0m
+[11.156s] [ 32%] [32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/soil_moisture__type_support_c.cpp.o[0m
+[12.114s] [ 34%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[12.191s] [ 36%] [32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/agri_interfaces/msg/irrigation_command__type_support.cpp.o[0m
+[13.068s] [ 38%] [32mBuilding C object CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/agri_interfaces/msg/detail/soil_moisture__type_support.c.o[0m
+[13.169s] [ 40%] [32mBuilding C object CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/agri_interfaces/msg/detail/irrigation_command__type_support.c.o[0m
+[13.194s] [ 41%] [32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/irrigation_command__type_support_c.cpp.o[0m
+[13.286s] [ 43%] [32mBuilding C object CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/agri_interfaces/msg/detail/irrigation_state__type_support.c.o[0m
+[13.432s] [ 45%] [1m[32mLinking C shared library libagri_interfaces__rosidl_typesupport_introspection_c.so[0m
+[13.622s] [ 45%] Built target agri_interfaces__rosidl_typesupport_introspection_c
+[13.687s] [ 47%] [32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/agri_interfaces/msg/irrigation_state__type_support.cpp.o[0m
+[14.661s] [ 49%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[15.520s] [ 50%] [1m[32mLinking CXX shared library libagri_interfaces__rosidl_typesupport_cpp.so[0m
+[15.682s] [ 50%] Built target agri_interfaces__rosidl_typesupport_cpp
+[15.701s] [ 52%] [32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/irrigation_state__type_support_c.cpp.o[0m
+[15.937s] [ 54%] [32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/agri_interfaces/msg/soil_moisture__type_support.cpp.o[0m
+[16.066s] [ 56%] [32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/agri_interfaces/msg/irrigation_command__type_support.cpp.o[0m
+[16.235s] [ 58%] [32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/agri_interfaces/msg/irrigation_state__type_support.cpp.o[0m
+[16.404s] [ 60%] [1m[32mLinking CXX shared library libagri_interfaces__rosidl_typesupport_c.so[0m
+[16.536s] [ 60%] Built target agri_interfaces__rosidl_typesupport_c
+[16.563s] [ 61%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[17.666s] [ 63%] [1m[32mLinking CXX shared library libagri_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[18.059s] [ 63%] Built target agri_interfaces__rosidl_typesupport_fastrtps_c
+[18.319s] [ 65%] [32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/agri_interfaces/msg/detail/dds_fastrtps/soil_moisture__type_support.cpp.o[0m
+[18.326s] [ 67%] [32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/agri_interfaces/msg/detail/dds_fastrtps/irrigation_command__type_support.cpp.o[0m
+[19.689s] [ 69%] [32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/agri_interfaces/msg/detail/dds_fastrtps/irrigation_state__type_support.cpp.o[0m
+[21.536s] [ 70%] [1m[32mLinking CXX shared library libagri_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[21.813s] [ 70%] Built target agri_interfaces__rosidl_typesupport_fastrtps_cpp
+[21.839s] [ 72%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[22.596s] [ 76%] [32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/soil_moisture__type_support.cpp.o[0m
+[22.596s] [ 76%] [32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/irrigation_command__type_support.cpp.o[0m
+[23.639s] [ 78%] [32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/irrigation_state__type_support.cpp.o[0m
+[25.325s] [ 80%] [1m[32mLinking CXX shared library libagri_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[25.454s] [ 80%] Built target agri_interfaces__rosidl_typesupport_introspection_cpp
+[25.496s] [ 80%] Built target agri_interfaces
+[25.531s] [ 81%] [1m[34mGenerating Python code for ROS interfaces[0m
+[26.993s] [ 81%] Built target agri_interfaces__py
+[27.070s] [ 83%] [32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_py.dir/rosidl_generator_py/agri_interfaces/msg/_soil_moisture_s.c.o[0m
+[27.073s] [ 85%] [32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_py.dir/rosidl_generator_py/agri_interfaces/msg/_irrigation_command_s.c.o[0m
+[27.112s] [ 85%] Built target ament_cmake_python_sync_agri_interfaces
+[27.698s] [ 87%] [32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_py.dir/rosidl_generator_py/agri_interfaces/msg/_irrigation_state_s.c.o[0m
+[28.242s] [ 89%] [1m[32mLinking C shared library libagri_interfaces__rosidl_generator_py.so[0m
+[28.441s] [ 89%] Built target agri_interfaces__rosidl_generator_py
+[28.512s] [ 90%] [32mBuilding C object CMakeFiles/agri_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/agri_interfaces/_agri_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[28.513s] [ 92%] [32mBuilding C object CMakeFiles/agri_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/agri_interfaces/_agri_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[28.784s] [ 94%] [1m[32mLinking C shared module rosidl_generator_py/agri_interfaces/agri_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[28.830s] [ 96%] [1m[32mLinking C shared module rosidl_generator_py/agri_interfaces/agri_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[28.853s] [ 96%] Built target agri_interfaces_s__rosidl_typesupport_fastrtps_c
+[28.903s] [ 96%] Built target agri_interfaces_s__rosidl_typesupport_introspection_c
+[28.953s] [ 98%] [32mBuilding C object CMakeFiles/agri_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/agri_interfaces/_agri_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[29.204s] [100%] [1m[32mLinking C shared module rosidl_generator_py/agri_interfaces/agri_interfaces_s__rosidl_typesupport_c.so[0m
+[29.249s] running egg_info
+[29.285s] [100%] Built target agri_interfaces_s__rosidl_typesupport_c
+[29.318s] creating agri_interfaces.egg-info
+[29.319s] writing agri_interfaces.egg-info/PKG-INFO
+[29.319s] writing dependency_links to agri_interfaces.egg-info/dependency_links.txt
+[29.319s] writing top-level names to agri_interfaces.egg-info/top_level.txt
+[29.319s] writing manifest file 'agri_interfaces.egg-info/SOURCES.txt'
+[29.514s] reading manifest file 'agri_interfaces.egg-info/SOURCES.txt'
+[29.516s] writing manifest file 'agri_interfaces.egg-info/SOURCES.txt'
+[29.594s] [100%] Built target ament_cmake_python_build_agri_interfaces_egg
+[29.615s] Invoked command in '/home/maria/agri_ws/build/agri_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maria/agri_ws/install/agri_sensors:/home/maria/agri_ws/install/agri_orchestrator:/home/maria/agri_ws/install/agri_irrigation DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/maria/agri_ws/build/agri_interfaces -- -j3 -l3
+[29.631s] Invoking command in '/home/maria/agri_ws/build/agri_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maria/agri_ws/install/agri_sensors:/home/maria/agri_ws/install/agri_orchestrator:/home/maria/agri_ws/install/agri_irrigation DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/maria/agri_ws/build/agri_interfaces
+[29.655s] -- Install configuration: ""
+[29.655s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/ament_index/resource_index/rosidl_interfaces/agri_interfaces
+[29.656s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/msg/SoilMoisture.json
+[29.657s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/msg/IrrigationCommand.json
+[29.657s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/msg/IrrigationState.json
+[29.658s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces
+[29.658s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg
+[29.659s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail
+[29.660s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__description.c
+[29.660s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__struct.h
+[29.661s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__functions.h
+[29.661s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__type_support.c
+[29.661s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__description.c
+[29.661s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__functions.h
+[29.662s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__type_support.c
+[29.663s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__description.c
+[29.663s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__type_support.h
+[29.663s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__type_support.h
+[29.664s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__type_support.h
+[29.664s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__struct.h
+[29.665s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__functions.c
+[29.665s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__functions.c
+[29.665s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__struct.h
+[29.665s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__functions.h
+[29.666s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__type_support.c
+[29.666s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__functions.c
+[29.666s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/irrigation_command.h
+[29.666s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/rosidl_generator_c__visibility_control.h
+[29.667s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/irrigation_state.h
+[29.667s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/soil_moisture.h
+[29.667s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/environment/library_path.sh
+[29.668s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/environment/library_path.dsv
+[29.668s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_generator_c.so
+[29.671s] -- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_generator_c.so" to ""
+[29.672s] -- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces
+[29.672s] -- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg
+[29.673s] -- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail
+[29.673s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__rosidl_typesupport_fastrtps_c.h
+[29.673s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__rosidl_typesupport_fastrtps_c.h
+[29.673s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__rosidl_typesupport_fastrtps_c.h
+[29.674s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[29.674s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_fastrtps_c.so
+[29.675s] -- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[29.675s] -- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces
+[29.675s] -- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg
+[29.676s] -- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail
+[29.677s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__rosidl_typesupport_introspection_c.h
+[29.677s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__rosidl_typesupport_introspection_c.h
+[29.677s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__type_support.c
+[29.677s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__type_support.c
+[29.677s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__rosidl_typesupport_introspection_c.h
+[29.678s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__type_support.c
+[29.679s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[29.679s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_introspection_c.so
+[29.679s] -- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[29.680s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_c.so
+[29.680s] -- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_c.so" to ""
+[29.681s] -- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces
+[29.681s] -- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg
+[29.682s] -- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail
+[29.682s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__traits.hpp
+[29.682s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__type_support.hpp
+[29.683s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__builder.hpp
+[29.683s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__struct.hpp
+[29.684s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__type_support.hpp
+[29.684s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__struct.hpp
+[29.685s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__type_support.hpp
+[29.685s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__struct.hpp
+[29.685s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__traits.hpp
+[29.686s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__builder.hpp
+[29.686s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__traits.hpp
+[29.686s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__builder.hpp
+[29.687s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/irrigation_command.hpp
+[29.688s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/irrigation_state.hpp
+[29.688s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/soil_moisture.hpp
+[29.688s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[29.689s] -- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces
+[29.689s] -- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg
+[29.689s] -- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail
+[29.689s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__rosidl_typesupport_fastrtps_cpp.hpp
+[29.689s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__rosidl_typesupport_fastrtps_cpp.hpp
+[29.690s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/dds_fastrtps
+[29.691s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__rosidl_typesupport_fastrtps_cpp.hpp
+[29.691s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[29.692s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[29.692s] -- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[29.692s] -- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces
+[29.692s] -- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg
+[29.692s] -- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail
+[29.692s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__type_support.cpp
+[29.693s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__rosidl_typesupport_introspection_cpp.hpp
+[29.693s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__type_support.cpp
+[29.693s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__type_support.cpp
+[29.695s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__rosidl_typesupport_introspection_cpp.hpp
+[29.696s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__rosidl_typesupport_introspection_cpp.hpp
+[29.696s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_introspection_cpp.so
+[29.697s] -- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[29.697s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_cpp.so
+[29.698s] -- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_cpp.so" to ""
+[29.698s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/environment/pythonpath.sh
+[29.698s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/environment/pythonpath.dsv
+[29.698s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/agri_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[29.699s] -- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/agri_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[29.700s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/agri_interfaces_s__rosidl_typesupport_introspection_c.so
+[29.700s] -- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/agri_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[29.701s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/agri_interfaces_s__rosidl_typesupport_c.so
+[29.701s] -- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/agri_interfaces_s__rosidl_typesupport_c.so" to ""
+[29.701s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_generator_py.so
+[29.702s] -- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_generator_py.so" to ""
+[29.703s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/ament_index/resource_index/rust_packages/agri_interfaces
+[29.703s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/rust
+[29.703s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/rust/src
+[29.704s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/rust/src/msg
+[29.704s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/rust/src/msg/rmw.rs
+[29.704s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/rust/src/msg.rs
+[29.705s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/rust/src/lib.rs
+[29.706s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/rust/Cargo.toml
+[29.706s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/rust/build.rs
+[29.706s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/msg/SoilMoisture.idl
+[29.707s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/msg/IrrigationCommand.idl
+[29.707s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/msg/IrrigationState.idl
+[29.707s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/msg/SoilMoisture.msg
+[29.708s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/msg/IrrigationCommand.msg
+[29.708s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/msg/IrrigationState.msg
+[29.710s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/ament_index/resource_index/package_run_dependencies/agri_interfaces
+[29.710s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/ament_index/resource_index/parent_prefix_path/agri_interfaces
+[29.710s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/environment/ament_prefix_path.sh
+[29.711s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/environment/ament_prefix_path.dsv
+[29.711s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/environment/path.sh
+[29.712s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/environment/path.dsv
+[29.712s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/local_setup.bash
+[29.713s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/local_setup.fish
+[29.713s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/local_setup.sh
+[29.714s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/local_setup.zsh
+[29.714s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/local_setup.dsv
+[29.714s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/package.dsv
+[29.715s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/ament_index/resource_index/packages/agri_interfaces
+[29.715s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/export_agri_interfaces__rosidl_generator_cExport.cmake
+[29.715s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/export_agri_interfaces__rosidl_generator_cExport-noconfig.cmake
+[29.716s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/export_agri_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[29.716s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/export_agri_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[29.716s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/agri_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[29.717s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/agri_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[29.717s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/agri_interfaces__rosidl_typesupport_cExport.cmake
+[29.718s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/agri_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[29.718s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/export_agri_interfaces__rosidl_generator_cppExport.cmake
+[29.718s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/export_agri_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[29.719s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/export_agri_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[29.719s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/agri_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[29.719s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/agri_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[29.719s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/agri_interfaces__rosidl_typesupport_cppExport.cmake
+[29.719s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/agri_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[29.720s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/export_agri_interfaces__rosidl_generator_pyExport.cmake
+[29.720s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/export_agri_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[29.721s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces-0.0.0-py3.14.egg-info
+[29.721s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces-0.0.0-py3.14.egg-info/top_level.txt
+[29.721s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces-0.0.0-py3.14.egg-info/dependency_links.txt
+[29.722s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces-0.0.0-py3.14.egg-info/SOURCES.txt
+[29.722s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces-0.0.0-py3.14.egg-info/PKG-INFO
+[29.722s] -- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces
+[29.723s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg
+[29.723s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/_irrigation_command.py
+[29.723s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/__init__.py
+[29.723s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/_soil_moisture.py
+[29.724s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/_irrigation_state_s.c
+[29.724s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/_irrigation_state.py
+[29.725s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/_soil_moisture_s.c
+[29.725s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/_irrigation_command_s.c
+[29.725s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/__init__.py
+[29.725s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/py.typed
+[29.725s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/_agri_interfaces_s.ep.rosidl_typesupport_c.c
+[29.725s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/_agri_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[29.726s] -- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/agri_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[29.726s] -- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/agri_interfaces_s__rosidl_typesupport_c.so
+[29.727s] -- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/agri_interfaces_s__rosidl_typesupport_introspection_c.so
+[29.727s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/_agri_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[29.838s] Listing '/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces'...
+[29.839s] Compiling '/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/__init__.py'...
+[29.839s] Listing '/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg'...
+[29.839s] Compiling '/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/__init__.py'...
+[29.839s] Compiling '/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/_irrigation_command.py'...
+[29.839s] Compiling '/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/_irrigation_state.py'...
+[29.839s] Compiling '/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/_soil_moisture.py'...
+[29.859s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/rosidl_cmake-extras.cmake
+[29.860s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.861s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[29.861s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[29.861s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[29.862s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[29.863s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[29.863s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[29.863s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/agri_interfacesConfig.cmake
+[29.863s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/agri_interfacesConfig-version.cmake
+[29.864s] -- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/package.xml
+[29.874s] Invoked command in '/home/maria/agri_ws/build/agri_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maria/agri_ws/install/agri_sensors:/home/maria/agri_ws/install/agri_orchestrator:/home/maria/agri_ws/install/agri_irrigation DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/maria/agri_ws/build/agri_interfaces

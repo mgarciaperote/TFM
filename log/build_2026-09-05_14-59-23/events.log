@@ -1,0 +1,195 @@
+[0.000000] (-) TimerEvent: {}
+[0.003795] (-) JobUnselected: {'identifier': 'agri_interfaces'}
+[0.003963] (-) JobUnselected: {'identifier': 'agri_irrigation'}
+[0.004033] (-) JobUnselected: {'identifier': 'agri_orchestrator'}
+[0.004087] (-) JobUnselected: {'identifier': 'agri_sensors'}
+[0.004146] (agri_simulation) JobQueued: {'identifier': 'agri_simulation', 'dependencies': OrderedDict()}
+[0.004210] (agri_simulation) JobStarted: {'identifier': 'agri_simulation'}
+[0.086342] (agri_simulation) JobProgress: {'identifier': 'agri_simulation', 'progress': 'cmake'}
+[0.097307] (agri_simulation) Command: {'cmd': ['/usr/bin/cmake', '/home/maria/agri_ws/src/agri_simulation', '-DCMAKE_INSTALL_PREFIX=/home/maria/agri_ws/install/agri_simulation'], 'cwd': '/home/maria/agri_ws/build/agri_simulation', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/lyrical/share', 'USER': 'maria', 'GZ_CONFIG_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/share/gz:/opt/ros/lyrical/opt/gz_gui_vendor/share/gz:/opt/ros/lyrical/opt/gz_transport_vendor/share/gz:/opt/ros/lyrical/opt/sdformat_vendor/share/gz:/opt/ros/lyrical/opt/gz_rendering_vendor/share/gz:/opt/ros/lyrical/opt/gz_plugin_vendor/share/gz:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/lyrical/opt/gz_msgs_vendor/share/gz:/opt/ros/lyrical/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/lib:/opt/ros/lyrical/opt/gz_sensors_vendor/lib:/opt/ros/lyrical/opt/gz_gui_vendor/lib:/opt/ros/lyrical/opt/gz_transport_vendor/lib:/opt/ros/lyrical/opt/zenoh_cpp_vendor/lib:/opt/ros/lyrical/opt/gz_physics_vendor/lib:/opt/ros/lyrical/opt/sdformat_vendor/lib:/opt/ros/lyrical/opt/gz_rendering_vendor/lib:/opt/ros/lyrical/opt/gz_plugin_vendor/lib:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/lib:/opt/ros/lyrical/opt/gz_msgs_vendor/lib:/opt/ros/lyrical/opt/gz_common_vendor/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_tools_vendor/lib:/opt/ros/lyrical/opt/gz_ogre_next_vendor/lib:/opt/ros/lyrical/opt/gz_dartsim_vendor/lib:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/maria', 'OLDPWD': '/home/maria/agri_ws/src/agri_simulation', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2889', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2927', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6475568016a35ccd29ce51506a9b5485', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'maria', 'MANAGERPIDFDID': '810', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'maria', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/opt/gz_msgs_vendor/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/opt/ros/lyrical/opt/gz_ogre_next_vendor/bin:/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '1ed6c163466c4ac38a771fe8bdc5c503', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '14f5a020ca517b9ee29c227f6a859c04', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5BI4U3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/maria/agri_ws/build/agri_simulation', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6475568016a35ccd29ce51506a9b5485', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical'}), 'shell': False}
+[0.101626] (-) TimerEvent: {}
+[0.207726] (-) TimerEvent: {}
+[0.308411] (-) TimerEvent: {}
+[0.412570] (-) TimerEvent: {}
+[0.513845] (-) TimerEvent: {}
+[0.611679] (agri_simulation) StdoutLine: {'line': b'-- The C compiler identification is GNU 15.2.0\n'}
+[0.614045] (-) TimerEvent: {}
+[0.723838] (-) TimerEvent: {}
+[0.826376] (-) TimerEvent: {}
+[0.929872] (-) TimerEvent: {}
+[1.031242] (-) TimerEvent: {}
+[1.066822] (agri_simulation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 15.2.0\n'}
+[1.134294] (-) TimerEvent: {}
+[1.171689] (agri_simulation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.234617] (-) TimerEvent: {}
+[1.335302] (-) TimerEvent: {}
+[1.436125] (-) TimerEvent: {}
+[1.537846] (-) TimerEvent: {}
+[1.614424] (agri_simulation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.645111] (-) TimerEvent: {}
+[1.731442] (agri_simulation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.732329] (agri_simulation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.737609] (agri_simulation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.741127] (-) TimerEvent: {}
+[1.826832] (agri_simulation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.841351] (-) TimerEvent: {}
+[1.945625] (-) TimerEvent: {}
+[2.046343] (-) TimerEvent: {}
+[2.147887] (-) TimerEvent: {}
+[2.250684] (-) TimerEvent: {}
+[2.353821] (-) TimerEvent: {}
+[2.358273] (agri_simulation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.454025] (-) TimerEvent: {}
+[2.510790] (agri_simulation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.511743] (agri_simulation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.515175] (agri_simulation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.557612] (-) TimerEvent: {}
+[2.587826] (agri_simulation) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)\n'}
+[2.657811] (-) TimerEvent: {}
+[2.758462] (-) TimerEvent: {}
+[2.859138] (-) TimerEvent: {}
+[2.959715] (-) TimerEvent: {}
+[3.061176] (-) TimerEvent: {}
+[3.163603] (-) TimerEvent: {}
+[3.265511] (-) TimerEvent: {}
+[3.367894] (-) TimerEvent: {}
+[3.468816] (-) TimerEvent: {}
+[3.569509] (-) TimerEvent: {}
+[3.672534] (-) TimerEvent: {}
+[3.773326] (-) TimerEvent: {}
+[3.874709] (-) TimerEvent: {}
+[3.977878] (-) TimerEvent: {}
+[4.079961] (-) TimerEvent: {}
+[4.180743] (-) TimerEvent: {}
+[4.282982] (-) TimerEvent: {}
+[4.383538] (-) TimerEvent: {}
+[4.484275] (-) TimerEvent: {}
+[4.585142] (-) TimerEvent: {}
+[4.685903] (-) TimerEvent: {}
+[4.786456] (-) TimerEvent: {}
+[4.847726] (agri_simulation) StdoutLine: {'line': b'-- Found ros_gz_sim: 3.0.9 (/opt/ros/lyrical/share/ros_gz_sim/cmake)\n'}
+[4.887063] (-) TimerEvent: {}
+[4.990051] (-) TimerEvent: {}
+[5.092179] (-) TimerEvent: {}
+[5.135162] (agri_simulation) StdoutLine: {'line': b'-- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)\n'}
+[5.193027] (-) TimerEvent: {}
+[5.275817] (agri_simulation) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)\n'}
+[5.294170] (-) TimerEvent: {}
+[5.399749] (-) TimerEvent: {}
+[5.435979] (agri_simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.499976] (-) TimerEvent: {}
+[5.531610] (agri_simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.600067] (-) TimerEvent: {}
+[5.700777] (-) TimerEvent: {}
+[5.801771] (-) TimerEvent: {}
+[5.902693] (-) TimerEvent: {}
+[6.003564] (-) TimerEvent: {}
+[6.067449] (agri_simulation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)\n'}
+[6.089547] (agri_simulation) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.4.9 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.104516] (-) TimerEvent: {}
+[6.205055] (-) TimerEvent: {}
+[6.306560] (-) TimerEvent: {}
+[6.390249] (agri_simulation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.406882] (-) TimerEvent: {}
+[6.507707] (-) TimerEvent: {}
+[6.608907] (-) TimerEvent: {}
+[6.710889] (-) TimerEvent: {}
+[6.812782] (-) TimerEvent: {}
+[6.916476] (-) TimerEvent: {}
+[7.017473] (-) TimerEvent: {}
+[7.118321] (-) TimerEvent: {}
+[7.219464] (-) TimerEvent: {}
+[7.322480] (-) TimerEvent: {}
+[7.423463] (-) TimerEvent: {}
+[7.527571] (-) TimerEvent: {}
+[7.628439] (-) TimerEvent: {}
+[7.729403] (-) TimerEvent: {}
+[7.830020] (-) TimerEvent: {}
+[7.930591] (-) TimerEvent: {}
+[8.031239] (-) TimerEvent: {}
+[8.133283] (-) TimerEvent: {}
+[8.236497] (-) TimerEvent: {}
+[8.328670] (agri_simulation) StdoutLine: {'line': b'-- Found ros_gz_bridge: 3.0.9 (/opt/ros/lyrical/share/ros_gz_bridge/cmake)\n'}
+[8.341826] (-) TimerEvent: {}
+[8.447225] (-) TimerEvent: {}
+[8.547987] (-) TimerEvent: {}
+[8.648513] (-) TimerEvent: {}
+[8.752990] (-) TimerEvent: {}
+[8.855583] (-) TimerEvent: {}
+[8.957315] (-) TimerEvent: {}
+[9.060886] (-) TimerEvent: {}
+[9.161384] (-) TimerEvent: {}
+[9.262612] (-) TimerEvent: {}
+[9.365804] (-) TimerEvent: {}
+[9.372063] (agri_simulation) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12")\n'}
+[9.466266] (-) TimerEvent: {}
+[9.567263] (-) TimerEvent: {}
+[9.669467] (-) TimerEvent: {}
+[9.771711] (-) TimerEvent: {}
+[9.874061] (-) TimerEvent: {}
+[9.975528] (-) TimerEvent: {}
+[10.076819] (-) TimerEvent: {}
+[10.180434] (-) TimerEvent: {}
+[10.281967] (-) TimerEvent: {}
+[10.382726] (-) TimerEvent: {}
+[10.487609] (-) TimerEvent: {}
+[10.588681] (-) TimerEvent: {}
+[10.689497] (-) TimerEvent: {}
+[10.790538] (-) TimerEvent: {}
+[10.892936] (-) TimerEvent: {}
+[10.995865] (-) TimerEvent: {}
+[11.096555] (-) TimerEvent: {}
+[11.197598] (-) TimerEvent: {}
+[11.298500] (-) TimerEvent: {}
+[11.404710] (-) TimerEvent: {}
+[11.507336] (-) TimerEvent: {}
+[11.607885] (-) TimerEvent: {}
+[11.708843] (-) TimerEvent: {}
+[11.809580] (-) TimerEvent: {}
+[11.913514] (-) TimerEvent: {}
+[12.020318] (-) TimerEvent: {}
+[12.121646] (-) TimerEvent: {}
+[12.223363] (-) TimerEvent: {}
+[12.329504] (-) TimerEvent: {}
+[12.430483] (-) TimerEvent: {}
+[12.469035] (agri_simulation) StdoutLine: {'line': b'-- Configuring done (12.3s)\n'}
+[12.521943] (agri_simulation) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[12.530926] (-) TimerEvent: {}
+[12.631742] (-) TimerEvent: {}
+[12.734211] (-) TimerEvent: {}
+[12.789925] (agri_simulation) StdoutLine: {'line': b'-- Build files have been written to: /home/maria/agri_ws/build/agri_simulation\n'}
+[12.834744] (-) TimerEvent: {}
+[12.848598] (agri_simulation) CommandEnded: {'returncode': 0}
+[12.852960] (agri_simulation) JobProgress: {'identifier': 'agri_simulation', 'progress': 'build'}
+[12.862562] (agri_simulation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maria/agri_ws/build/agri_simulation', '--', '-j4', '-l4'], 'cwd': '/home/maria/agri_ws/build/agri_simulation', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/lyrical/share', 'USER': 'maria', 'GZ_CONFIG_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/share/gz:/opt/ros/lyrical/opt/gz_gui_vendor/share/gz:/opt/ros/lyrical/opt/gz_transport_vendor/share/gz:/opt/ros/lyrical/opt/sdformat_vendor/share/gz:/opt/ros/lyrical/opt/gz_rendering_vendor/share/gz:/opt/ros/lyrical/opt/gz_plugin_vendor/share/gz:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/lyrical/opt/gz_msgs_vendor/share/gz:/opt/ros/lyrical/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/lib:/opt/ros/lyrical/opt/gz_sensors_vendor/lib:/opt/ros/lyrical/opt/gz_gui_vendor/lib:/opt/ros/lyrical/opt/gz_transport_vendor/lib:/opt/ros/lyrical/opt/zenoh_cpp_vendor/lib:/opt/ros/lyrical/opt/gz_physics_vendor/lib:/opt/ros/lyrical/opt/sdformat_vendor/lib:/opt/ros/lyrical/opt/gz_rendering_vendor/lib:/opt/ros/lyrical/opt/gz_plugin_vendor/lib:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/lib:/opt/ros/lyrical/opt/gz_msgs_vendor/lib:/opt/ros/lyrical/opt/gz_common_vendor/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_tools_vendor/lib:/opt/ros/lyrical/opt/gz_ogre_next_vendor/lib:/opt/ros/lyrical/opt/gz_dartsim_vendor/lib:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/maria', 'OLDPWD': '/home/maria/agri_ws/src/agri_simulation', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2889', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2927', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6475568016a35ccd29ce51506a9b5485', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'maria', 'MANAGERPIDFDID': '810', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'maria', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/opt/gz_msgs_vendor/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/opt/ros/lyrical/opt/gz_ogre_next_vendor/bin:/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '1ed6c163466c4ac38a771fe8bdc5c503', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '14f5a020ca517b9ee29c227f6a859c04', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5BI4U3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/maria/agri_ws/build/agri_simulation', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6475568016a35ccd29ce51506a9b5485', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical'}), 'shell': False}
+[12.938834] (-) TimerEvent: {}
+[13.039526] (-) TimerEvent: {}
+[13.066650] (agri_simulation) CommandEnded: {'returncode': 0}
+[13.074407] (agri_simulation) JobProgress: {'identifier': 'agri_simulation', 'progress': 'install'}
+[13.122181] (agri_simulation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maria/agri_ws/build/agri_simulation'], 'cwd': '/home/maria/agri_ws/build/agri_simulation', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/lyrical/share', 'USER': 'maria', 'GZ_CONFIG_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/share/gz:/opt/ros/lyrical/opt/gz_gui_vendor/share/gz:/opt/ros/lyrical/opt/gz_transport_vendor/share/gz:/opt/ros/lyrical/opt/sdformat_vendor/share/gz:/opt/ros/lyrical/opt/gz_rendering_vendor/share/gz:/opt/ros/lyrical/opt/gz_plugin_vendor/share/gz:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/lyrical/opt/gz_msgs_vendor/share/gz:/opt/ros/lyrical/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/lib:/opt/ros/lyrical/opt/gz_sensors_vendor/lib:/opt/ros/lyrical/opt/gz_gui_vendor/lib:/opt/ros/lyrical/opt/gz_transport_vendor/lib:/opt/ros/lyrical/opt/zenoh_cpp_vendor/lib:/opt/ros/lyrical/opt/gz_physics_vendor/lib:/opt/ros/lyrical/opt/sdformat_vendor/lib:/opt/ros/lyrical/opt/gz_rendering_vendor/lib:/opt/ros/lyrical/opt/gz_plugin_vendor/lib:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/lib:/opt/ros/lyrical/opt/gz_msgs_vendor/lib:/opt/ros/lyrical/opt/gz_common_vendor/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_tools_vendor/lib:/opt/ros/lyrical/opt/gz_ogre_next_vendor/lib:/opt/ros/lyrical/opt/gz_dartsim_vendor/lib:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/maria', 'OLDPWD': '/home/maria/agri_ws/src/agri_simulation', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2889', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2927', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6475568016a35ccd29ce51506a9b5485', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'maria', 'MANAGERPIDFDID': '810', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'maria', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/opt/gz_msgs_vendor/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/opt/ros/lyrical/opt/gz_ogre_next_vendor/bin:/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '1ed6c163466c4ac38a771fe8bdc5c503', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '14f5a020ca517b9ee29c227f6a859c04', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5BI4U3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/maria/agri_ws/build/agri_simulation', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6475568016a35ccd29ce51506a9b5485', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical'}), 'shell': False}
+[13.140242] (-) TimerEvent: {}
+[13.165862] (agri_simulation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.169344] (agri_simulation) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/launch\n'}
+[13.170064] (agri_simulation) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/worlds\n'}
+[13.170420] (agri_simulation) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/worlds/agri_world.sdf\n'}
+[13.170948] (agri_simulation) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/models\n'}
+[13.171347] (agri_simulation) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_simulation/share/ament_index/resource_index/package_run_dependencies/agri_simulation\n'}
+[13.173365] (agri_simulation) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_simulation/share/ament_index/resource_index/parent_prefix_path/agri_simulation\n'}
+[13.174005] (agri_simulation) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/environment/ament_prefix_path.sh\n'}
+[13.174466] (agri_simulation) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/environment/ament_prefix_path.dsv\n'}
+[13.175211] (agri_simulation) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/environment/path.sh\n'}
+[13.175419] (agri_simulation) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/environment/path.dsv\n'}
+[13.175692] (agri_simulation) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/local_setup.bash\n'}
+[13.175859] (agri_simulation) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/local_setup.fish\n'}
+[13.176023] (agri_simulation) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/local_setup.sh\n'}
+[13.177303] (agri_simulation) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/local_setup.zsh\n'}
+[13.177984] (agri_simulation) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/local_setup.dsv\n'}
+[13.178538] (agri_simulation) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/package.dsv\n'}
+[13.178871] (agri_simulation) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_simulation/share/ament_index/resource_index/packages/agri_simulation\n'}
+[13.179488] (agri_simulation) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/cmake/agri_simulationConfig.cmake\n'}
+[13.180123] (agri_simulation) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/cmake/agri_simulationConfig-version.cmake\n'}
+[13.180320] (agri_simulation) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/package.xml\n'}
+[13.190208] (agri_simulation) CommandEnded: {'returncode': 0}
+[13.240776] (-) TimerEvent: {}
+[13.322482] (agri_simulation) JobEnded: {'identifier': 'agri_simulation', 'rc': 0}
+[13.326532] (-) EventReactorShutdown: {}

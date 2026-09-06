@@ -1,0 +1,2 @@
+[console_scripts]
+robot_controller_node = agri_robot_control.robot_controller_node:main

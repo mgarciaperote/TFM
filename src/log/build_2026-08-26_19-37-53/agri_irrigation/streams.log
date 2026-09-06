@@ -1,0 +1,28 @@
+[4.812s] Invoking command in '/home/maria/agri_ws/src/agri_irrigation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/maria/agri_ws/src/build/agri_irrigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/src/install/agri_irrigation/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/agri_irrigation build --build-base /home/maria/agri_ws/src/build/agri_irrigation/build install --record /home/maria/agri_ws/src/build/agri_irrigation/install.log --install-scripts $base/lib/agri_irrigation --single-version-externally-managed install_data
+[5.739s] running egg_info
+[5.832s] writing ../build/agri_irrigation/agri_irrigation.egg-info/PKG-INFO
+[5.834s] writing dependency_links to ../build/agri_irrigation/agri_irrigation.egg-info/dependency_links.txt
+[5.835s] writing entry points to ../build/agri_irrigation/agri_irrigation.egg-info/entry_points.txt
+[5.836s] writing requirements to ../build/agri_irrigation/agri_irrigation.egg-info/requires.txt
+[5.837s] writing top-level names to ../build/agri_irrigation/agri_irrigation.egg-info/top_level.txt
+[5.995s] reading manifest file '../build/agri_irrigation/agri_irrigation.egg-info/SOURCES.txt'
+[5.999s] writing manifest file '../build/agri_irrigation/agri_irrigation.egg-info/SOURCES.txt'
+[6.001s] running build
+[6.001s] running build_py
+[6.003s] copying agri_irrigation/__init__.py -> /home/maria/agri_ws/src/build/agri_irrigation/build/lib/agri_irrigation
+[6.003s] copying agri_irrigation/irrigation_valve_node.py -> /home/maria/agri_ws/src/build/agri_irrigation/build/lib/agri_irrigation
+[6.005s] copying agri_irrigation/py.typed -> /home/maria/agri_ws/src/build/agri_irrigation/build/lib/agri_irrigation
+[6.005s] running install
+[6.021s] running install_lib
+[6.101s] copying /home/maria/agri_ws/src/build/agri_irrigation/build/lib/agri_irrigation/irrigation_valve_node.py -> /home/maria/agri_ws/src/install/agri_irrigation/lib/python3.14/site-packages/agri_irrigation
+[6.103s] byte-compiling /home/maria/agri_ws/src/install/agri_irrigation/lib/python3.14/site-packages/agri_irrigation/irrigation_valve_node.py to irrigation_valve_node.cpython-314.pyc
+[6.104s] running install_data
+[6.109s] copying resource/agri_irrigation -> /home/maria/agri_ws/src/install/agri_irrigation/share/ament_index/resource_index/packages
+[6.110s] copying package.xml -> /home/maria/agri_ws/src/install/agri_irrigation/share/agri_irrigation
+[6.111s] running install_egg_info
+[6.198s] removing '/home/maria/agri_ws/src/install/agri_irrigation/lib/python3.14/site-packages/agri_irrigation-0.0.0-py3.14.egg-info' (and everything under it)
+[6.201s] Copying ../build/agri_irrigation/agri_irrigation.egg-info to /home/maria/agri_ws/src/install/agri_irrigation/lib/python3.14/site-packages/agri_irrigation-0.0.0-py3.14.egg-info
+[6.204s] running install_scripts
+[6.539s] Installing irrigation_valve_node script to /home/maria/agri_ws/src/install/agri_irrigation/lib/agri_irrigation
+[6.541s] writing list of installed files to '/home/maria/agri_ws/src/build/agri_irrigation/install.log'
+[6.630s] Invoked command in '/home/maria/agri_ws/src/agri_irrigation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/maria/agri_ws/src/build/agri_irrigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/src/install/agri_irrigation/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/agri_irrigation build --build-base /home/maria/agri_ws/src/build/agri_irrigation/build install --record /home/maria/agri_ws/src/build/agri_irrigation/install.log --install-scripts $base/lib/agri_irrigation --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces:msg/SoilMoisture.idl
+/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces:msg/IrrigationCommand.idl
+/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces:msg/IrrigationState.idl
+/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces:msg/RobotCommand.idl

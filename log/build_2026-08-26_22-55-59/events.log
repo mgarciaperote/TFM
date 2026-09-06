@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.000891] (-) JobUnselected: {'identifier': 'agri_irrigation'}
+[0.000996] (-) JobUnselected: {'identifier': 'agri_orchestrator'}
+[0.001041] (-) JobUnselected: {'identifier': 'agri_sensors'}
+[0.001088] (agri_interfaces) JobQueued: {'identifier': 'agri_interfaces', 'dependencies': OrderedDict()}
+[0.001128] (agri_interfaces) JobStarted: {'identifier': 'agri_interfaces'}
+[0.047457] (agri_interfaces) JobProgress: {'identifier': 'agri_interfaces', 'progress': 'cmake'}
+[0.048256] (agri_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/maria/agri_ws/agri_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/maria/agri_ws/install/agri_interfaces'], 'cwd': '/home/maria/agri_ws/build/agri_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'maria', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/maria/ros2_lyrical/ros2-linux/opt/zenoh_cpp_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_utils_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/rviz_ogre_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/mimick_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_cmake_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/lib', 'HOME': '/home/maria', 'OLDPWD': '/home/maria', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2526', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2562', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c219c6fb85d6ab721570fe4a6a8ebc47', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/maria/ros2_lyrical/ros2-linux:/home/maria/agri_ws/install:/home/maria/agri_ws/src/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'maria', 'MANAGERPIDFDID': '5153', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/maria/ros2_lyrical/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/maria/ros2_lyrical/ros2-linux/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'maria', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/home/maria/ros2_lyrical/ros2-linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '577ab4258eed4f6c9483fe8df256d425', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '14f5a020ca517b9ee29c227f6a859c04', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DOH6T3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/maria/agri_ws/src/install/agri_sensors:/home/maria/agri_ws/src/install/agri_orchestrator:/home/maria/agri_ws/src/install/agri_irrigation:/home/maria/agri_ws/install/agri_sensors:/home/maria/agri_ws/install/agri_orchestrator:/home/maria/agri_ws/install/agri_irrigation:/home/maria/ros2_lyrical/ros2-linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/maria/agri_ws/build/agri_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c219c6fb85d6ab721570fe4a6a8ebc47', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/maria/agri_ws/src/install/agri_sensors/lib/python3.14/site-packages:/home/maria/agri_ws/src/install/agri_orchestrator/lib/python3.14/site-packages:/home/maria/agri_ws/src/install/agri_irrigation/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor/lib/python:/home/maria/ros2_lyrical/ros2-linux/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor:/home/maria/ros2_lyrical/ros2-linux/opt/gz_utils_vendor:/home/maria/ros2_lyrical/ros2-linux/opt/gz_cmake_vendor:/home/maria/ros2_lyrical/ros2-linux'}), 'shell': False}
+[0.100964] (-) TimerEvent: {}
+[0.202524] (-) TimerEvent: {}
+[0.303119] (-) TimerEvent: {}
+[0.403711] (-) TimerEvent: {}
+[0.413536] (agri_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 15.2.0\n'}
+[0.505126] (-) TimerEvent: {}
+[0.605626] (-) TimerEvent: {}
+[0.641157] (agri_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 15.2.0\n'}
+[0.671345] (agri_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.706002] (-) TimerEvent: {}
+[0.807096] (-) TimerEvent: {}
+[0.854035] (agri_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.896642] (agri_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.897785] (agri_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.899009] (agri_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.907382] (-) TimerEvent: {}
+[0.938378] (agri_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.008579] (-) TimerEvent: {}
+[1.109075] (-) TimerEvent: {}
+[1.115607] (agri_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.158378] (agri_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.159115] (agri_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.160473] (agri_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.192766] (agri_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.8 (/home/maria/ros2_lyrical/ros2-linux/share/ament_cmake/cmake)\n'}
+[1.209355] (-) TimerEvent: {}
+[1.310034] (-) TimerEvent: {}
+[1.415199] (-) TimerEvent: {}
+[1.518209] (-) TimerEvent: {}
+[1.619936] (-) TimerEvent: {}
+[1.721869] (-) TimerEvent: {}
+[1.823972] (-) TimerEvent: {}
+[1.925046] (-) TimerEvent: {}
+[2.026048] (-) TimerEvent: {}
+[2.127441] (-) TimerEvent: {}
+[2.228553] (-) TimerEvent: {}
+[2.233694] (agri_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.8.1 (/home/maria/ros2_lyrical/ros2-linux/share/rosidl_default_generators/cmake)\n'}
+[2.277257] (agri_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.328888] (-) TimerEvent: {}
+[2.430546] (-) TimerEvent: {}
+[2.524069] (agri_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.531274] (-) TimerEvent: {}
+[2.632527] (-) TimerEvent: {}
+[2.733212] (-) TimerEvent: {}
+[2.772352] (agri_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 5.2.1 (/home/maria/ros2_lyrical/ros2-linux/share/rosidl_adapter/cmake)\n'}
+[2.797431] (agri_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.4.5 (/home/maria/ros2_lyrical/ros2-linux/share/builtin_interfaces/cmake)\n'}
+[2.835163] (-) TimerEvent: {}
+[2.900429] (agri_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.20.6 (/home/maria/ros2_lyrical/ros2-linux/share/ament_lint_auto/cmake)\n'}
+[2.936072] (-) TimerEvent: {}
+[3.039596] (-) TimerEvent: {}
+[3.142046] (-) TimerEvent: {}
+[3.242771] (-) TimerEvent: {}
+[3.272547] (agri_interfaces) StderrLine: {'line': b"Error parsing '/home/maria/agri_ws/agri_interfaces/package.xml':\n"}
+[3.342992] (-) TimerEvent: {}
+[3.401559] (agri_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[3.402183] (agri_interfaces) StderrLine: {'line': b'  File "/home/maria/ros2_lyrical/ros2-linux/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[3.402360] (agri_interfaces) StderrLine: {'line': b'    main()\n'}
+[3.402533] (agri_interfaces) StderrLine: {'line': b'    ~~~~^^\n'}
+[3.402650] (agri_interfaces) StderrLine: {'line': b'  File "/home/maria/ros2_lyrical/ros2-linux/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[3.402775] (agri_interfaces) StderrLine: {'line': b'    raise e\n'}
+[3.402932] (agri_interfaces) StderrLine: {'line': b'  File "/home/maria/ros2_lyrical/ros2-linux/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[3.403066] (agri_interfaces) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[3.403184] (agri_interfaces) StderrLine: {'line': b'        args.package_xml.read(), filename=args.package_xml.name)\n'}
+[3.403310] (agri_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[3.403423] (agri_interfaces) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[3.403545] (agri_interfaces) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/maria/agri_ws/agri_interfaces/package.xml':\n"}
+[3.403657] (agri_interfaces) StderrLine: {'line': b'Error(s):\n'}
+[3.403779] (agri_interfaces) StderrLine: {'line': b"- The generic dependency on 'builtin_interfaces' is redundant with: exec_depend\n"}
+[3.443448] (-) TimerEvent: {}
+[3.448974] (agri_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /home/maria/ros2_lyrical/ros2-linux/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[3.449237] (agri_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[3.449348] (agri_interfaces) StderrLine: {'line': b'  /home/maria/ros2_lyrical/ros2-linux/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[3.449463] (agri_interfaces) StderrLine: {'line': b'  /home/maria/agri_ws/agri_interfaces/package.xml\n'}
+[3.449573] (agri_interfaces) StderrLine: {'line': b'  /home/maria/agri_ws/build/agri_interfaces/ament_cmake_core/package.cmake)\n'}
+[3.449676] (agri_interfaces) StderrLine: {'line': b'  returned error code 1\n'}
+[3.449778] (agri_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.449891] (agri_interfaces) StderrLine: {'line': b'  /home/maria/ros2_lyrical/ros2-linux/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[3.450098] (agri_interfaces) StderrLine: {'line': b'  /home/maria/ros2_lyrical/ros2-linux/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[3.450228] (agri_interfaces) StderrLine: {'line': b'  CMakeLists.txt:22 (ament_lint_auto_find_test_dependencies)\n'}
+[3.450354] (agri_interfaces) StderrLine: {'line': b'\n'}
+[3.450479] (agri_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[3.452435] (agri_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.461981] (agri_interfaces) CommandEnded: {'returncode': 1}
+[3.463078] (agri_interfaces) JobEnded: {'identifier': 'agri_interfaces', 'rc': 1}
+[3.477250] (-) EventReactorShutdown: {}

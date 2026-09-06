@@ -1,0 +1,788 @@
+[0.000000] (-) TimerEvent: {}
+[0.001374] (agri_interfaces) JobQueued: {'identifier': 'agri_interfaces', 'dependencies': OrderedDict()}
+[0.001560] (agri_irrigation) JobQueued: {'identifier': 'agri_irrigation', 'dependencies': OrderedDict({'agri_interfaces': '/home/maria/agri_ws/install/agri_interfaces'})}
+[0.001618] (agri_orchestrator) JobQueued: {'identifier': 'agri_orchestrator', 'dependencies': OrderedDict({'agri_interfaces': '/home/maria/agri_ws/install/agri_interfaces'})}
+[0.001652] (agri_sensors) JobQueued: {'identifier': 'agri_sensors', 'dependencies': OrderedDict({'agri_interfaces': '/home/maria/agri_ws/install/agri_interfaces'})}
+[0.001688] (agri_interfaces) JobStarted: {'identifier': 'agri_interfaces'}
+[0.052132] (agri_interfaces) JobProgress: {'identifier': 'agri_interfaces', 'progress': 'cmake'}
+[0.053207] (agri_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/maria/agri_ws/agri_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/maria/agri_ws/install/agri_interfaces'], 'cwd': '/home/maria/agri_ws/build/agri_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'maria', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/maria/agri_ws/install/agri_interfaces/lib:/home/maria/ros2_lyrical/ros2-linux/opt/zenoh_cpp_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_utils_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/rviz_ogre_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/mimick_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_cmake_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/lib', 'HOME': '/home/maria', 'OLDPWD': '/home/maria/agri_ws', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2526', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2562', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c219c6fb85d6ab721570fe4a6a8ebc47', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/maria/agri_ws/install:/home/maria/ros2_lyrical/ros2-linux', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'maria', 'MANAGERPIDFDID': '5153', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/maria/ros2_lyrical/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/maria/ros2_lyrical/ros2-linux/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'maria', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/home/maria/ros2_lyrical/ros2-linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': 'ce0934f3a6a64cb1bd6236afb8dffd91', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '14f5a020ca517b9ee29c227f6a859c04', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DOH6T3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/maria/agri_ws/install/agri_interfaces:/home/maria/agri_ws/install/agri_sensors:/home/maria/agri_ws/install/agri_orchestrator:/home/maria/agri_ws/install/agri_irrigation:/home/maria/ros2_lyrical/ros2-linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/maria/agri_ws/build/agri_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c219c6fb85d6ab721570fe4a6a8ebc47', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor/lib/python:/home/maria/ros2_lyrical/ros2-linux/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/maria/agri_ws/install/agri_interfaces:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor:/home/maria/ros2_lyrical/ros2-linux/opt/gz_utils_vendor:/home/maria/ros2_lyrical/ros2-linux/opt/gz_cmake_vendor:/home/maria/ros2_lyrical/ros2-linux:/home/maria/agri_ws/install/agri_sensors:/home/maria/agri_ws/install/agri_orchestrator:/home/maria/agri_ws/install/agri_irrigation'}), 'shell': False}
+[0.099678] (-) TimerEvent: {}
+[0.201823] (-) TimerEvent: {}
+[0.302876] (-) TimerEvent: {}
+[0.334775] (agri_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 15.2.0\n'}
+[0.402972] (-) TimerEvent: {}
+[0.503708] (-) TimerEvent: {}
+[0.555527] (agri_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 15.2.0\n'}
+[0.578001] (agri_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.603875] (-) TimerEvent: {}
+[0.705059] (-) TimerEvent: {}
+[0.743772] (agri_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.782862] (agri_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.783898] (agri_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.785621] (agri_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.805377] (-) TimerEvent: {}
+[0.824247] (agri_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.906525] (-) TimerEvent: {}
+[1.007847] (-) TimerEvent: {}
+[1.029785] (agri_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.071521] (agri_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.072305] (agri_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.074091] (agri_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.108042] (-) TimerEvent: {}
+[1.111973] (agri_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.8 (/home/maria/ros2_lyrical/ros2-linux/share/ament_cmake/cmake)\n'}
+[1.208650] (-) TimerEvent: {}
+[1.309599] (-) TimerEvent: {}
+[1.410111] (-) TimerEvent: {}
+[1.510460] (-) TimerEvent: {}
+[1.611099] (-) TimerEvent: {}
+[1.712583] (-) TimerEvent: {}
+[1.813215] (-) TimerEvent: {}
+[1.879228] (agri_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.8.1 (/home/maria/ros2_lyrical/ros2-linux/share/rosidl_default_generators/cmake)\n'}
+[1.901031] (agri_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.914120] (-) TimerEvent: {}
+[2.014791] (-) TimerEvent: {}
+[2.054739] (agri_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.115860] (-) TimerEvent: {}
+[2.183625] (agri_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 5.2.1 (/home/maria/ros2_lyrical/ros2-linux/share/rosidl_adapter/cmake)\n'}
+[2.198245] (agri_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.4.5 (/home/maria/ros2_lyrical/ros2-linux/share/builtin_interfaces/cmake)\n'}
+[2.216139] (-) TimerEvent: {}
+[2.319542] (-) TimerEvent: {}
+[2.420041] (-) TimerEvent: {}
+[2.496604] (agri_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter\n'}
+[2.520295] (-) TimerEvent: {}
+[2.620791] (-) TimerEvent: {}
+[2.721465] (-) TimerEvent: {}
+[2.821764] (-) TimerEvent: {}
+[2.924765] (-) TimerEvent: {}
+[3.025595] (-) TimerEvent: {}
+[3.128467] (-) TimerEvent: {}
+[3.230546] (-) TimerEvent: {}
+[3.331424] (-) TimerEvent: {}
+[3.432644] (-) TimerEvent: {}
+[3.534036] (-) TimerEvent: {}
+[3.634586] (-) TimerEvent: {}
+[3.736674] (-) TimerEvent: {}
+[3.836929] (-) TimerEvent: {}
+[3.918941] (agri_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.937006] (-) TimerEvent: {}
+[4.037677] (-) TimerEvent: {}
+[4.139621] (-) TimerEvent: {}
+[4.241544] (-) TimerEvent: {}
+[4.342305] (-) TimerEvent: {}
+[4.443664] (-) TimerEvent: {}
+[4.544238] (-) TimerEvent: {}
+[4.645107] (-) TimerEvent: {}
+[4.745534] (-) TimerEvent: {}
+[4.782183] (agri_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.845650] (-) TimerEvent: {}
+[4.947654] (-) TimerEvent: {}
+[5.048138] (-) TimerEvent: {}
+[5.149222] (-) TimerEvent: {}
+[5.250607] (-) TimerEvent: {}
+[5.351133] (-) TimerEvent: {}
+[5.451528] (-) TimerEvent: {}
+[5.482961] (agri_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter Development NumPy Development.Module Development.Embed\n'}
+[5.552924] (-) TimerEvent: {}
+[5.587185] (agri_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter\n'}
+[5.594122] (agri_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.20.6 (/home/maria/ros2_lyrical/ros2-linux/share/ament_lint_auto/cmake)\n'}
+[5.654667] (-) TimerEvent: {}
+[5.671792] (agri_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.678315] (agri_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.691121] (agri_interfaces) StdoutLine: {'line': b'-- Configuring done (5.6s)\n'}
+[5.754853] (-) TimerEvent: {}
+[5.790130] (agri_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.826424] (agri_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/maria/agri_ws/build/agri_interfaces\n'}
+[5.843034] (agri_interfaces) CommandEnded: {'returncode': 0}
+[5.843730] (agri_interfaces) JobProgress: {'identifier': 'agri_interfaces', 'progress': 'build'}
+[5.843790] (agri_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maria/agri_ws/build/agri_interfaces', '--', '-j3', '-l3'], 'cwd': '/home/maria/agri_ws/build/agri_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'maria', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/maria/agri_ws/install/agri_interfaces/lib:/home/maria/ros2_lyrical/ros2-linux/opt/zenoh_cpp_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_utils_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/rviz_ogre_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/mimick_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_cmake_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/lib', 'HOME': '/home/maria', 'OLDPWD': '/home/maria/agri_ws', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2526', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2562', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c219c6fb85d6ab721570fe4a6a8ebc47', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/maria/agri_ws/install:/home/maria/ros2_lyrical/ros2-linux', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'maria', 'MANAGERPIDFDID': '5153', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/maria/ros2_lyrical/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/maria/ros2_lyrical/ros2-linux/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'maria', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/home/maria/ros2_lyrical/ros2-linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': 'ce0934f3a6a64cb1bd6236afb8dffd91', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '14f5a020ca517b9ee29c227f6a859c04', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DOH6T3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/maria/agri_ws/install/agri_interfaces:/home/maria/agri_ws/install/agri_sensors:/home/maria/agri_ws/install/agri_orchestrator:/home/maria/agri_ws/install/agri_irrigation:/home/maria/ros2_lyrical/ros2-linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/maria/agri_ws/build/agri_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c219c6fb85d6ab721570fe4a6a8ebc47', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor/lib/python:/home/maria/ros2_lyrical/ros2-linux/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/maria/agri_ws/install/agri_interfaces:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor:/home/maria/ros2_lyrical/ros2-linux/opt/gz_utils_vendor:/home/maria/ros2_lyrical/ros2-linux/opt/gz_cmake_vendor:/home/maria/ros2_lyrical/ros2-linux:/home/maria/agri_ws/install/agri_sensors:/home/maria/agri_ws/install/agri_orchestrator:/home/maria/agri_ws/install/agri_irrigation'}), 'shell': False}
+[5.855077] (-) TimerEvent: {}
+[5.931651] (agri_interfaces) StdoutLine: {'line': b'[  1%] \x1b[1m\x1b[34mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[5.931932] (agri_interfaces) StdoutLine: {'line': b'[  3%] \x1b[1m\x1b[34mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[5.955665] (-) TimerEvent: {}
+[6.058114] (-) TimerEvent: {}
+[6.158599] (-) TimerEvent: {}
+[6.258979] (-) TimerEvent: {}
+[6.359385] (-) TimerEvent: {}
+[6.460855] (-) TimerEvent: {}
+[6.476556] (agri_interfaces) StdoutLine: {'line': b'[  3%] Built target agri_interfaces__rosidl_generator_type_description\n'}
+[6.561120] (-) TimerEvent: {}
+[6.643899] (agri_interfaces) StdoutLine: {'line': b'[  3%] Built target agri_interfaces__rs\n'}
+[6.661372] (-) TimerEvent: {}
+[6.665927] (agri_interfaces) StdoutLine: {'line': b'[  5%] \x1b[1m\x1b[34mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.693866] (agri_interfaces) StdoutLine: {'line': b'[  7%] \x1b[1m\x1b[34mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.761623] (-) TimerEvent: {}
+[6.862586] (-) TimerEvent: {}
+[6.964307] (-) TimerEvent: {}
+[7.067156] (-) TimerEvent: {}
+[7.169869] (-) TimerEvent: {}
+[7.270520] (-) TimerEvent: {}
+[7.371151] (-) TimerEvent: {}
+[7.473916] (-) TimerEvent: {}
+[7.574550] (-) TimerEvent: {}
+[7.675362] (-) TimerEvent: {}
+[7.778001] (-) TimerEvent: {}
+[7.878725] (-) TimerEvent: {}
+[7.980889] (-) TimerEvent: {}
+[8.081595] (-) TimerEvent: {}
+[8.183335] (-) TimerEvent: {}
+[8.285930] (-) TimerEvent: {}
+[8.388395] (-) TimerEvent: {}
+[8.490686] (-) TimerEvent: {}
+[8.575611] (agri_interfaces) StdoutLine: {'line': b'[  7%] Built target agri_interfaces__cpp\n'}
+[8.590895] (-) TimerEvent: {}
+[8.691705] (-) TimerEvent: {}
+[8.793259] (-) TimerEvent: {}
+[8.880635] (agri_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_c.dir/rosidl_generator_c/agri_interfaces/msg/detail/soil_moisture__description.c.o\x1b[0m\n'}
+[8.884877] (agri_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_c.dir/rosidl_generator_c/agri_interfaces/msg/detail/soil_moisture__functions.c.o\x1b[0m\n'}
+[8.885141] (agri_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_c.dir/rosidl_generator_c/agri_interfaces/msg/detail/soil_moisture__type_support.c.o\x1b[0m\n'}
+[8.893878] (-) TimerEvent: {}
+[9.001645] (-) TimerEvent: {}
+[9.017470] (agri_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_c.dir/rosidl_generator_c/agri_interfaces/msg/detail/irrigation_command__functions.c.o\x1b[0m\n'}
+[9.101893] (-) TimerEvent: {}
+[9.116389] (agri_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_c.dir/rosidl_generator_c/agri_interfaces/msg/detail/irrigation_command__description.c.o\x1b[0m\n'}
+[9.116715] (agri_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_c.dir/rosidl_generator_c/agri_interfaces/msg/detail/irrigation_command__type_support.c.o\x1b[0m\n'}
+[9.193608] (agri_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_c.dir/rosidl_generator_c/agri_interfaces/msg/detail/irrigation_state__functions.c.o\x1b[0m\n'}
+[9.203196] (-) TimerEvent: {}
+[9.286143] (agri_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_c.dir/rosidl_generator_c/agri_interfaces/msg/detail/irrigation_state__type_support.c.o\x1b[0m\n'}
+[9.303467] (-) TimerEvent: {}
+[9.354447] (agri_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_c.dir/rosidl_generator_c/agri_interfaces/msg/detail/irrigation_state__description.c.o\x1b[0m\n'}
+[9.404247] (-) TimerEvent: {}
+[9.441753] (agri_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[1m\x1b[32mLinking C shared library libagri_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[9.504507] (-) TimerEvent: {}
+[9.526204] (agri_interfaces) StdoutLine: {'line': b'[ 25%] Built target agri_interfaces__rosidl_generator_c\n'}
+[9.546807] (agri_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[1m\x1b[34mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.547128] (agri_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[1m\x1b[34mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.606120] (-) TimerEvent: {}
+[9.707063] (-) TimerEvent: {}
+[9.807529] (-) TimerEvent: {}
+[9.907953] (-) TimerEvent: {}
+[10.008855] (-) TimerEvent: {}
+[10.113106] (-) TimerEvent: {}
+[10.213658] (-) TimerEvent: {}
+[10.240728] (agri_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/agri_interfaces/msg/soil_moisture__type_support.cpp.o\x1b[0m\n'}
+[10.313853] (-) TimerEvent: {}
+[10.414573] (-) TimerEvent: {}
+[10.515255] (-) TimerEvent: {}
+[10.617902] (-) TimerEvent: {}
+[10.718578] (-) TimerEvent: {}
+[10.819379] (-) TimerEvent: {}
+[10.920692] (-) TimerEvent: {}
+[11.021384] (-) TimerEvent: {}
+[11.123073] (-) TimerEvent: {}
+[11.157510] (agri_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/soil_moisture__type_support_c.cpp.o\x1b[0m\n'}
+[11.223329] (-) TimerEvent: {}
+[11.324093] (-) TimerEvent: {}
+[11.425028] (-) TimerEvent: {}
+[11.527062] (-) TimerEvent: {}
+[11.628944] (-) TimerEvent: {}
+[11.729608] (-) TimerEvent: {}
+[11.831970] (-) TimerEvent: {}
+[11.932713] (-) TimerEvent: {}
+[12.034938] (-) TimerEvent: {}
+[12.115701] (agri_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[1m\x1b[34mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[12.135116] (-) TimerEvent: {}
+[12.192294] (agri_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/agri_interfaces/msg/irrigation_command__type_support.cpp.o\x1b[0m\n'}
+[12.235345] (-) TimerEvent: {}
+[12.337014] (-) TimerEvent: {}
+[12.437598] (-) TimerEvent: {}
+[12.538122] (-) TimerEvent: {}
+[12.640657] (-) TimerEvent: {}
+[12.741453] (-) TimerEvent: {}
+[12.842088] (-) TimerEvent: {}
+[12.942624] (-) TimerEvent: {}
+[13.043217] (-) TimerEvent: {}
+[13.069608] (agri_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/agri_interfaces/msg/detail/soil_moisture__type_support.c.o\x1b[0m\n'}
+[13.143492] (-) TimerEvent: {}
+[13.170467] (agri_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/agri_interfaces/msg/detail/irrigation_command__type_support.c.o\x1b[0m\n'}
+[13.195718] (agri_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/irrigation_command__type_support_c.cpp.o\x1b[0m\n'}
+[13.244640] (-) TimerEvent: {}
+[13.287651] (agri_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/agri_interfaces/msg/detail/irrigation_state__type_support.c.o\x1b[0m\n'}
+[13.345284] (-) TimerEvent: {}
+[13.433966] (agri_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[1m\x1b[32mLinking C shared library libagri_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.445493] (-) TimerEvent: {}
+[13.546057] (-) TimerEvent: {}
+[13.623800] (agri_interfaces) StdoutLine: {'line': b'[ 45%] Built target agri_interfaces__rosidl_typesupport_introspection_c\n'}
+[13.647744] (-) TimerEvent: {}
+[13.688059] (agri_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/agri_interfaces/msg/irrigation_state__type_support.cpp.o\x1b[0m\n'}
+[13.747967] (-) TimerEvent: {}
+[13.852365] (-) TimerEvent: {}
+[13.954726] (-) TimerEvent: {}
+[14.055666] (-) TimerEvent: {}
+[14.158222] (-) TimerEvent: {}
+[14.259147] (-) TimerEvent: {}
+[14.361955] (-) TimerEvent: {}
+[14.463679] (-) TimerEvent: {}
+[14.564396] (-) TimerEvent: {}
+[14.661688] (agri_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[1m\x1b[34mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.664793] (-) TimerEvent: {}
+[14.778331] (-) TimerEvent: {}
+[14.888884] (-) TimerEvent: {}
+[14.992302] (-) TimerEvent: {}
+[15.104733] (-) TimerEvent: {}
+[15.221088] (-) TimerEvent: {}
+[15.324957] (-) TimerEvent: {}
+[15.425638] (-) TimerEvent: {}
+[15.521941] (agri_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[1m\x1b[32mLinking CXX shared library libagri_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[15.525811] (-) TimerEvent: {}
+[15.626378] (-) TimerEvent: {}
+[15.684026] (agri_interfaces) StdoutLine: {'line': b'[ 50%] Built target agri_interfaces__rosidl_typesupport_cpp\n'}
+[15.703023] (agri_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/irrigation_state__type_support_c.cpp.o\x1b[0m\n'}
+[15.726633] (-) TimerEvent: {}
+[15.829295] (-) TimerEvent: {}
+[15.930849] (-) TimerEvent: {}
+[15.939062] (agri_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/agri_interfaces/msg/soil_moisture__type_support.cpp.o\x1b[0m\n'}
+[16.034216] (-) TimerEvent: {}
+[16.067506] (agri_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/agri_interfaces/msg/irrigation_command__type_support.cpp.o\x1b[0m\n'}
+[16.136682] (-) TimerEvent: {}
+[16.236726] (agri_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/agri_interfaces/msg/irrigation_state__type_support.cpp.o\x1b[0m\n'}
+[16.237167] (-) TimerEvent: {}
+[16.338722] (-) TimerEvent: {}
+[16.405709] (agri_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[1m\x1b[32mLinking CXX shared library libagri_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[16.439673] (-) TimerEvent: {}
+[16.537397] (agri_interfaces) StdoutLine: {'line': b'[ 60%] Built target agri_interfaces__rosidl_typesupport_c\n'}
+[16.540637] (-) TimerEvent: {}
+[16.564530] (agri_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[1m\x1b[34mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[16.640811] (-) TimerEvent: {}
+[16.745410] (-) TimerEvent: {}
+[16.845871] (-) TimerEvent: {}
+[16.946568] (-) TimerEvent: {}
+[17.048205] (-) TimerEvent: {}
+[17.151672] (-) TimerEvent: {}
+[17.252391] (-) TimerEvent: {}
+[17.353962] (-) TimerEvent: {}
+[17.454618] (-) TimerEvent: {}
+[17.555934] (-) TimerEvent: {}
+[17.656584] (-) TimerEvent: {}
+[17.667919] (agri_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[1m\x1b[32mLinking CXX shared library libagri_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[17.757685] (-) TimerEvent: {}
+[17.858335] (-) TimerEvent: {}
+[17.958995] (-) TimerEvent: {}
+[18.060844] (agri_interfaces) StdoutLine: {'line': b'[ 63%] Built target agri_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[18.061268] (-) TimerEvent: {}
+[18.161701] (-) TimerEvent: {}
+[18.262999] (-) TimerEvent: {}
+[18.319897] (agri_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/agri_interfaces/msg/detail/dds_fastrtps/soil_moisture__type_support.cpp.o\x1b[0m\n'}
+[18.326968] (agri_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/agri_interfaces/msg/detail/dds_fastrtps/irrigation_command__type_support.cpp.o\x1b[0m\n'}
+[18.365028] (-) TimerEvent: {}
+[18.466329] (-) TimerEvent: {}
+[18.567956] (-) TimerEvent: {}
+[18.668647] (-) TimerEvent: {}
+[18.769816] (-) TimerEvent: {}
+[18.870734] (-) TimerEvent: {}
+[18.971803] (-) TimerEvent: {}
+[19.074316] (-) TimerEvent: {}
+[19.175147] (-) TimerEvent: {}
+[19.275701] (-) TimerEvent: {}
+[19.376225] (-) TimerEvent: {}
+[19.479216] (-) TimerEvent: {}
+[19.579866] (-) TimerEvent: {}
+[19.680394] (-) TimerEvent: {}
+[19.690741] (agri_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/agri_interfaces/msg/detail/dds_fastrtps/irrigation_state__type_support.cpp.o\x1b[0m\n'}
+[19.781151] (-) TimerEvent: {}
+[19.883494] (-) TimerEvent: {}
+[19.984613] (-) TimerEvent: {}
+[20.087105] (-) TimerEvent: {}
+[20.188541] (-) TimerEvent: {}
+[20.289618] (-) TimerEvent: {}
+[20.390354] (-) TimerEvent: {}
+[20.491522] (-) TimerEvent: {}
+[20.592875] (-) TimerEvent: {}
+[20.694365] (-) TimerEvent: {}
+[20.796722] (-) TimerEvent: {}
+[20.898578] (-) TimerEvent: {}
+[21.000979] (-) TimerEvent: {}
+[21.102760] (-) TimerEvent: {}
+[21.206122] (-) TimerEvent: {}
+[21.307635] (-) TimerEvent: {}
+[21.410928] (-) TimerEvent: {}
+[21.511941] (-) TimerEvent: {}
+[21.537009] (agri_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[1m\x1b[32mLinking CXX shared library libagri_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[21.613070] (-) TimerEvent: {}
+[21.714701] (-) TimerEvent: {}
+[21.812715] (agri_interfaces) StdoutLine: {'line': b'[ 70%] Built target agri_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[21.815110] (-) TimerEvent: {}
+[21.840773] (agri_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[1m\x1b[34mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[21.915381] (-) TimerEvent: {}
+[22.017976] (-) TimerEvent: {}
+[22.120815] (-) TimerEvent: {}
+[22.225128] (-) TimerEvent: {}
+[22.325635] (-) TimerEvent: {}
+[22.427800] (-) TimerEvent: {}
+[22.529078] (-) TimerEvent: {}
+[22.597618] (agri_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/soil_moisture__type_support.cpp.o\x1b[0m\n'}
+[22.597887] (agri_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/irrigation_command__type_support.cpp.o\x1b[0m\n'}
+[22.629308] (-) TimerEvent: {}
+[22.731319] (-) TimerEvent: {}
+[22.833755] (-) TimerEvent: {}
+[22.934838] (-) TimerEvent: {}
+[23.036303] (-) TimerEvent: {}
+[23.137973] (-) TimerEvent: {}
+[23.239230] (-) TimerEvent: {}
+[23.341794] (-) TimerEvent: {}
+[23.442262] (-) TimerEvent: {}
+[23.543041] (-) TimerEvent: {}
+[23.640879] (agri_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/agri_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/agri_interfaces/msg/detail/irrigation_state__type_support.cpp.o\x1b[0m\n'}
+[23.643269] (-) TimerEvent: {}
+[23.744670] (-) TimerEvent: {}
+[23.846617] (-) TimerEvent: {}
+[23.947946] (-) TimerEvent: {}
+[24.049276] (-) TimerEvent: {}
+[24.151581] (-) TimerEvent: {}
+[24.252623] (-) TimerEvent: {}
+[24.353701] (-) TimerEvent: {}
+[24.454296] (-) TimerEvent: {}
+[24.555568] (-) TimerEvent: {}
+[24.656956] (-) TimerEvent: {}
+[24.758899] (-) TimerEvent: {}
+[24.859463] (-) TimerEvent: {}
+[24.960493] (-) TimerEvent: {}
+[25.061354] (-) TimerEvent: {}
+[25.163289] (-) TimerEvent: {}
+[25.264534] (-) TimerEvent: {}
+[25.326369] (agri_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[1m\x1b[32mLinking CXX shared library libagri_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[25.364708] (-) TimerEvent: {}
+[25.455532] (agri_interfaces) StdoutLine: {'line': b'[ 80%] Built target agri_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[25.464872] (-) TimerEvent: {}
+[25.497640] (agri_interfaces) StdoutLine: {'line': b'[ 80%] Built target agri_interfaces\n'}
+[25.532846] (agri_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[1m\x1b[34mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[25.566360] (-) TimerEvent: {}
+[25.670649] (-) TimerEvent: {}
+[25.771757] (-) TimerEvent: {}
+[25.874059] (-) TimerEvent: {}
+[25.977105] (-) TimerEvent: {}
+[26.080293] (-) TimerEvent: {}
+[26.184165] (-) TimerEvent: {}
+[26.286553] (-) TimerEvent: {}
+[26.389055] (-) TimerEvent: {}
+[26.492056] (-) TimerEvent: {}
+[26.594765] (-) TimerEvent: {}
+[26.698461] (-) TimerEvent: {}
+[26.801345] (-) TimerEvent: {}
+[26.903954] (-) TimerEvent: {}
+[26.994884] (agri_interfaces) StdoutLine: {'line': b'[ 81%] Built target agri_interfaces__py\n'}
+[27.004473] (-) TimerEvent: {}
+[27.071889] (agri_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_py.dir/rosidl_generator_py/agri_interfaces/msg/_soil_moisture_s.c.o\x1b[0m\n'}
+[27.074139] (agri_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_py.dir/rosidl_generator_py/agri_interfaces/msg/_irrigation_command_s.c.o\x1b[0m\n'}
+[27.106824] (-) TimerEvent: {}
+[27.113291] (agri_interfaces) StdoutLine: {'line': b'[ 85%] Built target ament_cmake_python_sync_agri_interfaces\n'}
+[27.207663] (-) TimerEvent: {}
+[27.311015] (-) TimerEvent: {}
+[27.412291] (-) TimerEvent: {}
+[27.514283] (-) TimerEvent: {}
+[27.617606] (-) TimerEvent: {}
+[27.699796] (agri_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/agri_interfaces__rosidl_generator_py.dir/rosidl_generator_py/agri_interfaces/msg/_irrigation_state_s.c.o\x1b[0m\n'}
+[27.718619] (-) TimerEvent: {}
+[27.819329] (-) TimerEvent: {}
+[27.920735] (-) TimerEvent: {}
+[28.023359] (-) TimerEvent: {}
+[28.124191] (-) TimerEvent: {}
+[28.227417] (-) TimerEvent: {}
+[28.243787] (agri_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[1m\x1b[32mLinking C shared library libagri_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[28.327730] (-) TimerEvent: {}
+[28.429262] (-) TimerEvent: {}
+[28.442422] (agri_interfaces) StdoutLine: {'line': b'[ 89%] Built target agri_interfaces__rosidl_generator_py\n'}
+[28.513993] (agri_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/agri_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/agri_interfaces/_agri_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[28.514836] (agri_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/agri_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/agri_interfaces/_agri_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[28.529531] (-) TimerEvent: {}
+[28.639133] (-) TimerEvent: {}
+[28.739568] (-) TimerEvent: {}
+[28.785800] (agri_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[1m\x1b[32mLinking C shared module rosidl_generator_py/agri_interfaces/agri_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[28.831931] (agri_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[1m\x1b[32mLinking C shared module rosidl_generator_py/agri_interfaces/agri_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[28.840045] (-) TimerEvent: {}
+[28.853425] (agri_interfaces) StdoutLine: {'line': b'[ 96%] Built target agri_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[28.904743] (agri_interfaces) StdoutLine: {'line': b'[ 96%] Built target agri_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[28.940123] (-) TimerEvent: {}
+[28.954176] (agri_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/agri_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/agri_interfaces/_agri_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[29.040623] (-) TimerEvent: {}
+[29.142849] (-) TimerEvent: {}
+[29.206024] (agri_interfaces) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking C shared module rosidl_generator_py/agri_interfaces/agri_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[29.243680] (-) TimerEvent: {}
+[29.250675] (agri_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[29.286425] (agri_interfaces) StdoutLine: {'line': b'[100%] Built target agri_interfaces_s__rosidl_typesupport_c\n'}
+[29.319310] (agri_interfaces) StdoutLine: {'line': b'creating agri_interfaces.egg-info\n'}
+[29.320232] (agri_interfaces) StdoutLine: {'line': b'writing agri_interfaces.egg-info/PKG-INFO\n'}
+[29.320618] (agri_interfaces) StdoutLine: {'line': b'writing dependency_links to agri_interfaces.egg-info/dependency_links.txt\n'}
+[29.320777] (agri_interfaces) StdoutLine: {'line': b'writing top-level names to agri_interfaces.egg-info/top_level.txt\n'}
+[29.321217] (agri_interfaces) StdoutLine: {'line': b"writing manifest file 'agri_interfaces.egg-info/SOURCES.txt'\n"}
+[29.343819] (-) TimerEvent: {}
+[29.444589] (-) TimerEvent: {}
+[29.515619] (agri_interfaces) StdoutLine: {'line': b"reading manifest file 'agri_interfaces.egg-info/SOURCES.txt'\n"}
+[29.517550] (agri_interfaces) StdoutLine: {'line': b"writing manifest file 'agri_interfaces.egg-info/SOURCES.txt'\n"}
+[29.544775] (-) TimerEvent: {}
+[29.595635] (agri_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_agri_interfaces_egg\n'}
+[29.616738] (agri_interfaces) CommandEnded: {'returncode': 0}
+[29.617333] (agri_interfaces) JobProgress: {'identifier': 'agri_interfaces', 'progress': 'install'}
+[29.631773] (agri_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maria/agri_ws/build/agri_interfaces'], 'cwd': '/home/maria/agri_ws/build/agri_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'maria', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/maria/agri_ws/install/agri_interfaces/lib:/home/maria/ros2_lyrical/ros2-linux/opt/zenoh_cpp_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_utils_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/rviz_ogre_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/mimick_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_cmake_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/lib', 'HOME': '/home/maria', 'OLDPWD': '/home/maria/agri_ws', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2526', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2562', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c219c6fb85d6ab721570fe4a6a8ebc47', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/maria/agri_ws/install:/home/maria/ros2_lyrical/ros2-linux', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'maria', 'MANAGERPIDFDID': '5153', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/maria/ros2_lyrical/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/maria/ros2_lyrical/ros2-linux/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'maria', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/home/maria/ros2_lyrical/ros2-linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': 'ce0934f3a6a64cb1bd6236afb8dffd91', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '14f5a020ca517b9ee29c227f6a859c04', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DOH6T3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/maria/agri_ws/install/agri_interfaces:/home/maria/agri_ws/install/agri_sensors:/home/maria/agri_ws/install/agri_orchestrator:/home/maria/agri_ws/install/agri_irrigation:/home/maria/ros2_lyrical/ros2-linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/maria/agri_ws/build/agri_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c219c6fb85d6ab721570fe4a6a8ebc47', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor/lib/python:/home/maria/ros2_lyrical/ros2-linux/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/maria/agri_ws/install/agri_interfaces:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor:/home/maria/ros2_lyrical/ros2-linux/opt/gz_utils_vendor:/home/maria/ros2_lyrical/ros2-linux/opt/gz_cmake_vendor:/home/maria/ros2_lyrical/ros2-linux:/home/maria/agri_ws/install/agri_sensors:/home/maria/agri_ws/install/agri_orchestrator:/home/maria/agri_ws/install/agri_irrigation'}), 'shell': False}
+[29.645854] (-) TimerEvent: {}
+[29.656009] (agri_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.656917] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/ament_index/resource_index/rosidl_interfaces/agri_interfaces\n'}
+[29.657398] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/msg/SoilMoisture.json\n'}
+[29.657874] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/msg/IrrigationCommand.json\n'}
+[29.658689] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/msg/IrrigationState.json\n'}
+[29.659470] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces\n'}
+[29.659874] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg\n'}
+[29.660283] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail\n'}
+[29.660773] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__description.c\n'}
+[29.661435] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__struct.h\n'}
+[29.662631] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__functions.h\n'}
+[29.662871] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__type_support.c\n'}
+[29.663038] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__description.c\n'}
+[29.663175] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__functions.h\n'}
+[29.663825] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__type_support.c\n'}
+[29.664192] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__description.c\n'}
+[29.664971] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__type_support.h\n'}
+[29.665170] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__type_support.h\n'}
+[29.665346] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__type_support.h\n'}
+[29.665598] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__struct.h\n'}
+[29.666355] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__functions.c\n'}
+[29.666775] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__functions.c\n'}
+[29.666946] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__struct.h\n'}
+[29.667126] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__functions.h\n'}
+[29.667462] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__type_support.c\n'}
+[29.667696] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__functions.c\n'}
+[29.667864] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/irrigation_command.h\n'}
+[29.668038] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[29.668263] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/irrigation_state.h\n'}
+[29.668523] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/soil_moisture.h\n'}
+[29.668967] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/environment/library_path.sh\n'}
+[29.669808] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/environment/library_path.dsv\n'}
+[29.670112] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_generator_c.so\n'}
+[29.672972] (agri_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_generator_c.so" to ""\n'}
+[29.673640] (agri_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces\n'}
+[29.673939] (agri_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg\n'}
+[29.674202] (agri_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail\n'}
+[29.674511] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__rosidl_typesupport_fastrtps_c.h\n'}
+[29.674782] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__rosidl_typesupport_fastrtps_c.h\n'}
+[29.675079] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__rosidl_typesupport_fastrtps_c.h\n'}
+[29.675320] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[29.675532] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[29.676517] (agri_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[29.676835] (agri_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces\n'}
+[29.677125] (agri_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg\n'}
+[29.677395] (agri_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail\n'}
+[29.678245] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__rosidl_typesupport_introspection_c.h\n'}
+[29.678704] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__rosidl_typesupport_introspection_c.h\n'}
+[29.678866] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__type_support.c\n'}
+[29.679005] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__type_support.c\n'}
+[29.679162] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__rosidl_typesupport_introspection_c.h\n'}
+[29.679307] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__type_support.c\n'}
+[29.680232] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[29.680387] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[29.681177] (agri_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[29.681363] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_c.so\n'}
+[29.681928] (agri_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[29.682334] (agri_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces\n'}
+[29.682796] (agri_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg\n'}
+[29.683164] (agri_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail\n'}
+[29.683600] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__traits.hpp\n'}
+[29.683778] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__type_support.hpp\n'}
+[29.684213] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__builder.hpp\n'}
+[29.684901] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__struct.hpp\n'}
+[29.685338] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__type_support.hpp\n'}
+[29.685811] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__struct.hpp\n'}
+[29.686293] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__type_support.hpp\n'}
+[29.686844] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__struct.hpp\n'}
+[29.687023] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__traits.hpp\n'}
+[29.687198] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__builder.hpp\n'}
+[29.688050] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__traits.hpp\n'}
+[29.688238] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__builder.hpp\n'}
+[29.688373] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/irrigation_command.hpp\n'}
+[29.689041] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/irrigation_state.hpp\n'}
+[29.689470] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/soil_moisture.hpp\n'}
+[29.689936] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[29.690323] (agri_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces\n'}
+[29.690681] (agri_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg\n'}
+[29.690810] (agri_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail\n'}
+[29.690966] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.691106] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.691267] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/dds_fastrtps\n'}
+[29.691415] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.692710] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[29.693120] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[29.693408] (agri_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[29.693590] (agri_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces\n'}
+[29.693806] (agri_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg\n'}
+[29.693986] (agri_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail\n'}
+[29.694145] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__type_support.cpp\n'}
+[29.694303] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.694458] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/soil_moisture__type_support.cpp\n'}
+[29.694676] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__type_support.cpp\n'}
+[29.696121] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.697327] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/include/agri_interfaces/agri_interfaces/msg/detail/irrigation_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.697835] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[29.698290] (agri_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[29.698716] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_cpp.so\n'}
+[29.699454] (agri_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[29.699727] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/environment/pythonpath.sh\n'}
+[29.699923] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/environment/pythonpath.dsv\n'}
+[29.700117] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/agri_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[29.700289] (agri_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/agri_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[29.701310] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/agri_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[29.701845] (agri_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/agri_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[29.702441] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/agri_interfaces_s__rosidl_typesupport_c.so\n'}
+[29.702795] (agri_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/agri_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[29.702958] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_generator_py.so\n'}
+[29.703454] (agri_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/maria/agri_ws/install/agri_interfaces/lib/libagri_interfaces__rosidl_generator_py.so" to ""\n'}
+[29.704042] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/ament_index/resource_index/rust_packages/agri_interfaces\n'}
+[29.704447] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/rust\n'}
+[29.705031] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/rust/src\n'}
+[29.705440] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/rust/src/msg\n'}
+[29.705833] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/rust/src/msg/rmw.rs\n'}
+[29.705969] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/rust/src/msg.rs\n'}
+[29.706571] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/rust/src/lib.rs\n'}
+[29.707152] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/rust/Cargo.toml\n'}
+[29.707605] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/rust/build.rs\n'}
+[29.707778] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/msg/SoilMoisture.idl\n'}
+[29.707918] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/msg/IrrigationCommand.idl\n'}
+[29.708470] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/msg/IrrigationState.idl\n'}
+[29.709018] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/msg/SoilMoisture.msg\n'}
+[29.709428] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/msg/IrrigationCommand.msg\n'}
+[29.709866] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/msg/IrrigationState.msg\n'}
+[29.710290] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/ament_index/resource_index/package_run_dependencies/agri_interfaces\n'}
+[29.711472] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/ament_index/resource_index/parent_prefix_path/agri_interfaces\n'}
+[29.711945] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/environment/ament_prefix_path.sh\n'}
+[29.712404] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/environment/ament_prefix_path.dsv\n'}
+[29.712897] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/environment/path.sh\n'}
+[29.713311] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/environment/path.dsv\n'}
+[29.713746] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/local_setup.bash\n'}
+[29.714133] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/local_setup.fish\n'}
+[29.714590] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/local_setup.sh\n'}
+[29.715051] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/local_setup.zsh\n'}
+[29.715487] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/local_setup.dsv\n'}
+[29.715920] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/package.dsv\n'}
+[29.716319] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/ament_index/resource_index/packages/agri_interfaces\n'}
+[29.716770] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/export_agri_interfaces__rosidl_generator_cExport.cmake\n'}
+[29.717164] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/export_agri_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[29.717301] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/export_agri_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[29.717425] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/export_agri_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[29.717904] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/agri_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[29.718290] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/agri_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[29.718731] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/agri_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[29.719130] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/agri_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[29.719599] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/export_agri_interfaces__rosidl_generator_cppExport.cmake\n'}
+[29.719999] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/export_agri_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[29.720385] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/export_agri_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[29.720695] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/agri_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[29.720855] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/agri_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[29.720988] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/agri_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[29.721119] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/agri_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[29.721250] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/export_agri_interfaces__rosidl_generator_pyExport.cmake\n'}
+[29.721381] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/export_agri_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[29.722167] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces-0.0.0-py3.14.egg-info\n'}
+[29.722598] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces-0.0.0-py3.14.egg-info/top_level.txt\n'}
+[29.723023] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces-0.0.0-py3.14.egg-info/dependency_links.txt\n'}
+[29.723424] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces-0.0.0-py3.14.egg-info/SOURCES.txt\n'}
+[29.723708] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces-0.0.0-py3.14.egg-info/PKG-INFO\n'}
+[29.723847] (agri_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces\n'}
+[29.723989] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg\n'}
+[29.724644] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/_irrigation_command.py\n'}
+[29.724809] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/__init__.py\n'}
+[29.724943] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/_soil_moisture.py\n'}
+[29.725451] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/_irrigation_state_s.c\n'}
+[29.725910] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/_irrigation_state.py\n'}
+[29.726303] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/_soil_moisture_s.c\n'}
+[29.726664] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/_irrigation_command_s.c\n'}
+[29.726815] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/__init__.py\n'}
+[29.726943] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/py.typed\n'}
+[29.727070] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/_agri_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[29.727198] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/_agri_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[29.727337] (agri_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/agri_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[29.727461] (agri_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/agri_interfaces_s__rosidl_typesupport_c.so\n'}
+[29.728320] (agri_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/agri_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[29.728765] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/_agri_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[29.746190] (-) TimerEvent: {}
+[29.840021] (agri_interfaces) StdoutLine: {'line': b"Listing '/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces'...\n"}
+[29.840308] (agri_interfaces) StdoutLine: {'line': b"Compiling '/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/__init__.py'...\n"}
+[29.840460] (agri_interfaces) StdoutLine: {'line': b"Listing '/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg'...\n"}
+[29.840736] (agri_interfaces) StdoutLine: {'line': b"Compiling '/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/__init__.py'...\n"}
+[29.840882] (agri_interfaces) StdoutLine: {'line': b"Compiling '/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/_irrigation_command.py'...\n"}
+[29.841072] (agri_interfaces) StdoutLine: {'line': b"Compiling '/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/_irrigation_state.py'...\n"}
+[29.841194] (agri_interfaces) StdoutLine: {'line': b"Compiling '/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages/agri_interfaces/msg/_soil_moisture.py'...\n"}
+[29.846422] (-) TimerEvent: {}
+[29.860876] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[29.861498] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[29.862052] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[29.862461] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[29.862803] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[29.863281] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[29.864124] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[29.864668] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[29.864943] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/agri_interfacesConfig.cmake\n'}
+[29.865080] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/cmake/agri_interfacesConfig-version.cmake\n'}
+[29.865601] (agri_interfaces) StdoutLine: {'line': b'-- Installing: /home/maria/agri_ws/install/agri_interfaces/share/agri_interfaces/package.xml\n'}
+[29.875027] (agri_interfaces) CommandEnded: {'returncode': 0}
+[29.967591] (-) TimerEvent: {}
+[30.062113] (agri_interfaces) JobEnded: {'identifier': 'agri_interfaces', 'rc': 0}
+[30.064302] (agri_irrigation) JobStarted: {'identifier': 'agri_irrigation'}
+[30.070037] (-) TimerEvent: {}
+[30.174806] (-) TimerEvent: {}
+[30.235778] (agri_orchestrator) JobStarted: {'identifier': 'agri_orchestrator'}
+[30.278890] (-) TimerEvent: {}
+[30.396746] (-) TimerEvent: {}
+[30.464029] (agri_sensors) JobStarted: {'identifier': 'agri_sensors'}
+[30.506915] (-) TimerEvent: {}
+[30.609727] (-) TimerEvent: {}
+[30.710752] (-) TimerEvent: {}
+[30.813031] (-) TimerEvent: {}
+[30.913826] (-) TimerEvent: {}
+[31.014503] (-) TimerEvent: {}
+[31.116980] (-) TimerEvent: {}
+[31.217857] (-) TimerEvent: {}
+[31.320964] (-) TimerEvent: {}
+[31.421711] (-) TimerEvent: {}
+[31.522381] (-) TimerEvent: {}
+[31.623174] (-) TimerEvent: {}
+[31.725935] (-) TimerEvent: {}
+[31.826655] (-) TimerEvent: {}
+[31.927272] (-) TimerEvent: {}
+[32.027754] (-) TimerEvent: {}
+[32.128160] (-) TimerEvent: {}
+[32.228656] (-) TimerEvent: {}
+[32.330080] (-) TimerEvent: {}
+[32.433517] (-) TimerEvent: {}
+[32.534309] (-) TimerEvent: {}
+[32.635304] (-) TimerEvent: {}
+[32.736050] (-) TimerEvent: {}
+[32.836996] (-) TimerEvent: {}
+[32.938068] (-) TimerEvent: {}
+[33.043073] (-) TimerEvent: {}
+[33.143510] (-) TimerEvent: {}
+[33.243996] (-) TimerEvent: {}
+[33.346302] (-) TimerEvent: {}
+[33.447178] (-) TimerEvent: {}
+[33.548660] (-) TimerEvent: {}
+[33.649712] (-) TimerEvent: {}
+[33.752660] (-) TimerEvent: {}
+[33.853451] (-) TimerEvent: {}
+[33.954685] (-) TimerEvent: {}
+[34.055577] (-) TimerEvent: {}
+[34.158241] (-) TimerEvent: {}
+[34.259217] (-) TimerEvent: {}
+[34.372814] (-) TimerEvent: {}
+[34.479913] (-) TimerEvent: {}
+[34.583365] (-) TimerEvent: {}
+[34.684708] (-) TimerEvent: {}
+[34.789984] (-) TimerEvent: {}
+[34.895368] (-) TimerEvent: {}
+[34.996708] (-) TimerEvent: {}
+[35.104120] (-) TimerEvent: {}
+[35.206820] (-) TimerEvent: {}
+[35.309147] (-) TimerEvent: {}
+[35.412185] (-) TimerEvent: {}
+[35.515623] (-) TimerEvent: {}
+[35.598528] (agri_sensors) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/agri_sensors', 'build', '--build-base', '/home/maria/agri_ws/build/agri_sensors/build', 'install', '--record', '/home/maria/agri_ws/build/agri_sensors/install.log', '--install-scripts', '$base/lib/agri_sensors', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/maria/agri_ws/src/agri_sensors', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'maria', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/maria/agri_ws/install/agri_interfaces/lib:/home/maria/ros2_lyrical/ros2-linux/opt/zenoh_cpp_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_utils_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/rviz_ogre_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/mimick_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_cmake_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/lib', 'HOME': '/home/maria', 'OLDPWD': '/home/maria/agri_ws', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2526', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2562', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c219c6fb85d6ab721570fe4a6a8ebc47', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/maria/agri_ws/install:/home/maria/ros2_lyrical/ros2-linux', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'maria', 'MANAGERPIDFDID': '5153', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/maria/ros2_lyrical/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/maria/ros2_lyrical/ros2-linux/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'maria', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/home/maria/ros2_lyrical/ros2-linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': 'ce0934f3a6a64cb1bd6236afb8dffd91', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '14f5a020ca517b9ee29c227f6a859c04', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DOH6T3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/maria/agri_ws/install/agri_interfaces:/home/maria/agri_ws/install/agri_sensors:/home/maria/agri_ws/install/agri_orchestrator:/home/maria/agri_ws/install/agri_irrigation:/home/maria/ros2_lyrical/ros2-linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/maria/agri_ws/build/agri_sensors', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c219c6fb85d6ab721570fe4a6a8ebc47', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/maria/agri_ws/build/agri_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor/lib/python:/home/maria/ros2_lyrical/ros2-linux/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/maria/agri_ws/install/agri_interfaces:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor:/home/maria/ros2_lyrical/ros2-linux/opt/gz_utils_vendor:/home/maria/ros2_lyrical/ros2-linux/opt/gz_cmake_vendor:/home/maria/ros2_lyrical/ros2-linux'}, 'shell': False}
+[35.616661] (-) TimerEvent: {}
+[35.678637] (agri_irrigation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/agri_irrigation', 'build', '--build-base', '/home/maria/agri_ws/build/agri_irrigation/build', 'install', '--record', '/home/maria/agri_ws/build/agri_irrigation/install.log', '--install-scripts', '$base/lib/agri_irrigation', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/maria/agri_ws/src/agri_irrigation', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'maria', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/maria/agri_ws/install/agri_interfaces/lib:/home/maria/ros2_lyrical/ros2-linux/opt/zenoh_cpp_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_utils_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/rviz_ogre_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/mimick_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_cmake_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/lib', 'HOME': '/home/maria', 'OLDPWD': '/home/maria/agri_ws', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2526', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2562', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c219c6fb85d6ab721570fe4a6a8ebc47', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/maria/agri_ws/install:/home/maria/ros2_lyrical/ros2-linux', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'maria', 'MANAGERPIDFDID': '5153', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/maria/ros2_lyrical/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/maria/ros2_lyrical/ros2-linux/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'maria', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/home/maria/ros2_lyrical/ros2-linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': 'ce0934f3a6a64cb1bd6236afb8dffd91', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '14f5a020ca517b9ee29c227f6a859c04', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DOH6T3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/maria/agri_ws/install/agri_interfaces:/home/maria/agri_ws/install/agri_sensors:/home/maria/agri_ws/install/agri_orchestrator:/home/maria/agri_ws/install/agri_irrigation:/home/maria/ros2_lyrical/ros2-linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/maria/agri_ws/build/agri_irrigation', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c219c6fb85d6ab721570fe4a6a8ebc47', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/maria/agri_ws/build/agri_irrigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor/lib/python:/home/maria/ros2_lyrical/ros2-linux/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/maria/agri_ws/install/agri_interfaces:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor:/home/maria/ros2_lyrical/ros2-linux/opt/gz_utils_vendor:/home/maria/ros2_lyrical/ros2-linux/opt/gz_cmake_vendor:/home/maria/ros2_lyrical/ros2-linux'}, 'shell': False}
+[35.687324] (agri_orchestrator) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/agri_orchestrator', 'build', '--build-base', '/home/maria/agri_ws/build/agri_orchestrator/build', 'install', '--record', '/home/maria/agri_ws/build/agri_orchestrator/install.log', '--install-scripts', '$base/lib/agri_orchestrator', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/maria/agri_ws/src/agri_orchestrator', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'maria', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/maria/agri_ws/install/agri_interfaces/lib:/home/maria/ros2_lyrical/ros2-linux/opt/zenoh_cpp_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_utils_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/rviz_ogre_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/mimick_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_cmake_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/lib', 'HOME': '/home/maria', 'OLDPWD': '/home/maria/agri_ws', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2526', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2562', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c219c6fb85d6ab721570fe4a6a8ebc47', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/maria/agri_ws/install:/home/maria/ros2_lyrical/ros2-linux', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'maria', 'MANAGERPIDFDID': '5153', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/maria/ros2_lyrical/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/maria/ros2_lyrical/ros2-linux/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'maria', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/home/maria/ros2_lyrical/ros2-linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': 'ce0934f3a6a64cb1bd6236afb8dffd91', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '14f5a020ca517b9ee29c227f6a859c04', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DOH6T3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/maria/agri_ws/install/agri_interfaces:/home/maria/agri_ws/install/agri_sensors:/home/maria/agri_ws/install/agri_orchestrator:/home/maria/agri_ws/install/agri_irrigation:/home/maria/ros2_lyrical/ros2-linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/maria/agri_ws/build/agri_orchestrator', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c219c6fb85d6ab721570fe4a6a8ebc47', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/maria/agri_ws/build/agri_orchestrator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor/lib/python:/home/maria/ros2_lyrical/ros2-linux/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/maria/agri_ws/install/agri_interfaces:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor:/home/maria/ros2_lyrical/ros2-linux/opt/gz_utils_vendor:/home/maria/ros2_lyrical/ros2-linux/opt/gz_cmake_vendor:/home/maria/ros2_lyrical/ros2-linux'}, 'shell': False}
+[35.717729] (-) TimerEvent: {}
+[35.818298] (-) TimerEvent: {}
+[35.918796] (-) TimerEvent: {}
+[36.023759] (-) TimerEvent: {}
+[36.126232] (-) TimerEvent: {}
+[36.228798] (-) TimerEvent: {}
+[36.331614] (-) TimerEvent: {}
+[36.434698] (-) TimerEvent: {}
+[36.521263] (agri_sensors) StdoutLine: {'line': b'running egg_info\n'}
+[36.535606] (-) TimerEvent: {}
+[36.603699] (agri_sensors) StdoutLine: {'line': b'writing ../../build/agri_sensors/agri_sensors.egg-info/PKG-INFO\n'}
+[36.614518] (agri_sensors) StdoutLine: {'line': b'writing dependency_links to ../../build/agri_sensors/agri_sensors.egg-info/dependency_links.txt\n'}
+[36.615959] (agri_sensors) StdoutLine: {'line': b'writing entry points to ../../build/agri_sensors/agri_sensors.egg-info/entry_points.txt\n'}
+[36.616233] (agri_sensors) StdoutLine: {'line': b'writing requirements to ../../build/agri_sensors/agri_sensors.egg-info/requires.txt\n'}
+[36.616359] (agri_orchestrator) StdoutLine: {'line': b'running egg_info\n'}
+[36.617192] (agri_sensors) StdoutLine: {'line': b'writing top-level names to ../../build/agri_sensors/agri_sensors.egg-info/top_level.txt\n'}
+[36.636650] (-) TimerEvent: {}
+[36.667457] (agri_irrigation) StdoutLine: {'line': b'running egg_info\n'}
+[36.727325] (agri_orchestrator) StdoutLine: {'line': b'writing ../../build/agri_orchestrator/agri_orchestrator.egg-info/PKG-INFO\n'}
+[36.731167] (agri_orchestrator) StdoutLine: {'line': b'writing dependency_links to ../../build/agri_orchestrator/agri_orchestrator.egg-info/dependency_links.txt\n'}
+[36.731388] (agri_orchestrator) StdoutLine: {'line': b'writing entry points to ../../build/agri_orchestrator/agri_orchestrator.egg-info/entry_points.txt\n'}
+[36.731532] (agri_orchestrator) StdoutLine: {'line': b'writing requirements to ../../build/agri_orchestrator/agri_orchestrator.egg-info/requires.txt\n'}
+[36.731749] (agri_orchestrator) StdoutLine: {'line': b'writing top-level names to ../../build/agri_orchestrator/agri_orchestrator.egg-info/top_level.txt\n'}
+[36.737633] (-) TimerEvent: {}
+[36.803104] (agri_irrigation) StdoutLine: {'line': b'writing ../../build/agri_irrigation/agri_irrigation.egg-info/PKG-INFO\n'}
+[36.808696] (agri_irrigation) StdoutLine: {'line': b'writing dependency_links to ../../build/agri_irrigation/agri_irrigation.egg-info/dependency_links.txt\n'}
+[36.809704] (agri_irrigation) StdoutLine: {'line': b'writing entry points to ../../build/agri_irrigation/agri_irrigation.egg-info/entry_points.txt\n'}
+[36.810671] (agri_irrigation) StdoutLine: {'line': b'writing requirements to ../../build/agri_irrigation/agri_irrigation.egg-info/requires.txt\n'}
+[36.811809] (agri_irrigation) StdoutLine: {'line': b'writing top-level names to ../../build/agri_irrigation/agri_irrigation.egg-info/top_level.txt\n'}
+[36.838720] (-) TimerEvent: {}
+[36.910839] (agri_sensors) StdoutLine: {'line': b"reading manifest file '../../build/agri_sensors/agri_sensors.egg-info/SOURCES.txt'\n"}
+[36.920807] (agri_sensors) StdoutLine: {'line': b"writing manifest file '../../build/agri_sensors/agri_sensors.egg-info/SOURCES.txt'\n"}
+[36.922042] (agri_sensors) StdoutLine: {'line': b'running build\n'}
+[36.935944] (agri_sensors) StdoutLine: {'line': b'running build_py\n'}
+[36.936355] (agri_sensors) StdoutLine: {'line': b'copying agri_sensors/__init__.py -> /home/maria/agri_ws/build/agri_sensors/build/lib/agri_sensors\n'}
+[36.936778] (agri_sensors) StdoutLine: {'line': b'copying agri_sensors/soil_sensor_node.py -> /home/maria/agri_ws/build/agri_sensors/build/lib/agri_sensors\n'}
+[36.939449] (agri_sensors) StdoutLine: {'line': b'copying agri_sensors/py.typed -> /home/maria/agri_ws/build/agri_sensors/build/lib/agri_sensors\n'}
+[36.939898] (-) TimerEvent: {}
+[36.946674] (agri_sensors) StdoutLine: {'line': b'running install\n'}
+[37.026180] (agri_sensors) StdoutLine: {'line': b'running install_lib\n'}
+[37.044873] (-) TimerEvent: {}
+[37.145830] (-) TimerEvent: {}
+[37.251309] (agri_irrigation) StdoutLine: {'line': b"reading manifest file '../../build/agri_irrigation/agri_irrigation.egg-info/SOURCES.txt'\n"}
+[37.251934] (-) TimerEvent: {}
+[37.260976] (agri_irrigation) StdoutLine: {'line': b"writing manifest file '../../build/agri_irrigation/agri_irrigation.egg-info/SOURCES.txt'\n"}
+[37.263408] (agri_irrigation) StdoutLine: {'line': b'running build\n'}
+[37.263922] (agri_irrigation) StdoutLine: {'line': b'running build_py\n'}
+[37.267694] (agri_irrigation) StdoutLine: {'line': b'copying agri_irrigation/__init__.py -> /home/maria/agri_ws/build/agri_irrigation/build/lib/agri_irrigation\n'}
+[37.268057] (agri_irrigation) StdoutLine: {'line': b'copying agri_irrigation/irrigation_valve_node.py -> /home/maria/agri_ws/build/agri_irrigation/build/lib/agri_irrigation\n'}
+[37.274346] (agri_irrigation) StdoutLine: {'line': b'copying agri_irrigation/py.typed -> /home/maria/agri_ws/build/agri_irrigation/build/lib/agri_irrigation\n'}
+[37.280694] (agri_irrigation) StdoutLine: {'line': b'running install\n'}
+[37.352889] (-) TimerEvent: {}
+[37.392704] (agri_irrigation) StdoutLine: {'line': b'running install_lib\n'}
+[37.426035] (agri_sensors) StdoutLine: {'line': b'running install_data\n'}
+[37.432773] (agri_sensors) StdoutLine: {'line': b'copying resource/agri_sensors -> /home/maria/agri_ws/install/agri_sensors/share/ament_index/resource_index/packages\n'}
+[37.436408] (agri_sensors) StdoutLine: {'line': b'copying package.xml -> /home/maria/agri_ws/install/agri_sensors/share/agri_sensors\n'}
+[37.442506] (agri_sensors) StdoutLine: {'line': b'running install_egg_info\n'}
+[37.460746] (-) TimerEvent: {}
+[37.565472] (-) TimerEvent: {}
+[37.667019] (-) TimerEvent: {}
+[37.682443] (agri_orchestrator) StdoutLine: {'line': b"reading manifest file '../../build/agri_orchestrator/agri_orchestrator.egg-info/SOURCES.txt'\n"}
+[37.692362] (agri_orchestrator) StdoutLine: {'line': b"writing manifest file '../../build/agri_orchestrator/agri_orchestrator.egg-info/SOURCES.txt'\n"}
+[37.695848] (agri_orchestrator) StdoutLine: {'line': b'running build\n'}
+[37.699112] (agri_orchestrator) StdoutLine: {'line': b'running build_py\n'}
+[37.700946] (agri_orchestrator) StdoutLine: {'line': b'copying agri_orchestrator/__init__.py -> /home/maria/agri_ws/build/agri_orchestrator/build/lib/agri_orchestrator\n'}
+[37.701467] (agri_orchestrator) StdoutLine: {'line': b'copying agri_orchestrator/farm_orchestrator_node.py -> /home/maria/agri_ws/build/agri_orchestrator/build/lib/agri_orchestrator\n'}
+[37.704295] (agri_orchestrator) StdoutLine: {'line': b'copying agri_orchestrator/py.typed -> /home/maria/agri_ws/build/agri_orchestrator/build/lib/agri_orchestrator\n'}
+[37.704998] (agri_orchestrator) StdoutLine: {'line': b'running install\n'}
+[37.713649] (agri_irrigation) StdoutLine: {'line': b'running install_data\n'}
+[37.720155] (agri_irrigation) StdoutLine: {'line': b'copying resource/agri_irrigation -> /home/maria/agri_ws/install/agri_irrigation/share/ament_index/resource_index/packages\n'}
+[37.721149] (agri_irrigation) StdoutLine: {'line': b'copying package.xml -> /home/maria/agri_ws/install/agri_irrigation/share/agri_irrigation\n'}
+[37.724639] (agri_irrigation) StdoutLine: {'line': b'running install_egg_info\n'}
+[37.739326] (agri_orchestrator) StdoutLine: {'line': b'running install_lib\n'}
+[37.767303] (-) TimerEvent: {}
+[37.811862] (agri_sensors) StdoutLine: {'line': b"removing '/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages/agri_sensors-0.0.0-py3.14.egg-info' (and everything under it)\n"}
+[37.818156] (agri_sensors) StdoutLine: {'line': b'Copying ../../build/agri_sensors/agri_sensors.egg-info to /home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages/agri_sensors-0.0.0-py3.14.egg-info\n'}
+[37.834129] (agri_sensors) StdoutLine: {'line': b'running install_scripts\n'}
+[37.867585] (-) TimerEvent: {}
+[37.910391] (agri_irrigation) StdoutLine: {'line': b"removing '/home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages/agri_irrigation-0.0.0-py3.14.egg-info' (and everything under it)\n"}
+[37.912628] (agri_irrigation) StdoutLine: {'line': b'Copying ../../build/agri_irrigation/agri_irrigation.egg-info to /home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages/agri_irrigation-0.0.0-py3.14.egg-info\n'}
+[37.916497] (agri_irrigation) StdoutLine: {'line': b'running install_scripts\n'}
+[37.969684] (-) TimerEvent: {}
+[37.985770] (agri_orchestrator) StdoutLine: {'line': b'running install_data\n'}
+[37.992734] (agri_orchestrator) StdoutLine: {'line': b'copying resource/agri_orchestrator -> /home/maria/agri_ws/install/agri_orchestrator/share/ament_index/resource_index/packages\n'}
+[37.995682] (agri_orchestrator) StdoutLine: {'line': b'copying package.xml -> /home/maria/agri_ws/install/agri_orchestrator/share/agri_orchestrator\n'}
+[38.002664] (agri_orchestrator) StdoutLine: {'line': b'running install_egg_info\n'}
+[38.070058] (-) TimerEvent: {}
+[38.173873] (-) TimerEvent: {}
+[38.275354] (-) TimerEvent: {}
+[38.373368] (agri_orchestrator) StdoutLine: {'line': b"removing '/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages/agri_orchestrator-0.0.0-py3.14.egg-info' (and everything under it)\n"}
+[38.386100] (-) TimerEvent: {}
+[38.388357] (agri_orchestrator) StdoutLine: {'line': b'Copying ../../build/agri_orchestrator/agri_orchestrator.egg-info to /home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages/agri_orchestrator-0.0.0-py3.14.egg-info\n'}
+[38.394070] (agri_orchestrator) StdoutLine: {'line': b'running install_scripts\n'}
+[38.488205] (-) TimerEvent: {}
+[38.588860] (-) TimerEvent: {}
+[38.689315] (-) TimerEvent: {}
+[38.737919] (agri_sensors) StdoutLine: {'line': b'Installing soil_sensor_node script to /home/maria/agri_ws/install/agri_sensors/lib/agri_sensors\n'}
+[38.740109] (agri_sensors) StdoutLine: {'line': b"writing list of installed files to '/home/maria/agri_ws/build/agri_sensors/install.log'\n"}
+[38.789538] (-) TimerEvent: {}
+[38.832610] (agri_irrigation) StdoutLine: {'line': b'Installing irrigation_valve_node script to /home/maria/agri_ws/install/agri_irrigation/lib/agri_irrigation\n'}
+[38.833887] (agri_irrigation) StdoutLine: {'line': b"writing list of installed files to '/home/maria/agri_ws/build/agri_irrigation/install.log'\n"}
+[38.871122] (agri_sensors) CommandEnded: {'returncode': 0}
+[38.879530] (agri_orchestrator) StdoutLine: {'line': b'Installing farm_orchestrator_node script to /home/maria/agri_ws/install/agri_orchestrator/lib/agri_orchestrator\n'}
+[38.881715] (agri_orchestrator) StdoutLine: {'line': b"writing list of installed files to '/home/maria/agri_ws/build/agri_orchestrator/install.log'\n"}
+[38.890659] (-) TimerEvent: {}
+[38.897027] (agri_sensors) JobEnded: {'identifier': 'agri_sensors', 'rc': 0}
+[38.938748] (agri_irrigation) CommandEnded: {'returncode': 0}
+[38.960834] (agri_irrigation) JobEnded: {'identifier': 'agri_irrigation', 'rc': 0}
+[38.979964] (agri_orchestrator) CommandEnded: {'returncode': 0}
+[38.990819] (-) TimerEvent: {}
+[39.002923] (agri_orchestrator) JobEnded: {'identifier': 'agri_orchestrator', 'rc': 0}
+[39.006125] (-) EventReactorShutdown: {}

@@ -1,0 +1,33 @@
+[2.681s] Invoking command in '/home/maria/agri_ws/src/agri_robot_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/maria/agri_ws/build/agri_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_robot_control/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agri_robot_control build --build-base /home/maria/agri_ws/build/agri_robot_control/build install --record /home/maria/agri_ws/build/agri_robot_control/install.log --install-scripts $base/lib/agri_robot_control --single-version-externally-managed install_data
+[3.903s] running egg_info
+[4.004s] creating ../../build/agri_robot_control/agri_robot_control.egg-info
+[4.009s] writing ../../build/agri_robot_control/agri_robot_control.egg-info/PKG-INFO
+[4.009s] writing dependency_links to ../../build/agri_robot_control/agri_robot_control.egg-info/dependency_links.txt
+[4.010s] writing requirements to ../../build/agri_robot_control/agri_robot_control.egg-info/requires.txt
+[4.010s] writing top-level names to ../../build/agri_robot_control/agri_robot_control.egg-info/top_level.txt
+[4.010s] writing manifest file '../../build/agri_robot_control/agri_robot_control.egg-info/SOURCES.txt'
+[4.240s] reading manifest file '../../build/agri_robot_control/agri_robot_control.egg-info/SOURCES.txt'
+[4.244s] writing manifest file '../../build/agri_robot_control/agri_robot_control.egg-info/SOURCES.txt'
+[4.244s] running build
+[4.244s] running build_py
+[4.245s] creating /home/maria/agri_ws/build/agri_robot_control/build/lib/agri_robot_control
+[4.245s] copying agri_robot_control/__init__.py -> /home/maria/agri_ws/build/agri_robot_control/build/lib/agri_robot_control
+[4.246s] copying agri_robot_control/robot_controller_node.py -> /home/maria/agri_ws/build/agri_robot_control/build/lib/agri_robot_control
+[4.247s] copying agri_robot_control/py.typed -> /home/maria/agri_ws/build/agri_robot_control/build/lib/agri_robot_control
+[4.247s] running install
+[4.267s] running install_lib
+[4.385s] creating /home/maria/agri_ws/install/agri_robot_control/lib/python3.14/site-packages/agri_robot_control
+[4.385s] copying /home/maria/agri_ws/build/agri_robot_control/build/lib/agri_robot_control/__init__.py -> /home/maria/agri_ws/install/agri_robot_control/lib/python3.14/site-packages/agri_robot_control
+[4.386s] copying /home/maria/agri_ws/build/agri_robot_control/build/lib/agri_robot_control/robot_controller_node.py -> /home/maria/agri_ws/install/agri_robot_control/lib/python3.14/site-packages/agri_robot_control
+[4.387s] copying /home/maria/agri_ws/build/agri_robot_control/build/lib/agri_robot_control/py.typed -> /home/maria/agri_ws/install/agri_robot_control/lib/python3.14/site-packages/agri_robot_control
+[4.387s] byte-compiling /home/maria/agri_ws/install/agri_robot_control/lib/python3.14/site-packages/agri_robot_control/__init__.py to __init__.cpython-314.pyc
+[4.388s] byte-compiling /home/maria/agri_ws/install/agri_robot_control/lib/python3.14/site-packages/agri_robot_control/robot_controller_node.py to robot_controller_node.cpython-314.pyc
+[4.388s] running install_data
+[4.389s] creating /home/maria/agri_ws/install/agri_robot_control/share/ament_index/resource_index/packages
+[4.390s] copying resource/agri_robot_control -> /home/maria/agri_ws/install/agri_robot_control/share/ament_index/resource_index/packages
+[4.391s] copying package.xml -> /home/maria/agri_ws/install/agri_robot_control/share/agri_robot_control
+[4.391s] running install_egg_info
+[4.495s] Copying ../../build/agri_robot_control/agri_robot_control.egg-info to /home/maria/agri_ws/install/agri_robot_control/lib/python3.14/site-packages/agri_robot_control-0.0.0-py3.14.egg-info
+[4.497s] running install_scripts
+[5.085s] writing list of installed files to '/home/maria/agri_ws/build/agri_robot_control/install.log'
+[5.219s] Invoked command in '/home/maria/agri_ws/src/agri_robot_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/maria/agri_ws/build/agri_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_robot_control/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agri_robot_control build --build-base /home/maria/agri_ws/build/agri_robot_control/build install --record /home/maria/agri_ws/build/agri_robot_control/install.log --install-scripts $base/lib/agri_robot_control --single-version-externally-managed install_data

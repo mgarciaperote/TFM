@@ -1,0 +1,48 @@
+{
+  "package_name": "agri_interfaces",
+  "output_dir": "/home/maria/agri_ws/build/agri_interfaces/rosidl_generator_cpp/agri_interfaces",
+  "template_dir": "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_generator_cpp/cmake/../resource",
+  "idl_tuples": [
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces:msg/SoilMoisture.idl",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces:msg/IrrigationCommand.idl",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces:msg/IrrigationState.idl",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces:msg/RobotCommand.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/home/maria/ros2_lyrical/ros2-linux/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/home/maria/ros2_lyrical/ros2-linux/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_generator_cpp/cmake/../../../lib/python3.14/site-packages/rosidl_generator_cpp/__init__.py",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_generator_cpp/cmake/../resource/action__builder.hpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_generator_cpp/cmake/../resource/action__struct.hpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_generator_cpp/cmake/../resource/action__traits.hpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_generator_cpp/cmake/../resource/action__type_support.hpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_generator_cpp/cmake/../resource/idl.hpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_generator_cpp/cmake/../resource/idl__builder.hpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_generator_cpp/cmake/../resource/idl__struct.hpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_generator_cpp/cmake/../resource/idl__traits.hpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_generator_cpp/cmake/../resource/idl__type_support.hpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_generator_cpp/cmake/../resource/msg__builder.hpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_generator_cpp/cmake/../resource/msg__struct.hpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_generator_cpp/cmake/../resource/msg__traits.hpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_generator_cpp/cmake/../resource/msg__type_support.hpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_generator_cpp/cmake/../resource/srv__type_support.hpp.em",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces/msg/SoilMoisture.idl",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces/msg/IrrigationCommand.idl",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces/msg/IrrigationState.idl",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces/msg/RobotCommand.idl",
+    "/home/maria/ros2_lyrical/ros2-linux/share/builtin_interfaces/msg/Duration.idl",
+    "/home/maria/ros2_lyrical/ros2-linux/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "type_description_tuples": [
+    "msg/SoilMoisture.idl:/home/maria/agri_ws/build/agri_interfaces/rosidl_generator_type_description/agri_interfaces/msg/SoilMoisture.json",
+    "msg/IrrigationCommand.idl:/home/maria/agri_ws/build/agri_interfaces/rosidl_generator_type_description/agri_interfaces/msg/IrrigationCommand.json",
+    "msg/IrrigationState.idl:/home/maria/agri_ws/build/agri_interfaces/rosidl_generator_type_description/agri_interfaces/msg/IrrigationState.json",
+    "msg/RobotCommand.idl:/home/maria/agri_ws/build/agri_interfaces/rosidl_generator_type_description/agri_interfaces/msg/RobotCommand.json"
+  ]
+}

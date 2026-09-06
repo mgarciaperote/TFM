@@ -1,0 +1,88 @@
+rosbag2_bagfile_information:
+  version: 9
+  storage_identifier: mcap
+  duration:
+    nanoseconds: 82004871518
+  starting_time:
+    nanoseconds_since_epoch: 1787787426986268564
+  message_count: 249
+  topics_with_message_count:
+    - topic_metadata:
+        name: /irrigation/command
+        type: agri_interfaces/msg/IrrigationCommand
+        serialization_format: cdr
+        offered_qos_profiles:
+          - history: keep_last
+            depth: 10
+            reliability: reliable
+            durability: volatile
+            deadline:
+              sec: 9223372036
+              nsec: 854775807
+            lifespan:
+              sec: 9223372036
+              nsec: 854775807
+            liveliness: automatic
+            liveliness_lease_duration:
+              sec: 9223372036
+              nsec: 854775807
+            avoid_ros_namespace_conventions: false
+        type_description_hash: RIHS01_7391baadb3fb6b500d863238aec6696f8927033702f8683ac476f5ea7d9f09b5
+      message_count: 83
+    - topic_metadata:
+        name: /irrigation/state
+        type: agri_interfaces/msg/IrrigationState
+        serialization_format: cdr
+        offered_qos_profiles:
+          - history: keep_last
+            depth: 10
+            reliability: reliable
+            durability: volatile
+            deadline:
+              sec: 9223372036
+              nsec: 854775807
+            lifespan:
+              sec: 9223372036
+              nsec: 854775807
+            liveliness: automatic
+            liveliness_lease_duration:
+              sec: 9223372036
+              nsec: 854775807
+            avoid_ros_namespace_conventions: false
+        type_description_hash: RIHS01_89894944b5f866b948e584ab55bafb5d04a8ac088ead9cb963ec53df64802651
+      message_count: 83
+    - topic_metadata:
+        name: /soil/moisture
+        type: agri_interfaces/msg/SoilMoisture
+        serialization_format: cdr
+        offered_qos_profiles:
+          - history: keep_last
+            depth: 10
+            reliability: reliable
+            durability: volatile
+            deadline:
+              sec: 9223372036
+              nsec: 854775807
+            lifespan:
+              sec: 9223372036
+              nsec: 854775807
+            liveliness: automatic
+            liveliness_lease_duration:
+              sec: 9223372036
+              nsec: 854775807
+            avoid_ros_namespace_conventions: false
+        type_description_hash: RIHS01_ef27827fe916316cbf1afd50588cec54de8e974f84079070f8e2a5ee9c1f1a40
+      message_count: 83
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - 0_rosbag2_2026_08_26-23_37_06.mcap
+  files:
+    - path: 0_rosbag2_2026_08_26-23_37_06.mcap
+      starting_time:
+        nanoseconds_since_epoch: 1787787426986268564
+      duration:
+        nanoseconds: 82004871518
+      message_count: 249
+  custom_data: ~
+  ros_distro: lyrical

@@ -1,0 +1,6 @@
+source;share/agri_irrigation/hook/pythonpath.ps1
+source;share/agri_irrigation/hook/pythonpath.dsv
+source;share/agri_irrigation/hook/pythonpath.sh
+source;share/agri_irrigation/hook/ament_prefix_path.ps1
+source;share/agri_irrigation/hook/ament_prefix_path.dsv
+source;share/agri_irrigation/hook/ament_prefix_path.sh

@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.000343] (-) JobUnselected: {'identifier': 'agri_interfaces'}
+[0.000816] (-) JobUnselected: {'identifier': 'agri_irrigation'}
+[0.000879] (-) JobUnselected: {'identifier': 'agri_robot_control'}
+[0.000922] (-) JobUnselected: {'identifier': 'agri_sensors'}
+[0.000949] (-) JobUnselected: {'identifier': 'agri_simulation'}
+[0.000984] (agri_orchestrator) JobQueued: {'identifier': 'agri_orchestrator', 'dependencies': OrderedDict({'agri_interfaces': '/home/maria/agri_ws/install/agri_interfaces'})}
+[0.001606] (agri_orchestrator) JobStarted: {'identifier': 'agri_orchestrator'}
+[0.099900] (-) TimerEvent: {}
+[0.200521] (-) TimerEvent: {}
+[0.301022] (-) TimerEvent: {}
+[0.402807] (-) TimerEvent: {}
+[0.520386] (-) TimerEvent: {}
+[0.624301] (-) TimerEvent: {}
+[0.725285] (-) TimerEvent: {}
+[0.827294] (-) TimerEvent: {}
+[0.927834] (-) TimerEvent: {}
+[1.029105] (-) TimerEvent: {}
+[1.129592] (-) TimerEvent: {}
+[1.231054] (-) TimerEvent: {}
+[1.333215] (-) TimerEvent: {}
+[1.435390] (-) TimerEvent: {}
+[1.538869] (-) TimerEvent: {}
+[1.645547] (-) TimerEvent: {}
+[1.748071] (-) TimerEvent: {}
+[1.850604] (-) TimerEvent: {}
+[1.966722] (-) TimerEvent: {}
+[2.073268] (-) TimerEvent: {}
+[2.177067] (-) TimerEvent: {}
+[2.279963] (-) TimerEvent: {}
+[2.383459] (-) TimerEvent: {}
+[2.487526] (-) TimerEvent: {}
+[2.592075] (-) TimerEvent: {}
+[2.701268] (-) TimerEvent: {}
+[2.810273] (-) TimerEvent: {}
+[2.917471] (-) TimerEvent: {}
+[3.023390] (-) TimerEvent: {}
+[3.124135] (-) TimerEvent: {}
+[3.230794] (-) TimerEvent: {}
+[3.331935] (-) TimerEvent: {}
+[3.434335] (-) TimerEvent: {}
+[3.540824] (-) TimerEvent: {}
+[3.645795] (-) TimerEvent: {}
+[3.749294] (-) TimerEvent: {}
+[3.850098] (-) TimerEvent: {}
+[3.951292] (-) TimerEvent: {}
+[4.052784] (-) TimerEvent: {}
+[4.154282] (-) TimerEvent: {}
+[4.257454] (-) TimerEvent: {}
+[4.358039] (-) TimerEvent: {}
+[4.458663] (-) TimerEvent: {}
+[4.559750] (-) TimerEvent: {}
+[4.662354] (-) TimerEvent: {}
+[4.762955] (-) TimerEvent: {}
+[4.864275] (-) TimerEvent: {}
+[4.964826] (-) TimerEvent: {}
+[5.067332] (-) TimerEvent: {}
+[5.170367] (-) TimerEvent: {}
+[5.276666] (-) TimerEvent: {}
+[5.383331] (-) TimerEvent: {}
+[5.489417] (-) TimerEvent: {}
+[5.591353] (-) TimerEvent: {}
+[5.693972] (-) TimerEvent: {}
+[5.794848] (-) TimerEvent: {}
+[5.896021] (-) TimerEvent: {}
+[5.996948] (-) TimerEvent: {}
+[6.097725] (-) TimerEvent: {}
+[6.198598] (-) TimerEvent: {}
+[6.299570] (-) TimerEvent: {}
+[6.405292] (-) TimerEvent: {}
+[6.506272] (-) TimerEvent: {}
+[6.610726] (-) TimerEvent: {}
+[6.711597] (-) TimerEvent: {}
+[6.812585] (-) TimerEvent: {}
+[6.920354] (-) TimerEvent: {}
+[7.021317] (-) TimerEvent: {}
+[7.122522] (-) TimerEvent: {}
+[7.154608] (agri_orchestrator) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/maria/agri_ws/build/agri_orchestrator/build', '--no-deps', 'symlink_data'], 'cwd': '/home/maria/agri_ws/build/agri_orchestrator', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/lyrical/share', 'USER': 'maria', 'GZ_CONFIG_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/share/gz:/opt/ros/lyrical/opt/gz_gui_vendor/share/gz:/opt/ros/lyrical/opt/gz_transport_vendor/share/gz:/opt/ros/lyrical/opt/sdformat_vendor/share/gz:/opt/ros/lyrical/opt/gz_rendering_vendor/share/gz:/opt/ros/lyrical/opt/gz_plugin_vendor/share/gz:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/lyrical/opt/gz_msgs_vendor/share/gz:/opt/ros/lyrical/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/maria/agri_ws/install/agri_interfaces/lib:/home/maria/ros2_lyrical/ros2-linux/opt/zenoh_cpp_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_utils_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/rviz_ogre_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/mimick_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/opt/gz_cmake_vendor/lib:/home/maria/ros2_lyrical/ros2-linux/lib:/opt/ros/lyrical/opt/gz_sim_vendor/lib:/opt/ros/lyrical/opt/gz_sensors_vendor/lib:/opt/ros/lyrical/opt/gz_gui_vendor/lib:/opt/ros/lyrical/opt/gz_transport_vendor/lib:/opt/ros/lyrical/opt/zenoh_cpp_vendor/lib:/opt/ros/lyrical/opt/gz_physics_vendor/lib:/opt/ros/lyrical/opt/sdformat_vendor/lib:/opt/ros/lyrical/opt/gz_rendering_vendor/lib:/opt/ros/lyrical/opt/gz_plugin_vendor/lib:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/lib:/opt/ros/lyrical/opt/gz_msgs_vendor/lib:/opt/ros/lyrical/opt/gz_common_vendor/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_tools_vendor/lib:/opt/ros/lyrical/opt/gz_ogre_next_vendor/lib:/opt/ros/lyrical/opt/gz_dartsim_vendor/lib:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/maria', 'OLDPWD': '/home/maria/agri_ws', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2889', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2927', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6475568016a35ccd29ce51506a9b5485', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/maria/agri_ws/install:/home/maria/ros2_lyrical/ros2-linux', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'maria', 'MANAGERPIDFDID': '810', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/maria/ros2_lyrical/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/maria/ros2_lyrical/ros2-linux/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'maria', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/home/maria/ros2_lyrical/ros2-linux/bin:/opt/ros/lyrical/opt/gz_msgs_vendor/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/opt/ros/lyrical/opt/gz_ogre_next_vendor/bin:/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '6b02b326a112421683f114a7c061796c', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '14f5a020ca517b9ee29c227f6a859c04', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5BI4U3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/maria/agri_ws/install/agri_simulation:/home/maria/agri_ws/install/agri_sensors:/home/maria/agri_ws/install/agri_robot_control:/home/maria/agri_ws/install/agri_orchestrator:/home/maria/agri_ws/install/agri_irrigation:/home/maria/agri_ws/install/agri_interfaces:/home/maria/ros2_lyrical/ros2-linux:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/maria/agri_ws/build/agri_orchestrator', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6475568016a35ccd29ce51506a9b5485', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/maria/agri_ws/build/agri_orchestrator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages:/home/maria/agri_ws/build/agri_robot_control:/home/maria/agri_ws/install/agri_robot_control/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor/lib/python:/home/maria/ros2_lyrical/ros2-linux/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/maria/agri_ws/install/agri_interfaces:/home/maria/agri_ws/install/agri_simulation:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor:/home/maria/ros2_lyrical/ros2-linux/opt/gz_utils_vendor:/home/maria/ros2_lyrical/ros2-linux/opt/gz_cmake_vendor:/home/maria/ros2_lyrical/ros2-linux:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor'}, 'shell': False}
+[7.222845] (-) TimerEvent: {}
+[7.333012] (-) TimerEvent: {}
+[7.434322] (-) TimerEvent: {}
+[7.535211] (-) TimerEvent: {}
+[7.635906] (-) TimerEvent: {}
+[7.739360] (-) TimerEvent: {}
+[7.840291] (-) TimerEvent: {}
+[7.941119] (-) TimerEvent: {}
+[8.049835] (-) TimerEvent: {}
+[8.155064] (-) TimerEvent: {}
+[8.259313] (-) TimerEvent: {}
+[8.360019] (-) TimerEvent: {}
+[8.466411] (-) TimerEvent: {}
+[8.567152] (-) TimerEvent: {}
+[8.669238] (-) TimerEvent: {}
+[8.769849] (-) TimerEvent: {}
+[8.875851] (-) TimerEvent: {}
+[8.977029] (-) TimerEvent: {}
+[9.077889] (-) TimerEvent: {}
+[9.178494] (-) TimerEvent: {}
+[9.279528] (-) TimerEvent: {}
+[9.381911] (-) TimerEvent: {}
+[9.485875] (-) TimerEvent: {}
+[9.588362] (-) TimerEvent: {}
+[9.688914] (-) TimerEvent: {}
+[9.791953] (-) TimerEvent: {}
+[9.893232] (-) TimerEvent: {}
+[9.949256] (agri_orchestrator) StdoutLine: {'line': b'running develop\n'}
+[9.993372] (-) TimerEvent: {}
+[10.094151] (-) TimerEvent: {}
+[10.194880] (-) TimerEvent: {}
+[10.295984] (-) TimerEvent: {}
+[10.398548] (-) TimerEvent: {}
+[10.505011] (-) TimerEvent: {}
+[10.605560] (-) TimerEvent: {}
+[10.706006] (-) TimerEvent: {}
+[10.809123] (-) TimerEvent: {}
+[10.909711] (-) TimerEvent: {}
+[11.010240] (-) TimerEvent: {}
+[11.115151] (-) TimerEvent: {}
+[11.218338] (-) TimerEvent: {}
+[11.320203] (-) TimerEvent: {}
+[11.425380] (-) TimerEvent: {}
+[11.528297] (-) TimerEvent: {}
+[11.630377] (-) TimerEvent: {}
+[11.731561] (-) TimerEvent: {}
+[11.765063] (agri_orchestrator) StdoutLine: {'line': b'running egg_info\n'}
+[11.831884] (-) TimerEvent: {}
+[11.935731] (-) TimerEvent: {}
+[11.963503] (agri_orchestrator) StdoutLine: {'line': b'creating agri_orchestrator.egg-info\n'}
+[11.977980] (agri_orchestrator) StdoutLine: {'line': b'writing agri_orchestrator.egg-info/PKG-INFO\n'}
+[11.978425] (agri_orchestrator) StdoutLine: {'line': b'writing dependency_links to agri_orchestrator.egg-info/dependency_links.txt\n'}
+[11.978633] (agri_orchestrator) StdoutLine: {'line': b'writing entry points to agri_orchestrator.egg-info/entry_points.txt\n'}
+[11.978848] (agri_orchestrator) StdoutLine: {'line': b'writing requirements to agri_orchestrator.egg-info/requires.txt\n'}
+[11.979119] (agri_orchestrator) StdoutLine: {'line': b'writing top-level names to agri_orchestrator.egg-info/top_level.txt\n'}
+[11.979285] (agri_orchestrator) StdoutLine: {'line': b"writing manifest file 'agri_orchestrator.egg-info/SOURCES.txt'\n"}
+[12.036114] (-) TimerEvent: {}
+[12.143034] (-) TimerEvent: {}
+[12.245316] (-) TimerEvent: {}
+[12.346320] (-) TimerEvent: {}
+[12.365914] (agri_orchestrator) StdoutLine: {'line': b"reading manifest file 'agri_orchestrator.egg-info/SOURCES.txt'\n"}
+[12.380646] (agri_orchestrator) StdoutLine: {'line': b"writing manifest file 'agri_orchestrator.egg-info/SOURCES.txt'\n"}
+[12.447356] (-) TimerEvent: {}
+[12.548039] (-) TimerEvent: {}
+[12.601004] (agri_orchestrator) StdoutLine: {'line': b'running build_ext\n'}
+[12.601415] (agri_orchestrator) StdoutLine: {'line': b'Creating /home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages/agri-orchestrator.egg-link (link to .)\n'}
+[12.602518] (agri_orchestrator) StdoutLine: {'line': b'Installing farm_orchestrator_node script to /home/maria/agri_ws/install/agri_orchestrator/lib/agri_orchestrator\n'}
+[12.602907] (agri_orchestrator) StdoutLine: {'line': b'\n'}
+[12.604119] (agri_orchestrator) StdoutLine: {'line': b'Installed /home/maria/agri_ws/build/agri_orchestrator\n'}
+[12.604471] (agri_orchestrator) StdoutLine: {'line': b'running symlink_data\n'}
+[12.604639] (agri_orchestrator) StdoutLine: {'line': b'creating /home/maria/agri_ws/install/agri_orchestrator/share/ament_index/resource_index/packages\n'}
+[12.604802] (agri_orchestrator) StdoutLine: {'line': b'symbolically linking /home/maria/agri_ws/build/agri_orchestrator/resource/agri_orchestrator -> /home/maria/agri_ws/install/agri_orchestrator/share/ament_index/resource_index/packages\n'}
+[12.605000] (agri_orchestrator) StdoutLine: {'line': b'symbolically linking /home/maria/agri_ws/build/agri_orchestrator/package.xml -> /home/maria/agri_ws/install/agri_orchestrator/share/agri_orchestrator\n'}
+[12.648320] (-) TimerEvent: {}
+[12.750288] (-) TimerEvent: {}
+[12.779142] (agri_orchestrator) CommandEnded: {'returncode': 0}
+[12.851282] (agri_orchestrator) JobEnded: {'identifier': 'agri_orchestrator', 'rc': 0}
+[12.852070] (-) TimerEvent: {}
+[12.861841] (-) EventReactorShutdown: {}

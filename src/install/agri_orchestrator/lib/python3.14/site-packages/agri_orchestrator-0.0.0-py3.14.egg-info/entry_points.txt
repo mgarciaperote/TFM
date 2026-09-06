@@ -1,0 +1,2 @@
+[console_scripts]
+farm_orchestrator_node = agri_orchestrator.farm_orchestrator_node:main

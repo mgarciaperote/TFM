@@ -1,0 +1,47 @@
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Found ros_gz_sim: 3.0.9 (/opt/ros/lyrical/share/ros_gz_sim/cmake)
+-- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.4.9 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ros_gz_bridge: 3.0.9 (/opt/ros/lyrical/share/ros_gz_bridge/cmake)
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12")
+-- Configuring done (12.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/maria/agri_ws/build/agri_simulation
+-- Install configuration: ""
+-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/launch
+-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/worlds
+-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/worlds/agri_world.sdf
+-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/models
+-- Installing: /home/maria/agri_ws/install/agri_simulation/share/ament_index/resource_index/package_run_dependencies/agri_simulation
+-- Installing: /home/maria/agri_ws/install/agri_simulation/share/ament_index/resource_index/parent_prefix_path/agri_simulation
+-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/environment/ament_prefix_path.sh
+-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/environment/ament_prefix_path.dsv
+-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/environment/path.sh
+-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/environment/path.dsv
+-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/local_setup.bash
+-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/local_setup.fish
+-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/local_setup.sh
+-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/local_setup.zsh
+-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/local_setup.dsv
+-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/package.dsv
+-- Installing: /home/maria/agri_ws/install/agri_simulation/share/ament_index/resource_index/packages/agri_simulation
+-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/cmake/agri_simulationConfig.cmake
+-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/cmake/agri_simulationConfig-version.cmake
+-- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/package.xml

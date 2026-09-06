@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/maria/agri_ws/build/agri_simulation/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

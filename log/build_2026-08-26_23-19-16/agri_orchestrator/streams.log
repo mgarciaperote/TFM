@@ -1,0 +1,26 @@
+[5.453s] Invoking command in '/home/maria/agri_ws/src/agri_orchestrator': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/maria/agri_ws/build/agri_orchestrator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agri_orchestrator build --build-base /home/maria/agri_ws/build/agri_orchestrator/build install --record /home/maria/agri_ws/build/agri_orchestrator/install.log --install-scripts $base/lib/agri_orchestrator --single-version-externally-managed install_data
+[6.381s] running egg_info
+[6.492s] writing ../../build/agri_orchestrator/agri_orchestrator.egg-info/PKG-INFO
+[6.495s] writing dependency_links to ../../build/agri_orchestrator/agri_orchestrator.egg-info/dependency_links.txt
+[6.496s] writing entry points to ../../build/agri_orchestrator/agri_orchestrator.egg-info/entry_points.txt
+[6.496s] writing requirements to ../../build/agri_orchestrator/agri_orchestrator.egg-info/requires.txt
+[6.496s] writing top-level names to ../../build/agri_orchestrator/agri_orchestrator.egg-info/top_level.txt
+[7.447s] reading manifest file '../../build/agri_orchestrator/agri_orchestrator.egg-info/SOURCES.txt'
+[7.457s] writing manifest file '../../build/agri_orchestrator/agri_orchestrator.egg-info/SOURCES.txt'
+[7.461s] running build
+[7.464s] running build_py
+[7.466s] copying agri_orchestrator/__init__.py -> /home/maria/agri_ws/build/agri_orchestrator/build/lib/agri_orchestrator
+[7.466s] copying agri_orchestrator/farm_orchestrator_node.py -> /home/maria/agri_ws/build/agri_orchestrator/build/lib/agri_orchestrator
+[7.469s] copying agri_orchestrator/py.typed -> /home/maria/agri_ws/build/agri_orchestrator/build/lib/agri_orchestrator
+[7.469s] running install
+[7.508s] running install_lib
+[7.750s] running install_data
+[7.757s] copying resource/agri_orchestrator -> /home/maria/agri_ws/install/agri_orchestrator/share/ament_index/resource_index/packages
+[7.760s] copying package.xml -> /home/maria/agri_ws/install/agri_orchestrator/share/agri_orchestrator
+[7.767s] running install_egg_info
+[8.150s] removing '/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages/agri_orchestrator-0.0.0-py3.14.egg-info' (and everything under it)
+[8.154s] Copying ../../build/agri_orchestrator/agri_orchestrator.egg-info to /home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages/agri_orchestrator-0.0.0-py3.14.egg-info
+[8.159s] running install_scripts
+[8.644s] Installing farm_orchestrator_node script to /home/maria/agri_ws/install/agri_orchestrator/lib/agri_orchestrator
+[8.646s] writing list of installed files to '/home/maria/agri_ws/build/agri_orchestrator/install.log'
+[8.744s] Invoked command in '/home/maria/agri_ws/src/agri_orchestrator' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/maria/agri_ws/build/agri_orchestrator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agri_orchestrator build --build-base /home/maria/agri_ws/build/agri_orchestrator/build install --record /home/maria/agri_ws/build/agri_orchestrator/install.log --install-scripts $base/lib/agri_orchestrator --single-version-externally-managed install_data

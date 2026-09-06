@@ -1,0 +1,9 @@
+{
+  "package_name": "agri_interfaces",
+  "non_idl_tuples": [
+    "/home/maria/agri_ws/src/agri_interfaces:msg/SoilMoisture.msg",
+    "/home/maria/agri_ws/src/agri_interfaces:msg/IrrigationCommand.msg",
+    "/home/maria/agri_ws/src/agri_interfaces:msg/IrrigationState.msg",
+    "/home/maria/agri_ws/src/agri_interfaces:msg/RobotCommand.msg"
+  ]
+}

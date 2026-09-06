@@ -1,0 +1,31 @@
+{
+  "package_name": "agri_interfaces",
+  "output_dir": "/home/maria/agri_ws/build/agri_interfaces/rosidl_typesupport_fastrtps_cpp/agri_interfaces",
+  "template_dir": "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "idl_tuples": [
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces:msg/SoilMoisture.idl",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces:msg/IrrigationCommand.idl",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces:msg/IrrigationState.idl",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces:msg/RobotCommand.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/home/maria/ros2_lyrical/ros2-linux/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/home/maria/ros2_lyrical/ros2-linux/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/home/maria/ros2_lyrical/ros2-linux/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/home/maria/ros2_lyrical/ros2-linux/lib/python3.14/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/home/maria/ros2_lyrical/ros2-linux/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces/msg/SoilMoisture.idl",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces/msg/IrrigationCommand.idl",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces/msg/IrrigationState.idl",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces/msg/RobotCommand.idl",
+    "/home/maria/ros2_lyrical/ros2-linux/share/builtin_interfaces/msg/Duration.idl",
+    "/home/maria/ros2_lyrical/ros2-linux/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

@@ -1,0 +1,5 @@
+source;share/agri_simulation/local_setup.bash
+source;share/agri_simulation/local_setup.dsv
+source;share/agri_simulation/local_setup.fish
+source;share/agri_simulation/local_setup.sh
+source;share/agri_simulation/local_setup.zsh

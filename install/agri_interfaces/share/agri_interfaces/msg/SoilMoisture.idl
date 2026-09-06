@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from agri_interfaces/msg/SoilMoisture.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module agri_interfaces {
+  module msg {
+    struct SoilMoisture {
+      builtin_interfaces::msg::Time timestamp;
+
+      string sensor_id;
+
+      float moisture;
+
+      string unit;
+    };
+  };
+};

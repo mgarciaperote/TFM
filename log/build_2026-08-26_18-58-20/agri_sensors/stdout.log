@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/agri_sensors/agri_sensors.egg-info
+writing ../../build/agri_sensors/agri_sensors.egg-info/PKG-INFO
+writing dependency_links to ../../build/agri_sensors/agri_sensors.egg-info/dependency_links.txt
+writing entry points to ../../build/agri_sensors/agri_sensors.egg-info/entry_points.txt
+writing requirements to ../../build/agri_sensors/agri_sensors.egg-info/requires.txt
+writing top-level names to ../../build/agri_sensors/agri_sensors.egg-info/top_level.txt
+writing manifest file '../../build/agri_sensors/agri_sensors.egg-info/SOURCES.txt'
+reading manifest file '../../build/agri_sensors/agri_sensors.egg-info/SOURCES.txt'
+writing manifest file '../../build/agri_sensors/agri_sensors.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/maria/agri_ws/build/agri_sensors/build/lib/agri_sensors
+copying agri_sensors/__init__.py -> /home/maria/agri_ws/build/agri_sensors/build/lib/agri_sensors
+copying agri_sensors/soil_sensor_node.py -> /home/maria/agri_ws/build/agri_sensors/build/lib/agri_sensors
+copying agri_sensors/py.typed -> /home/maria/agri_ws/build/agri_sensors/build/lib/agri_sensors
+running install
+running install_lib
+creating /home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages/agri_sensors
+copying /home/maria/agri_ws/build/agri_sensors/build/lib/agri_sensors/__init__.py -> /home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages/agri_sensors
+copying /home/maria/agri_ws/build/agri_sensors/build/lib/agri_sensors/py.typed -> /home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages/agri_sensors
+copying /home/maria/agri_ws/build/agri_sensors/build/lib/agri_sensors/soil_sensor_node.py -> /home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages/agri_sensors
+byte-compiling /home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages/agri_sensors/__init__.py to __init__.cpython-314.pyc
+byte-compiling /home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages/agri_sensors/soil_sensor_node.py to soil_sensor_node.cpython-314.pyc
+running install_data
+creating /home/maria/agri_ws/install/agri_sensors/share/ament_index/resource_index/packages
+copying resource/agri_sensors -> /home/maria/agri_ws/install/agri_sensors/share/ament_index/resource_index/packages
+copying package.xml -> /home/maria/agri_ws/install/agri_sensors/share/agri_sensors
+running install_egg_info
+Copying ../../build/agri_sensors/agri_sensors.egg-info to /home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages/agri_sensors-0.0.0-py3.14.egg-info
+running install_scripts
+Installing soil_sensor_node script to /home/maria/agri_ws/install/agri_sensors/lib/agri_sensors
+writing list of installed files to '/home/maria/agri_ws/build/agri_sensors/install.log'

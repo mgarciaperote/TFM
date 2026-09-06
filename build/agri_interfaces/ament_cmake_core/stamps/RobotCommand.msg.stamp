@@ -1,0 +1,5 @@
+builtin_interfaces/Time timestamp
+string robot_id
+string command
+float32 linear_speed
+float32 angular_speed

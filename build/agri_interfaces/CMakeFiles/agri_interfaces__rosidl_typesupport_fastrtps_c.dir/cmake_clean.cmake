@@ -1,0 +1,26 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_c.dir/link.d"
+  "CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/irrigation_command__type_support_c.cpp.o"
+  "CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/irrigation_command__type_support_c.cpp.o.d"
+  "CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/irrigation_state__type_support_c.cpp.o"
+  "CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/irrigation_state__type_support_c.cpp.o.d"
+  "CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/robot_command__type_support_c.cpp.o"
+  "CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/robot_command__type_support_c.cpp.o.d"
+  "CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/soil_moisture__type_support_c.cpp.o"
+  "CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/soil_moisture__type_support_c.cpp.o.d"
+  "libagri_interfaces__rosidl_typesupport_fastrtps_c.pdb"
+  "libagri_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/irrigation_command__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/irrigation_command__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/irrigation_state__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/irrigation_state__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/robot_command__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/soil_moisture__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/agri_interfaces/msg/detail/soil_moisture__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/agri_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

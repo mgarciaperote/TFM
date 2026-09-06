@@ -1,0 +1,4 @@
+Invoking command in '/home/maria/agri_ws/build/agri_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/maria/agri_ws/build/agri_interfaces -- -j3 -l3
+Invoked command in '/home/maria/agri_ws/build/agri_interfaces' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/maria/agri_ws/build/agri_interfaces -- -j3 -l3
+Invoking command in '/home/maria/agri_ws/build/agri_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/maria/agri_ws/build/agri_interfaces
+Invoked command in '/home/maria/agri_ws/build/agri_interfaces' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/maria/agri_ws/build/agri_interfaces

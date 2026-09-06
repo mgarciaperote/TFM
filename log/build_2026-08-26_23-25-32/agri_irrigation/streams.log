@@ -1,0 +1,26 @@
+[4.157s] Invoking command in '/home/maria/agri_ws/src/agri_irrigation': AMENT_PREFIX_PATH=/home/maria/agri_ws/install/agri_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maria/agri_ws/install/agri_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/maria/agri_ws/install/agri_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maria/agri_ws/build/agri_irrigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agri_irrigation build --build-base /home/maria/agri_ws/build/agri_irrigation/build install --record /home/maria/agri_ws/build/agri_irrigation/install.log --install-scripts $base/lib/agri_irrigation --single-version-externally-managed install_data
+[5.147s] running egg_info
+[5.312s] writing ../../build/agri_irrigation/agri_irrigation.egg-info/PKG-INFO
+[5.319s] writing dependency_links to ../../build/agri_irrigation/agri_irrigation.egg-info/dependency_links.txt
+[5.319s] writing entry points to ../../build/agri_irrigation/agri_irrigation.egg-info/entry_points.txt
+[5.321s] writing requirements to ../../build/agri_irrigation/agri_irrigation.egg-info/requires.txt
+[5.321s] writing top-level names to ../../build/agri_irrigation/agri_irrigation.egg-info/top_level.txt
+[5.571s] reading manifest file '../../build/agri_irrigation/agri_irrigation.egg-info/SOURCES.txt'
+[5.574s] writing manifest file '../../build/agri_irrigation/agri_irrigation.egg-info/SOURCES.txt'
+[5.575s] running build
+[5.575s] running build_py
+[5.576s] copying agri_irrigation/__init__.py -> /home/maria/agri_ws/build/agri_irrigation/build/lib/agri_irrigation
+[5.577s] copying agri_irrigation/irrigation_valve_node.py -> /home/maria/agri_ws/build/agri_irrigation/build/lib/agri_irrigation
+[5.578s] copying agri_irrigation/py.typed -> /home/maria/agri_ws/build/agri_irrigation/build/lib/agri_irrigation
+[5.578s] running install
+[5.592s] running install_lib
+[5.672s] running install_data
+[5.675s] copying resource/agri_irrigation -> /home/maria/agri_ws/install/agri_irrigation/share/ament_index/resource_index/packages
+[5.676s] copying package.xml -> /home/maria/agri_ws/install/agri_irrigation/share/agri_irrigation
+[5.678s] running install_egg_info
+[5.755s] removing '/home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages/agri_irrigation-0.0.0-py3.14.egg-info' (and everything under it)
+[5.756s] Copying ../../build/agri_irrigation/agri_irrigation.egg-info to /home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages/agri_irrigation-0.0.0-py3.14.egg-info
+[5.760s] running install_scripts
+[6.352s] Installing irrigation_valve_node script to /home/maria/agri_ws/install/agri_irrigation/lib/agri_irrigation
+[6.355s] writing list of installed files to '/home/maria/agri_ws/build/agri_irrigation/install.log'
+[6.480s] Invoked command in '/home/maria/agri_ws/src/agri_irrigation' returned '0': AMENT_PREFIX_PATH=/home/maria/agri_ws/install/agri_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maria/agri_ws/install/agri_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/maria/agri_ws/install/agri_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maria/agri_ws/build/agri_irrigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agri_irrigation build --build-base /home/maria/agri_ws/build/agri_irrigation/build install --record /home/maria/agri_ws/build/agri_irrigation/install.log --install-scripts $base/lib/agri_irrigation --single-version-externally-managed install_data

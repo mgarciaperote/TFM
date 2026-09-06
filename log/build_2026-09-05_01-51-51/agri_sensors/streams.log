@@ -1,0 +1,26 @@
+[3.834s] Invoking command in '/home/maria/agri_ws/src/agri_sensors': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/maria/agri_ws/build/agri_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor/lib/python:/home/maria/ros2_lyrical/ros2-linux/lib/python3.14/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agri_sensors build --build-base /home/maria/agri_ws/build/agri_sensors/build install --record /home/maria/agri_ws/build/agri_sensors/install.log --install-scripts $base/lib/agri_sensors --single-version-externally-managed install_data
+[4.710s] running egg_info
+[4.785s] writing ../../build/agri_sensors/agri_sensors.egg-info/PKG-INFO
+[4.786s] writing dependency_links to ../../build/agri_sensors/agri_sensors.egg-info/dependency_links.txt
+[4.787s] writing entry points to ../../build/agri_sensors/agri_sensors.egg-info/entry_points.txt
+[4.787s] writing requirements to ../../build/agri_sensors/agri_sensors.egg-info/requires.txt
+[4.787s] writing top-level names to ../../build/agri_sensors/agri_sensors.egg-info/top_level.txt
+[4.930s] reading manifest file '../../build/agri_sensors/agri_sensors.egg-info/SOURCES.txt'
+[4.935s] writing manifest file '../../build/agri_sensors/agri_sensors.egg-info/SOURCES.txt'
+[4.935s] running build
+[4.935s] running build_py
+[4.935s] copying agri_sensors/__init__.py -> /home/maria/agri_ws/build/agri_sensors/build/lib/agri_sensors
+[4.936s] copying agri_sensors/soil_sensor_node.py -> /home/maria/agri_ws/build/agri_sensors/build/lib/agri_sensors
+[4.937s] copying agri_sensors/py.typed -> /home/maria/agri_ws/build/agri_sensors/build/lib/agri_sensors
+[4.937s] running install
+[4.952s] running install_lib
+[5.027s] running install_data
+[5.028s] copying resource/agri_sensors -> /home/maria/agri_ws/install/agri_sensors/share/ament_index/resource_index/packages
+[5.029s] copying package.xml -> /home/maria/agri_ws/install/agri_sensors/share/agri_sensors
+[5.029s] running install_egg_info
+[5.123s] removing '/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages/agri_sensors-0.0.0-py3.14.egg-info' (and everything under it)
+[5.124s] Copying ../../build/agri_sensors/agri_sensors.egg-info to /home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages/agri_sensors-0.0.0-py3.14.egg-info
+[5.126s] running install_scripts
+[5.553s] Installing soil_sensor_node script to /home/maria/agri_ws/install/agri_sensors/lib/agri_sensors
+[5.554s] writing list of installed files to '/home/maria/agri_ws/build/agri_sensors/install.log'
+[5.632s] Invoked command in '/home/maria/agri_ws/src/agri_sensors' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/maria/agri_ws/build/agri_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor/lib/python:/home/maria/ros2_lyrical/ros2-linux/lib/python3.14/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agri_sensors build --build-base /home/maria/agri_ws/build/agri_sensors/build install --record /home/maria/agri_ws/build/agri_sensors/install.log --install-scripts $base/lib/agri_sensors --single-version-externally-managed install_data

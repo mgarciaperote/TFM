@@ -1,0 +1,26 @@
+[4.851s] Invoking command in '/home/maria/agri_ws/src/agri_orchestrator': AMENT_PREFIX_PATH=/home/maria/agri_ws/install/agri_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maria/agri_ws/install/agri_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/maria/agri_ws/install/agri_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maria/agri_ws/build/agri_orchestrator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agri_orchestrator build --build-base /home/maria/agri_ws/build/agri_orchestrator/build install --record /home/maria/agri_ws/build/agri_orchestrator/install.log --install-scripts $base/lib/agri_orchestrator --single-version-externally-managed install_data
+[5.714s] running egg_info
+[5.784s] writing ../../build/agri_orchestrator/agri_orchestrator.egg-info/PKG-INFO
+[5.786s] writing dependency_links to ../../build/agri_orchestrator/agri_orchestrator.egg-info/dependency_links.txt
+[5.787s] writing entry points to ../../build/agri_orchestrator/agri_orchestrator.egg-info/entry_points.txt
+[5.787s] writing requirements to ../../build/agri_orchestrator/agri_orchestrator.egg-info/requires.txt
+[5.787s] writing top-level names to ../../build/agri_orchestrator/agri_orchestrator.egg-info/top_level.txt
+[5.981s] reading manifest file '../../build/agri_orchestrator/agri_orchestrator.egg-info/SOURCES.txt'
+[5.985s] writing manifest file '../../build/agri_orchestrator/agri_orchestrator.egg-info/SOURCES.txt'
+[5.985s] running build
+[5.986s] running build_py
+[5.986s] copying agri_orchestrator/__init__.py -> /home/maria/agri_ws/build/agri_orchestrator/build/lib/agri_orchestrator
+[5.986s] copying agri_orchestrator/farm_orchestrator_node.py -> /home/maria/agri_ws/build/agri_orchestrator/build/lib/agri_orchestrator
+[5.990s] copying agri_orchestrator/py.typed -> /home/maria/agri_ws/build/agri_orchestrator/build/lib/agri_orchestrator
+[5.990s] running install
+[6.002s] running install_lib
+[6.095s] running install_data
+[6.095s] copying resource/agri_orchestrator -> /home/maria/agri_ws/install/agri_orchestrator/share/ament_index/resource_index/packages
+[6.096s] copying package.xml -> /home/maria/agri_ws/install/agri_orchestrator/share/agri_orchestrator
+[6.097s] running install_egg_info
+[6.175s] removing '/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages/agri_orchestrator-0.0.0-py3.14.egg-info' (and everything under it)
+[6.181s] Copying ../../build/agri_orchestrator/agri_orchestrator.egg-info to /home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages/agri_orchestrator-0.0.0-py3.14.egg-info
+[6.182s] running install_scripts
+[6.588s] Installing farm_orchestrator_node script to /home/maria/agri_ws/install/agri_orchestrator/lib/agri_orchestrator
+[6.590s] writing list of installed files to '/home/maria/agri_ws/build/agri_orchestrator/install.log'
+[6.676s] Invoked command in '/home/maria/agri_ws/src/agri_orchestrator' returned '0': AMENT_PREFIX_PATH=/home/maria/agri_ws/install/agri_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maria/agri_ws/install/agri_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/maria/agri_ws/install/agri_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maria/agri_ws/build/agri_orchestrator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agri_orchestrator build --build-base /home/maria/agri_ws/build/agri_orchestrator/build install --record /home/maria/agri_ws/build/agri_orchestrator/install.log --install-scripts $base/lib/agri_orchestrator --single-version-externally-managed install_data

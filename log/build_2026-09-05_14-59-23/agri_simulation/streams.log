@@ -1,0 +1,53 @@
+[0.095s] Invoking command in '/home/maria/agri_ws/build/agri_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/maria/agri_ws/src/agri_simulation -DCMAKE_INSTALL_PREFIX=/home/maria/agri_ws/install/agri_simulation
+[0.608s] -- The C compiler identification is GNU 15.2.0
+[1.063s] -- The CXX compiler identification is GNU 15.2.0
+[1.168s] -- Detecting C compiler ABI info
+[1.611s] -- Detecting C compiler ABI info - done
+[1.727s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.730s] -- Detecting C compile features
+[1.735s] -- Detecting C compile features - done
+[1.823s] -- Detecting CXX compiler ABI info
+[2.355s] -- Detecting CXX compiler ABI info - done
+[2.507s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.508s] -- Detecting CXX compile features
+[2.513s] -- Detecting CXX compile features - done
+[2.584s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[4.844s] -- Found ros_gz_sim: 3.0.9 (/opt/ros/lyrical/share/ros_gz_sim/cmake)
+[5.131s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[5.272s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[5.432s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.528s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.064s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[6.086s] -- Found rmw_fastrtps_cpp: 9.4.9 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[6.390s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.325s] -- Found ros_gz_bridge: 3.0.9 (/opt/ros/lyrical/share/ros_gz_bridge/cmake)
+[9.371s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12")
+[12.465s] -- Configuring done (12.3s)
+[12.518s] -- Generating done (0.0s)
+[12.786s] -- Build files have been written to: /home/maria/agri_ws/build/agri_simulation
+[12.845s] Invoked command in '/home/maria/agri_ws/build/agri_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/maria/agri_ws/src/agri_simulation -DCMAKE_INSTALL_PREFIX=/home/maria/agri_ws/install/agri_simulation
+[12.860s] Invoking command in '/home/maria/agri_ws/build/agri_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/maria/agri_ws/build/agri_simulation -- -j4 -l4
+[13.064s] Invoked command in '/home/maria/agri_ws/build/agri_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/maria/agri_ws/build/agri_simulation -- -j4 -l4
+[13.119s] Invoking command in '/home/maria/agri_ws/build/agri_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/maria/agri_ws/build/agri_simulation
+[13.162s] -- Install configuration: ""
+[13.166s] -- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/launch
+[13.166s] -- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/worlds
+[13.166s] -- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/worlds/agri_world.sdf
+[13.167s] -- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/models
+[13.168s] -- Installing: /home/maria/agri_ws/install/agri_simulation/share/ament_index/resource_index/package_run_dependencies/agri_simulation
+[13.170s] -- Installing: /home/maria/agri_ws/install/agri_simulation/share/ament_index/resource_index/parent_prefix_path/agri_simulation
+[13.170s] -- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/environment/ament_prefix_path.sh
+[13.171s] -- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/environment/ament_prefix_path.dsv
+[13.171s] -- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/environment/path.sh
+[13.171s] -- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/environment/path.dsv
+[13.172s] -- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/local_setup.bash
+[13.172s] -- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/local_setup.fish
+[13.172s] -- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/local_setup.sh
+[13.174s] -- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/local_setup.zsh
+[13.174s] -- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/local_setup.dsv
+[13.175s] -- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/package.dsv
+[13.175s] -- Installing: /home/maria/agri_ws/install/agri_simulation/share/ament_index/resource_index/packages/agri_simulation
+[13.176s] -- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/cmake/agri_simulationConfig.cmake
+[13.176s] -- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/cmake/agri_simulationConfig-version.cmake
+[13.176s] -- Installing: /home/maria/agri_ws/install/agri_simulation/share/agri_simulation/package.xml
+[13.186s] Invoked command in '/home/maria/agri_ws/build/agri_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/maria/agri_ws/build/agri_simulation

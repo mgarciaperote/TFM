@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+agri_robot_control/__init__.py
+agri_robot_control/py.typed
+agri_robot_control/robot_controller_node.py
+agri_robot_control.egg-info/PKG-INFO
+agri_robot_control.egg-info/SOURCES.txt
+agri_robot_control.egg-info/dependency_links.txt
+agri_robot_control.egg-info/entry_points.txt
+agri_robot_control.egg-info/requires.txt
+agri_robot_control.egg-info/top_level.txt
+agri_robot_control.egg-info/zip-safe
+resource/agri_robot_control

@@ -1,0 +1,162 @@
+[0.000000] (-) TimerEvent: {}
+[0.000324] (agri_irrigation) JobQueued: {'identifier': 'agri_irrigation', 'dependencies': OrderedDict()}
+[0.000469] (agri_orchestrator) JobQueued: {'identifier': 'agri_orchestrator', 'dependencies': OrderedDict()}
+[0.000523] (agri_sensors) JobQueued: {'identifier': 'agri_sensors', 'dependencies': OrderedDict()}
+[0.000562] (agri_irrigation) JobStarted: {'identifier': 'agri_irrigation'}
+[0.011989] (agri_orchestrator) JobStarted: {'identifier': 'agri_orchestrator'}
+[0.023086] (agri_sensors) JobStarted: {'identifier': 'agri_sensors'}
+[0.097298] (-) TimerEvent: {}
+[0.200223] (-) TimerEvent: {}
+[0.303406] (-) TimerEvent: {}
+[0.405960] (-) TimerEvent: {}
+[0.506828] (-) TimerEvent: {}
+[0.607288] (-) TimerEvent: {}
+[0.708753] (-) TimerEvent: {}
+[0.809499] (-) TimerEvent: {}
+[0.912419] (-) TimerEvent: {}
+[1.013666] (-) TimerEvent: {}
+[1.114469] (-) TimerEvent: {}
+[1.217040] (-) TimerEvent: {}
+[1.317623] (-) TimerEvent: {}
+[1.418999] (-) TimerEvent: {}
+[1.520025] (-) TimerEvent: {}
+[1.624000] (-) TimerEvent: {}
+[1.726697] (-) TimerEvent: {}
+[1.831365] (-) TimerEvent: {}
+[1.932994] (-) TimerEvent: {}
+[2.034992] (-) TimerEvent: {}
+[2.136958] (-) TimerEvent: {}
+[2.237586] (-) TimerEvent: {}
+[2.340925] (-) TimerEvent: {}
+[2.442985] (-) TimerEvent: {}
+[2.543554] (-) TimerEvent: {}
+[2.644568] (-) TimerEvent: {}
+[2.745966] (-) TimerEvent: {}
+[2.847001] (-) TimerEvent: {}
+[2.948004] (-) TimerEvent: {}
+[3.048793] (-) TimerEvent: {}
+[3.151466] (-) TimerEvent: {}
+[3.252170] (-) TimerEvent: {}
+[3.352933] (-) TimerEvent: {}
+[3.454302] (-) TimerEvent: {}
+[3.556118] (-) TimerEvent: {}
+[3.660082] (-) TimerEvent: {}
+[3.709560] (agri_orchestrator) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/agri_orchestrator', 'build', '--build-base', '/home/maria/agri_ws/build/agri_orchestrator/build', 'install', '--record', '/home/maria/agri_ws/build/agri_orchestrator/install.log', '--install-scripts', '$base/lib/agri_orchestrator', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/maria/agri_ws/src/agri_orchestrator', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'maria', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'HOME': '/home/maria', 'OLDPWD': '/home/maria', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2526', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2562', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c219c6fb85d6ab721570fe4a6a8ebc47', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'maria', 'MANAGERPIDFDID': '5153', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'maria', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '693969059bf44bad8880c6dd4a28fa4b', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '14f5a020ca517b9ee29c227f6a859c04', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DOH6T3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/maria/agri_ws/build/agri_orchestrator', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c219c6fb85d6ab721570fe4a6a8ebc47', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'PYTHONPATH': '/home/maria/agri_ws/build/agri_orchestrator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages:'}, 'shell': False}
+[3.760491] (-) TimerEvent: {}
+[3.830000] (agri_sensors) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/agri_sensors', 'build', '--build-base', '/home/maria/agri_ws/build/agri_sensors/build', 'install', '--record', '/home/maria/agri_ws/build/agri_sensors/install.log', '--install-scripts', '$base/lib/agri_sensors', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/maria/agri_ws/src/agri_sensors', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'maria', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'HOME': '/home/maria', 'OLDPWD': '/home/maria', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2526', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2562', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c219c6fb85d6ab721570fe4a6a8ebc47', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'maria', 'MANAGERPIDFDID': '5153', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'maria', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '693969059bf44bad8880c6dd4a28fa4b', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '14f5a020ca517b9ee29c227f6a859c04', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DOH6T3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/maria/agri_ws/build/agri_sensors', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c219c6fb85d6ab721570fe4a6a8ebc47', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'PYTHONPATH': '/home/maria/agri_ws/build/agri_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages:'}, 'shell': False}
+[3.860927] (-) TimerEvent: {}
+[3.963142] (-) TimerEvent: {}
+[3.990561] (agri_irrigation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/agri_irrigation', 'build', '--build-base', '/home/maria/agri_ws/build/agri_irrigation/build', 'install', '--record', '/home/maria/agri_ws/build/agri_irrigation/install.log', '--install-scripts', '$base/lib/agri_irrigation', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/maria/agri_ws/src/agri_irrigation', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'maria', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'HOME': '/home/maria', 'OLDPWD': '/home/maria', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2526', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2562', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c219c6fb85d6ab721570fe4a6a8ebc47', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'maria', 'MANAGERPIDFDID': '5153', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'maria', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '693969059bf44bad8880c6dd4a28fa4b', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '14f5a020ca517b9ee29c227f6a859c04', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DOH6T3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/maria/agri_ws/build/agri_irrigation', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c219c6fb85d6ab721570fe4a6a8ebc47', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'PYTHONPATH': '/home/maria/agri_ws/build/agri_irrigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages:'}, 'shell': False}
+[4.063907] (-) TimerEvent: {}
+[4.165193] (-) TimerEvent: {}
+[4.267321] (-) TimerEvent: {}
+[4.367948] (-) TimerEvent: {}
+[4.471921] (-) TimerEvent: {}
+[4.572408] (-) TimerEvent: {}
+[4.672951] (-) TimerEvent: {}
+[4.677001] (agri_orchestrator) StdoutLine: {'line': b'running egg_info\n'}
+[4.769111] (agri_orchestrator) StdoutLine: {'line': b'writing ../../build/agri_orchestrator/agri_orchestrator.egg-info/PKG-INFO\n'}
+[4.770978] (agri_orchestrator) StdoutLine: {'line': b'writing dependency_links to ../../build/agri_orchestrator/agri_orchestrator.egg-info/dependency_links.txt\n'}
+[4.771713] (agri_orchestrator) StdoutLine: {'line': b'writing entry points to ../../build/agri_orchestrator/agri_orchestrator.egg-info/entry_points.txt\n'}
+[4.773437] (agri_orchestrator) StdoutLine: {'line': b'writing requirements to ../../build/agri_orchestrator/agri_orchestrator.egg-info/requires.txt\n'}
+[4.773617] (-) TimerEvent: {}
+[4.774344] (agri_orchestrator) StdoutLine: {'line': b'writing top-level names to ../../build/agri_orchestrator/agri_orchestrator.egg-info/top_level.txt\n'}
+[4.873981] (-) TimerEvent: {}
+[4.974607] (-) TimerEvent: {}
+[5.076057] (-) TimerEvent: {}
+[5.183239] (-) TimerEvent: {}
+[5.253046] (agri_orchestrator) StdoutLine: {'line': b"reading manifest file '../../build/agri_orchestrator/agri_orchestrator.egg-info/SOURCES.txt'\n"}
+[5.259509] (agri_orchestrator) StdoutLine: {'line': b"writing manifest file '../../build/agri_orchestrator/agri_orchestrator.egg-info/SOURCES.txt'\n"}
+[5.261300] (agri_orchestrator) StdoutLine: {'line': b'running build\n'}
+[5.261577] (agri_orchestrator) StdoutLine: {'line': b'running build_py\n'}
+[5.261809] (agri_orchestrator) StdoutLine: {'line': b'copying agri_orchestrator/__init__.py -> /home/maria/agri_ws/build/agri_orchestrator/build/lib/agri_orchestrator\n'}
+[5.268258] (agri_orchestrator) StdoutLine: {'line': b'copying agri_orchestrator/farm_orchestrator_node.py -> /home/maria/agri_ws/build/agri_orchestrator/build/lib/agri_orchestrator\n'}
+[5.271436] (agri_orchestrator) StdoutLine: {'line': b'copying agri_orchestrator/py.typed -> /home/maria/agri_ws/build/agri_orchestrator/build/lib/agri_orchestrator\n'}
+[5.275991] (agri_orchestrator) StdoutLine: {'line': b'running install\n'}
+[5.288463] (-) TimerEvent: {}
+[5.340794] (agri_orchestrator) StdoutLine: {'line': b'running install_lib\n'}
+[5.390081] (-) TimerEvent: {}
+[5.403096] (agri_sensors) StdoutLine: {'line': b'running egg_info\n'}
+[5.491082] (-) TimerEvent: {}
+[5.593951] (-) TimerEvent: {}
+[5.606779] (agri_orchestrator) StdoutLine: {'line': b'running install_data\n'}
+[5.607326] (agri_orchestrator) StdoutLine: {'line': b'copying resource/agri_orchestrator -> /home/maria/agri_ws/install/agri_orchestrator/share/ament_index/resource_index/packages\n'}
+[5.611124] (agri_orchestrator) StdoutLine: {'line': b'copying package.xml -> /home/maria/agri_ws/install/agri_orchestrator/share/agri_orchestrator\n'}
+[5.611589] (agri_orchestrator) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.631003] (agri_sensors) StdoutLine: {'line': b'writing ../../build/agri_sensors/agri_sensors.egg-info/PKG-INFO\n'}
+[5.636131] (agri_sensors) StdoutLine: {'line': b'writing dependency_links to ../../build/agri_sensors/agri_sensors.egg-info/dependency_links.txt\n'}
+[5.640206] (agri_sensors) StdoutLine: {'line': b'writing entry points to ../../build/agri_sensors/agri_sensors.egg-info/entry_points.txt\n'}
+[5.641672] (agri_sensors) StdoutLine: {'line': b'writing requirements to ../../build/agri_sensors/agri_sensors.egg-info/requires.txt\n'}
+[5.647011] (agri_sensors) StdoutLine: {'line': b'writing top-level names to ../../build/agri_sensors/agri_sensors.egg-info/top_level.txt\n'}
+[5.701267] (-) TimerEvent: {}
+[5.802964] (-) TimerEvent: {}
+[5.832973] (agri_irrigation) StdoutLine: {'line': b'running egg_info\n'}
+[5.903204] (-) TimerEvent: {}
+[5.932977] (agri_orchestrator) StdoutLine: {'line': b"removing '/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages/agri_orchestrator-0.0.0-py3.14.egg-info' (and everything under it)\n"}
+[5.939015] (agri_orchestrator) StdoutLine: {'line': b'Copying ../../build/agri_orchestrator/agri_orchestrator.egg-info to /home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages/agri_orchestrator-0.0.0-py3.14.egg-info\n'}
+[5.956103] (agri_orchestrator) StdoutLine: {'line': b'running install_scripts\n'}
+[6.004243] (-) TimerEvent: {}
+[6.046447] (agri_irrigation) StdoutLine: {'line': b'writing ../../build/agri_irrigation/agri_irrigation.egg-info/PKG-INFO\n'}
+[6.053603] (agri_irrigation) StdoutLine: {'line': b'writing dependency_links to ../../build/agri_irrigation/agri_irrigation.egg-info/dependency_links.txt\n'}
+[6.060460] (agri_irrigation) StdoutLine: {'line': b'writing entry points to ../../build/agri_irrigation/agri_irrigation.egg-info/entry_points.txt\n'}
+[6.061075] (agri_irrigation) StdoutLine: {'line': b'writing requirements to ../../build/agri_irrigation/agri_irrigation.egg-info/requires.txt\n'}
+[6.061334] (agri_irrigation) StdoutLine: {'line': b'writing top-level names to ../../build/agri_irrigation/agri_irrigation.egg-info/top_level.txt\n'}
+[6.106579] (-) TimerEvent: {}
+[6.209430] (-) TimerEvent: {}
+[6.312705] (-) TimerEvent: {}
+[6.416157] (-) TimerEvent: {}
+[6.442916] (agri_sensors) StdoutLine: {'line': b"reading manifest file '../../build/agri_sensors/agri_sensors.egg-info/SOURCES.txt'\n"}
+[6.466945] (agri_sensors) StdoutLine: {'line': b"writing manifest file '../../build/agri_sensors/agri_sensors.egg-info/SOURCES.txt'\n"}
+[6.478111] (agri_sensors) StdoutLine: {'line': b'running build\n'}
+[6.478823] (agri_sensors) StdoutLine: {'line': b'running build_py\n'}
+[6.484623] (agri_sensors) StdoutLine: {'line': b'copying agri_sensors/__init__.py -> /home/maria/agri_ws/build/agri_sensors/build/lib/agri_sensors\n'}
+[6.485262] (agri_sensors) StdoutLine: {'line': b'copying agri_sensors/soil_sensor_node.py -> /home/maria/agri_ws/build/agri_sensors/build/lib/agri_sensors\n'}
+[6.485578] (agri_sensors) StdoutLine: {'line': b'copying agri_sensors/py.typed -> /home/maria/agri_ws/build/agri_sensors/build/lib/agri_sensors\n'}
+[6.485815] (agri_sensors) StdoutLine: {'line': b'running install\n'}
+[6.495226] (agri_irrigation) StdoutLine: {'line': b"reading manifest file '../../build/agri_irrigation/agri_irrigation.egg-info/SOURCES.txt'\n"}
+[6.505301] (agri_irrigation) StdoutLine: {'line': b"writing manifest file '../../build/agri_irrigation/agri_irrigation.egg-info/SOURCES.txt'\n"}
+[6.507117] (agri_irrigation) StdoutLine: {'line': b'running build\n'}
+[6.508740] (agri_irrigation) StdoutLine: {'line': b'running build_py\n'}
+[6.512431] (agri_irrigation) StdoutLine: {'line': b'copying agri_irrigation/__init__.py -> /home/maria/agri_ws/build/agri_irrigation/build/lib/agri_irrigation\n'}
+[6.515242] (agri_irrigation) StdoutLine: {'line': b'copying agri_irrigation/irrigation_valve_node.py -> /home/maria/agri_ws/build/agri_irrigation/build/lib/agri_irrigation\n'}
+[6.517404] (-) TimerEvent: {}
+[6.528063] (agri_irrigation) StdoutLine: {'line': b'copying agri_irrigation/py.typed -> /home/maria/agri_ws/build/agri_irrigation/build/lib/agri_irrigation\n'}
+[6.528526] (agri_irrigation) StdoutLine: {'line': b'running install\n'}
+[6.576993] (agri_sensors) StdoutLine: {'line': b'running install_lib\n'}
+[6.590810] (agri_irrigation) StdoutLine: {'line': b'running install_lib\n'}
+[6.617632] (-) TimerEvent: {}
+[6.654668] (agri_sensors) StdoutLine: {'line': b'running install_data\n'}
+[6.656598] (agri_sensors) StdoutLine: {'line': b'copying resource/agri_sensors -> /home/maria/agri_ws/install/agri_sensors/share/ament_index/resource_index/packages\n'}
+[6.657013] (agri_sensors) StdoutLine: {'line': b'copying package.xml -> /home/maria/agri_ws/install/agri_sensors/share/agri_sensors\n'}
+[6.659144] (agri_sensors) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.686279] (agri_irrigation) StdoutLine: {'line': b'running install_data\n'}
+[6.689873] (agri_irrigation) StdoutLine: {'line': b'copying resource/agri_irrigation -> /home/maria/agri_ws/install/agri_irrigation/share/ament_index/resource_index/packages\n'}
+[6.690253] (agri_irrigation) StdoutLine: {'line': b'copying package.xml -> /home/maria/agri_ws/install/agri_irrigation/share/agri_irrigation\n'}
+[6.692511] (agri_irrigation) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.717859] (-) TimerEvent: {}
+[6.755331] (agri_sensors) StdoutLine: {'line': b"removing '/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages/agri_sensors-0.0.0-py3.14.egg-info' (and everything under it)\n"}
+[6.755690] (agri_sensors) StdoutLine: {'line': b'Copying ../../build/agri_sensors/agri_sensors.egg-info to /home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages/agri_sensors-0.0.0-py3.14.egg-info\n'}
+[6.758191] (agri_sensors) StdoutLine: {'line': b'running install_scripts\n'}
+[6.790654] (agri_irrigation) StdoutLine: {'line': b"removing '/home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages/agri_irrigation-0.0.0-py3.14.egg-info' (and everything under it)\n"}
+[6.794407] (agri_irrigation) StdoutLine: {'line': b'Copying ../../build/agri_irrigation/agri_irrigation.egg-info to /home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages/agri_irrigation-0.0.0-py3.14.egg-info\n'}
+[6.800846] (agri_irrigation) StdoutLine: {'line': b'running install_scripts\n'}
+[6.818079] (-) TimerEvent: {}
+[6.918966] (-) TimerEvent: {}
+[6.966714] (agri_orchestrator) StdoutLine: {'line': b'Installing farm_orchestrator_node script to /home/maria/agri_ws/install/agri_orchestrator/lib/agri_orchestrator\n'}
+[6.982617] (agri_orchestrator) StdoutLine: {'line': b"writing list of installed files to '/home/maria/agri_ws/build/agri_orchestrator/install.log'\n"}
+[7.019991] (-) TimerEvent: {}
+[7.063424] (agri_orchestrator) CommandEnded: {'returncode': 0}
+[7.121990] (-) TimerEvent: {}
+[7.151352] (agri_orchestrator) JobEnded: {'identifier': 'agri_orchestrator', 'rc': 0}
+[7.178802] (agri_sensors) StdoutLine: {'line': b'Installing soil_sensor_node script to /home/maria/agri_ws/install/agri_sensors/lib/agri_sensors\n'}
+[7.182904] (agri_sensors) StdoutLine: {'line': b"writing list of installed files to '/home/maria/agri_ws/build/agri_sensors/install.log'\n"}
+[7.224457] (-) TimerEvent: {}
+[7.325408] (-) TimerEvent: {}
+[7.344228] (agri_irrigation) StdoutLine: {'line': b'Installing irrigation_valve_node script to /home/maria/agri_ws/install/agri_irrigation/lib/agri_irrigation\n'}
+[7.346292] (agri_irrigation) StdoutLine: {'line': b"writing list of installed files to '/home/maria/agri_ws/build/agri_irrigation/install.log'\n"}
+[7.355518] (agri_sensors) CommandEnded: {'returncode': 0}
+[7.394132] (agri_sensors) JobEnded: {'identifier': 'agri_sensors', 'rc': 0}
+[7.425757] (-) TimerEvent: {}
+[7.454109] (agri_irrigation) CommandEnded: {'returncode': 0}
+[7.478652] (agri_irrigation) JobEnded: {'identifier': 'agri_irrigation', 'rc': 0}
+[7.480994] (-) EventReactorShutdown: {}

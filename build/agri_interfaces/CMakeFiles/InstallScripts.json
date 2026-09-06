@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/maria/agri_ws/build/agri_interfaces/cmake_install.cmake",
+		"/home/maria/agri_ws/build/agri_interfaces/agri_interfaces__py/cmake_install.cmake",
+		"/home/maria/agri_ws/build/agri_interfaces/agri_interfaces__rs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,2 @@
+[console_scripts]
+soil_sensor_node = agri_sensors.soil_sensor_node:main

@@ -1,0 +1,2 @@
+Invoking command in '/home/maria/agri_ws/build/agri_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/maria/agri_ws/agri_interfaces -DCMAKE_INSTALL_PREFIX=/home/maria/agri_ws/install/agri_interfaces
+Invoked command in '/home/maria/agri_ws/build/agri_interfaces' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/maria/agri_ws/agri_interfaces -DCMAKE_INSTALL_PREFIX=/home/maria/agri_ws/install/agri_interfaces

@@ -1,0 +1,13 @@
+{
+  "package_name": "agri_interfaces",
+  "output_dir": "/home/maria/agri_ws/build/agri_interfaces/rosidl_generator_type_description/agri_interfaces",
+  "idl_tuples": [
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces:msg/SoilMoisture.idl",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces:msg/IrrigationCommand.idl",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces:msg/IrrigationState.idl",
+    "/home/maria/agri_ws/build/agri_interfaces/rosidl_adapter/agri_interfaces:msg/RobotCommand.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/home/maria/ros2_lyrical/ros2-linux/share/builtin_interfaces/"
+  ]
+}

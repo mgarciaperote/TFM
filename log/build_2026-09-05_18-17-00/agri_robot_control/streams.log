@@ -1,0 +1,22 @@
+[8.456s] Invoking command in '/home/maria/agri_ws/build/agri_robot_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/maria/agri_ws/build/agri_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_robot_control/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maria/agri_ws/build/agri_robot_control/build --no-deps symlink_data
+[10.831s] running develop
+[12.352s] running egg_info
+[12.579s] creating agri_robot_control.egg-info
+[12.580s] writing agri_robot_control.egg-info/PKG-INFO
+[12.587s] writing dependency_links to agri_robot_control.egg-info/dependency_links.txt
+[12.588s] writing entry points to agri_robot_control.egg-info/entry_points.txt
+[12.588s] writing requirements to agri_robot_control.egg-info/requires.txt
+[12.599s] writing top-level names to agri_robot_control.egg-info/top_level.txt
+[12.604s] writing manifest file 'agri_robot_control.egg-info/SOURCES.txt'
+[13.071s] reading manifest file 'agri_robot_control.egg-info/SOURCES.txt'
+[13.071s] writing manifest file 'agri_robot_control.egg-info/SOURCES.txt'
+[13.216s] running build_ext
+[13.216s] Creating /home/maria/agri_ws/install/agri_robot_control/lib/python3.14/site-packages/agri-robot-control.egg-link (link to .)
+[13.220s] Installing robot_controller_node script to /home/maria/agri_ws/install/agri_robot_control/lib/agri_robot_control
+[13.224s] 
+[13.225s] Installed /home/maria/agri_ws/build/agri_robot_control
+[13.225s] running symlink_data
+[13.226s] creating /home/maria/agri_ws/install/agri_robot_control/share/ament_index/resource_index/packages
+[13.228s] symbolically linking /home/maria/agri_ws/build/agri_robot_control/resource/agri_robot_control -> /home/maria/agri_ws/install/agri_robot_control/share/ament_index/resource_index/packages
+[13.231s] symbolically linking /home/maria/agri_ws/build/agri_robot_control/package.xml -> /home/maria/agri_ws/install/agri_robot_control/share/agri_robot_control
+[13.410s] Invoked command in '/home/maria/agri_ws/build/agri_robot_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/maria/agri_ws/build/agri_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_robot_control/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maria/agri_ws/build/agri_robot_control/build --no-deps symlink_data

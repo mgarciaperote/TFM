@@ -1,0 +1,17 @@
+/home/maria/agri_ws/install/agri_simulation/share/agri_simulation/worlds/agri_world.sdf
+/home/maria/agri_ws/install/agri_simulation/share/ament_index/resource_index/package_run_dependencies/agri_simulation
+/home/maria/agri_ws/install/agri_simulation/share/ament_index/resource_index/parent_prefix_path/agri_simulation
+/home/maria/agri_ws/install/agri_simulation/share/agri_simulation/environment/ament_prefix_path.sh
+/home/maria/agri_ws/install/agri_simulation/share/agri_simulation/environment/ament_prefix_path.dsv
+/home/maria/agri_ws/install/agri_simulation/share/agri_simulation/environment/path.sh
+/home/maria/agri_ws/install/agri_simulation/share/agri_simulation/environment/path.dsv
+/home/maria/agri_ws/install/agri_simulation/share/agri_simulation/local_setup.bash
+/home/maria/agri_ws/install/agri_simulation/share/agri_simulation/local_setup.fish
+/home/maria/agri_ws/install/agri_simulation/share/agri_simulation/local_setup.sh
+/home/maria/agri_ws/install/agri_simulation/share/agri_simulation/local_setup.zsh
+/home/maria/agri_ws/install/agri_simulation/share/agri_simulation/local_setup.dsv
+/home/maria/agri_ws/install/agri_simulation/share/agri_simulation/package.dsv
+/home/maria/agri_ws/install/agri_simulation/share/ament_index/resource_index/packages/agri_simulation
+/home/maria/agri_ws/install/agri_simulation/share/agri_simulation/cmake/agri_simulationConfig.cmake
+/home/maria/agri_ws/install/agri_simulation/share/agri_simulation/cmake/agri_simulationConfig-version.cmake
+/home/maria/agri_ws/install/agri_simulation/share/agri_simulation/package.xml

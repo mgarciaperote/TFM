@@ -1,0 +1,6 @@
+builtin_interfaces/Time sensor_timestamp
+builtin_interfaces/Time command_timestamp
+builtin_interfaces/Time state_timestamp
+string actuator_id
+bool active
+string state

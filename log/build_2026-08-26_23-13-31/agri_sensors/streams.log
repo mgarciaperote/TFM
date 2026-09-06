@@ -1,0 +1,28 @@
+[4.577s] Invoking command in '/home/maria/agri_ws/src/agri_sensors': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/maria/agri_ws/build/agri_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agri_sensors build --build-base /home/maria/agri_ws/build/agri_sensors/build install --record /home/maria/agri_ws/build/agri_sensors/install.log --install-scripts $base/lib/agri_sensors --single-version-externally-managed install_data
+[6.427s] running egg_info
+[6.499s] writing ../../build/agri_sensors/agri_sensors.egg-info/PKG-INFO
+[6.500s] writing dependency_links to ../../build/agri_sensors/agri_sensors.egg-info/dependency_links.txt
+[6.502s] writing entry points to ../../build/agri_sensors/agri_sensors.egg-info/entry_points.txt
+[6.503s] writing requirements to ../../build/agri_sensors/agri_sensors.egg-info/requires.txt
+[6.503s] writing top-level names to ../../build/agri_sensors/agri_sensors.egg-info/top_level.txt
+[6.660s] reading manifest file '../../build/agri_sensors/agri_sensors.egg-info/SOURCES.txt'
+[6.661s] writing manifest file '../../build/agri_sensors/agri_sensors.egg-info/SOURCES.txt'
+[6.661s] running build
+[6.661s] running build_py
+[6.662s] copying agri_sensors/__init__.py -> /home/maria/agri_ws/build/agri_sensors/build/lib/agri_sensors
+[6.663s] copying agri_sensors/soil_sensor_node.py -> /home/maria/agri_ws/build/agri_sensors/build/lib/agri_sensors
+[6.663s] copying agri_sensors/py.typed -> /home/maria/agri_ws/build/agri_sensors/build/lib/agri_sensors
+[6.663s] running install
+[6.679s] running install_lib
+[6.765s] copying /home/maria/agri_ws/build/agri_sensors/build/lib/agri_sensors/soil_sensor_node.py -> /home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages/agri_sensors
+[6.767s] byte-compiling /home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages/agri_sensors/soil_sensor_node.py to soil_sensor_node.cpython-314.pyc
+[6.771s] running install_data
+[6.771s] copying resource/agri_sensors -> /home/maria/agri_ws/install/agri_sensors/share/ament_index/resource_index/packages
+[6.771s] copying package.xml -> /home/maria/agri_ws/install/agri_sensors/share/agri_sensors
+[6.772s] running install_egg_info
+[6.858s] removing '/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages/agri_sensors-0.0.0-py3.14.egg-info' (and everything under it)
+[6.859s] Copying ../../build/agri_sensors/agri_sensors.egg-info to /home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages/agri_sensors-0.0.0-py3.14.egg-info
+[6.864s] running install_scripts
+[7.343s] Installing soil_sensor_node script to /home/maria/agri_ws/install/agri_sensors/lib/agri_sensors
+[7.346s] writing list of installed files to '/home/maria/agri_ws/build/agri_sensors/install.log'
+[7.531s] Invoked command in '/home/maria/agri_ws/src/agri_sensors' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/maria/agri_ws/build/agri_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agri_sensors build --build-base /home/maria/agri_ws/build/agri_sensors/build install --record /home/maria/agri_ws/build/agri_sensors/install.log --install-scripts $base/lib/agri_sensors --single-version-externally-managed install_data

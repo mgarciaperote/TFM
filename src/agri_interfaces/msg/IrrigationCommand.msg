@@ -1,0 +1,5 @@
+builtin_interfaces/Time sensor_timestamp
+builtin_interfaces/Time command_timestamp
+string actuator_id
+bool activate
+float32 moisture_value
