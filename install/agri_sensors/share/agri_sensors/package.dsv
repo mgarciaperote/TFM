@@ -4,3 +4,6 @@ source;share/agri_sensors/hook/pythonpath.sh
 source;share/agri_sensors/hook/ament_prefix_path.ps1
 source;share/agri_sensors/hook/ament_prefix_path.dsv
 source;share/agri_sensors/hook/ament_prefix_path.sh
+source;../../build/agri_sensors/share/agri_sensors/hook/pythonpath_develop.ps1
+source;../../build/agri_sensors/share/agri_sensors/hook/pythonpath_develop.dsv
+source;../../build/agri_sensors/share/agri_sensors/hook/pythonpath_develop.sh

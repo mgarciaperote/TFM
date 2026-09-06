@@ -1,0 +1,132 @@
+rosbag2_bagfile_information:
+  version: 9
+  storage_identifier: mcap
+  duration:
+    nanoseconds: 128409323595
+  starting_time:
+    nanoseconds_since_epoch: 1788721308302542828
+  message_count: 6425
+  topics_with_message_count:
+    - topic_metadata:
+        name: /soil/moisture
+        type: agri_interfaces/msg/SoilMoisture
+        serialization_format: cdr
+        offered_qos_profiles:
+          - history: keep_last
+            depth: 10
+            reliability: reliable
+            durability: volatile
+            deadline:
+              sec: 9223372036
+              nsec: 854775807
+            lifespan:
+              sec: 9223372036
+              nsec: 854775807
+            liveliness: automatic
+            liveliness_lease_duration:
+              sec: 9223372036
+              nsec: 854775807
+            avoid_ros_namespace_conventions: false
+        type_description_hash: RIHS01_ef27827fe916316cbf1afd50588cec54de8e974f84079070f8e2a5ee9c1f1a40
+      message_count: 1285
+    - topic_metadata:
+        name: /agri_robot/cmd_vel
+        type: geometry_msgs/msg/Twist
+        serialization_format: cdr
+        offered_qos_profiles:
+          - history: keep_last
+            depth: 10
+            reliability: reliable
+            durability: volatile
+            deadline:
+              sec: 9223372036
+              nsec: 854775807
+            lifespan:
+              sec: 9223372036
+              nsec: 854775807
+            liveliness: automatic
+            liveliness_lease_duration:
+              sec: 9223372036
+              nsec: 854775807
+            avoid_ros_namespace_conventions: false
+        type_description_hash: RIHS01_9c45bf16fe0983d80e3cfe750d6835843d265a9a6c46bd2e609fcddde6fb8d2a
+      message_count: 1285
+    - topic_metadata:
+        name: /irrigation/command
+        type: agri_interfaces/msg/IrrigationCommand
+        serialization_format: cdr
+        offered_qos_profiles:
+          - history: keep_last
+            depth: 10
+            reliability: reliable
+            durability: volatile
+            deadline:
+              sec: 9223372036
+              nsec: 854775807
+            lifespan:
+              sec: 9223372036
+              nsec: 854775807
+            liveliness: automatic
+            liveliness_lease_duration:
+              sec: 9223372036
+              nsec: 854775807
+            avoid_ros_namespace_conventions: false
+        type_description_hash: RIHS01_ce439a281b1c5f154f3916e1e1440ca108ad84d584dc96bf3206a0a000fb77c9
+      message_count: 1285
+    - topic_metadata:
+        name: /irrigation/state
+        type: agri_interfaces/msg/IrrigationState
+        serialization_format: cdr
+        offered_qos_profiles:
+          - history: keep_last
+            depth: 10
+            reliability: reliable
+            durability: volatile
+            deadline:
+              sec: 9223372036
+              nsec: 854775807
+            lifespan:
+              sec: 9223372036
+              nsec: 854775807
+            liveliness: automatic
+            liveliness_lease_duration:
+              sec: 9223372036
+              nsec: 854775807
+            avoid_ros_namespace_conventions: false
+        type_description_hash: RIHS01_5a6699bb105df463fdb406aaf52aefc6255e69c35fa64c611b51801976d1f7ce
+      message_count: 1285
+    - topic_metadata:
+        name: /robot/command
+        type: agri_interfaces/msg/RobotCommand
+        serialization_format: cdr
+        offered_qos_profiles:
+          - history: keep_last
+            depth: 10
+            reliability: reliable
+            durability: volatile
+            deadline:
+              sec: 9223372036
+              nsec: 854775807
+            lifespan:
+              sec: 9223372036
+              nsec: 854775807
+            liveliness: automatic
+            liveliness_lease_duration:
+              sec: 9223372036
+              nsec: 854775807
+            avoid_ros_namespace_conventions: false
+        type_description_hash: RIHS01_1c9af9a25b8306a006b793caff538480dbc032f22d0564ee271182de11cca3fc
+      message_count: 1285
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - 0_experimento_C_03_2026_09_06-21_01_41.mcap
+  files:
+    - path: 0_experimento_C_03_2026_09_06-21_01_41.mcap
+      starting_time:
+        nanoseconds_since_epoch: 1788721308302542828
+      duration:
+        nanoseconds: 128409323595
+      message_count: 6425
+  custom_data: ~
+  ros_distro: lyrical

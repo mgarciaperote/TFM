@@ -15,14 +15,42 @@ class SoilSensorNode(Node):
             10
         )
 
+        # Frecuencia de publicación configurable.
+        # Por defecto: 1 Hz, igual que en los experimentos A y B.
+        self.declare_parameter(
+            'publication_frequency',
+            1.0
+        )
+
+        self.publication_frequency = (
+            self.get_parameter(
+                'publication_frequency'
+            ).value
+        )
+
+        if self.publication_frequency <= 0.0:
+            self.get_logger().warning(
+                'publication_frequency debe ser mayor que 0. '
+                'Se utilizará 1.0 Hz.'
+            )
+            self.publication_frequency = 1.0
+
+        timer_period = (
+            1.0 / self.publication_frequency
+        )
+
         self.timer = self.create_timer(
-            1.0,
+            timer_period,
             self.publish_moisture
         )
 
         self.moisture = 50.0
 
-        self.get_logger().info('Soil sensor node started')
+        self.get_logger().info(
+            'Soil sensor node started - '
+            f'Publication frequency: '
+            f'{self.publication_frequency:.1f} Hz'
+        )
 
     def publish_moisture(self):
 
@@ -33,7 +61,10 @@ class SoilSensorNode(Node):
 
         msg = SoilMoisture()
 
-        msg.timestamp = self.get_clock().now().to_msg()
+        msg.timestamp = (
+            self.get_clock().now().to_msg()
+        )
+
         msg.sensor_id = 'soil_sensor_01'
         msg.moisture = self.moisture
         msg.unit = '%'
@@ -47,6 +78,7 @@ class SoilSensorNode(Node):
 
 
 def main(args=None):
+
     rclpy.init(args=args)
 
     node = SoilSensorNode()
@@ -54,6 +86,7 @@ def main(args=None):
     rclpy.spin(node)
 
     node.destroy_node()
+
     rclpy.shutdown()
 
 

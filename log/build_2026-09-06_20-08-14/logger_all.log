@@ -1,0 +1,411 @@
+[-1788718090155680000.000s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'agri_sensors', '--symlink-install']
+[-1788718090155680000.000s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['agri_sensors'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70e24566bed0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70e24568fb60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70e24568fb60>>, mixin_verb=('build',))
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[-1788718090155680000.000s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/maria/agri_ws'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extension 'ros'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extensions ['cmake', 'python']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extension 'cmake'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extension 'python'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extensions ['python_setup_py']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extension 'python_setup_py'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments) by extension 'ros'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments) by extensions ['cmake', 'python']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments) by extension 'cmake'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments) by extension 'python'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments) by extensions ['python_setup_py']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments) by extension 'python_setup_py'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_01) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_01) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_01) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_01) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_01) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_01) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_01) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_01) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_01) by extension 'ros'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_01) by extensions ['cmake', 'python']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_01) by extension 'cmake'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_01) by extension 'python'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_01) by extensions ['python_setup_py']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_01) by extension 'python_setup_py'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_02) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_02) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_02) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_02) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_02) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_02) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_02) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_02) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_02) by extension 'ros'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_02) by extensions ['cmake', 'python']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_02) by extension 'cmake'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_02) by extension 'python'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_02) by extensions ['python_setup_py']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_02) by extension 'python_setup_py'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_03) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_03) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_03) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_03) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_03) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_03) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_03) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_03) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_03) by extension 'ros'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_03) by extensions ['cmake', 'python']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_03) by extension 'cmake'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_03) by extension 'python'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_03) by extensions ['python_setup_py']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_A_03) by extension 'python_setup_py'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_01) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_01) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_01) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_01) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_01) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_01) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_01) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_01) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_01) by extension 'ros'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_01) by extensions ['cmake', 'python']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_01) by extension 'cmake'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_01) by extension 'python'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_01) by extensions ['python_setup_py']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_01) by extension 'python_setup_py'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_02) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_02) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_02) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_02) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_02) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_02) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_02) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_02) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_02) by extension 'ros'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_02) by extensions ['cmake', 'python']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_02) by extension 'cmake'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_02) by extension 'python'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_02) by extensions ['python_setup_py']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_02) by extension 'python_setup_py'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_03) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_03) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_03) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_03) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_03) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_03) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_03) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_03) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_03) by extension 'ros'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_03) by extensions ['cmake', 'python']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_03) by extension 'cmake'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_03) by extension 'python'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_03) by extensions ['python_setup_py']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_B_03) by extension 'python_setup_py'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_integrado_01) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_integrado_01) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_integrado_01) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_integrado_01) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_integrado_01) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_integrado_01) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_integrado_01) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_integrado_01) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_integrado_01) by extension 'ros'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_integrado_01) by extensions ['cmake', 'python']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_integrado_01) by extension 'cmake'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_integrado_01) by extension 'python'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_integrado_01) by extensions ['python_setup_py']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/experiments/experimento_integrado_01) by extension 'python_setup_py'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/plots) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/plots) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/plots) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/plots) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/plots) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/plots) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/plots) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/plots) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/plots) by extension 'ros'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/plots) by extensions ['cmake', 'python']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/plots) by extension 'cmake'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/plots) by extension 'python'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/plots) by extensions ['python_setup_py']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/plots) by extension 'python_setup_py'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'ros'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['cmake', 'python']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'cmake'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'python'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['python_setup_py']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'python_setup_py'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/experimento_latencia_01) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/experimento_latencia_01) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/experimento_latencia_01) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/experimento_latencia_01) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/experimento_latencia_01) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/experimento_latencia_01) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/experimento_latencia_01) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/experimento_latencia_01) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/experimento_latencia_01) by extension 'ros'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/experimento_latencia_01) by extensions ['cmake', 'python']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/experimento_latencia_01) by extension 'cmake'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/experimento_latencia_01) by extension 'python'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/experimento_latencia_01) by extensions ['python_setup_py']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/experimento_latencia_01) by extension 'python_setup_py'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_08_26-23_37_05) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_08_26-23_37_05) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_08_26-23_37_05) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_08_26-23_37_05) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_08_26-23_37_05) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_08_26-23_37_05) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_08_26-23_37_05) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_08_26-23_37_05) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_08_26-23_37_05) by extension 'ros'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_08_26-23_37_05) by extensions ['cmake', 'python']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_08_26-23_37_05) by extension 'cmake'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_08_26-23_37_05) by extension 'python'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_08_26-23_37_05) by extensions ['python_setup_py']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_08_26-23_37_05) by extension 'python_setup_py'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-19_47_01) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-19_47_01) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-19_47_01) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-19_47_01) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-19_47_01) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-19_47_01) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-19_47_01) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-19_47_01) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-19_47_01) by extension 'ros'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-19_47_01) by extensions ['cmake', 'python']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-19_47_01) by extension 'cmake'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-19_47_01) by extension 'python'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-19_47_01) by extensions ['python_setup_py']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-19_47_01) by extension 'python_setup_py'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-20_08_27) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-20_08_27) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-20_08_27) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-20_08_27) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-20_08_27) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-20_08_27) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-20_08_27) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-20_08_27) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-20_08_27) by extension 'ros'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-20_08_27) by extensions ['cmake', 'python']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-20_08_27) by extension 'cmake'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-20_08_27) by extension 'python'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-20_08_27) by extensions ['python_setup_py']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_09_04-20_08_27) by extension 'python_setup_py'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_interfaces) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_interfaces) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_interfaces) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_interfaces) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_interfaces) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_interfaces) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_interfaces) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_interfaces) by extension 'ros'
+[-1788718090155680000.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agri_interfaces' with type 'ros.ament_cmake' and name 'agri_interfaces'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_irrigation) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_irrigation) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_irrigation) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_irrigation) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_irrigation) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_irrigation) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_irrigation) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_irrigation) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_irrigation) by extension 'ros'
+[-1788718090155680000.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agri_irrigation' with type 'ros.ament_python' and name 'agri_irrigation'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_orchestrator) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_orchestrator) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_orchestrator) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_orchestrator) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_orchestrator) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_orchestrator) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_orchestrator) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_orchestrator) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_orchestrator) by extension 'ros'
+[-1788718090155680000.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agri_orchestrator' with type 'ros.ament_python' and name 'agri_orchestrator'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_robot_control) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_robot_control) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_robot_control) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_robot_control) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_robot_control) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_robot_control) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_robot_control) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_robot_control) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_robot_control) by extension 'ros'
+[-1788718090155680000.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agri_robot_control' with type 'ros.ament_python' and name 'agri_robot_control'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_sensors) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_sensors) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_sensors) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_sensors) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_sensors) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_sensors) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_sensors) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_sensors) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_sensors) by extension 'ros'
+[-1788718090155680000.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agri_sensors' with type 'ros.ament_python' and name 'agri_sensors'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_simulation) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_simulation) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_simulation) by extension 'ignore_ament_install'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_simulation) by extensions ['colcon_pkg']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_simulation) by extension 'colcon_pkg'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_simulation) by extensions ['colcon_meta']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_simulation) by extension 'colcon_meta'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_simulation) by extensions ['ros']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agri_simulation) by extension 'ros'
+[-1788718090155680000.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agri_simulation' with type 'ros.ament_cmake' and name 'agri_simulation'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[-1788718090155680000.000s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'agri_interfaces' in 'src/agri_interfaces'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'agri_simulation' in 'src/agri_simulation'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'agri_irrigation' in 'src/agri_irrigation'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'agri_orchestrator' in 'src/agri_orchestrator'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'agri_robot_control' in 'src/agri_robot_control'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[-1788718090155680000.000s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/maria/agri_ws/install
+[-1788718090155680000.000s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 372 installed packages in /home/maria/ros2_lyrical/ros2-linux
+[-1788718090155680000.000s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 212 installed packages in /opt/ros/lyrical
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[-1788718090155680000.000s] Level 5:colcon.colcon_core.verb:set package 'agri_sensors' build argument 'cmake_args' from command line to 'None'
+[-1788718090155680000.000s] Level 5:colcon.colcon_core.verb:set package 'agri_sensors' build argument 'cmake_target' from command line to 'None'
+[-1788718090155680000.000s] Level 5:colcon.colcon_core.verb:set package 'agri_sensors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[-1788718090155680000.000s] Level 5:colcon.colcon_core.verb:set package 'agri_sensors' build argument 'cmake_clean_cache' from command line to 'False'
+[-1788718090155680000.000s] Level 5:colcon.colcon_core.verb:set package 'agri_sensors' build argument 'cmake_clean_first' from command line to 'False'
+[-1788718090155680000.000s] Level 5:colcon.colcon_core.verb:set package 'agri_sensors' build argument 'cmake_force_configure' from command line to 'False'
+[-1788718090155680000.000s] Level 5:colcon.colcon_core.verb:set package 'agri_sensors' build argument 'ament_cmake_args' from command line to 'None'
+[-1788718090155680000.000s] Level 5:colcon.colcon_core.verb:set package 'agri_sensors' build argument 'catkin_cmake_args' from command line to 'None'
+[-1788718090155680000.000s] Level 5:colcon.colcon_core.verb:set package 'agri_sensors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[-1788718090155680000.000s] DEBUG:colcon.colcon_core.verb:Building package 'agri_sensors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maria/agri_ws/build/agri_sensors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maria/agri_ws/install/agri_sensors', 'merge_install': False, 'path': '/home/maria/agri_ws/src/agri_sensors', 'symlink_install': True, 'test_result_base': None}
+[-1788718090155680000.000s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[-1788718090155680000.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[-1788718090155680000.000s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/maria/agri_ws/src/agri_sensors' with build type 'ament_python'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('agri_sensors', 'ament_prefix_path')
+[-1788718090155680000.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/agri_ws/install/agri_sensors/share/agri_sensors/hook/ament_prefix_path.ps1'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maria/agri_ws/install/agri_sensors/share/agri_sensors/hook/ament_prefix_path.dsv'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/agri_ws/install/agri_sensors/share/agri_sensors/hook/ament_prefix_path.sh'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1788718090155680000.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1788718090155680000.000s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/maria/agri_ws/src/agri_sensors'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1788718090155680000.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1788718090155680000.000s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_ext, easy_install, dist_info, build_scripts, bdist_rpm, setopt, clean, compile_catalog, bdist_wheel, update_catalog, develop, build_clib, saveopts, check, install_headers, build_py, install_lib, bdist, extract_messages, egg_info, alias, build, init_catalog, bdist_dumb, rotate, install_egg_info, install_scripts, install, install_data, bdist_egg, editable_wheel, symlink_data, sdist
+[-1788718090155680000.000s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --optimize, --site-dirs, --index-url, --local-snapshots-ok, --install-dir, --install-layout, --dry-run, --zip-ok, --record, --version, --verbose, --no-user-cfg, --build-directory, --always-copy, --always-unzip, --quiet, --prefix, --script-dir, --allow-hosts, --no-find-links, --egg-path, --editable, --help, --find-links, --exclude-scripts, --upgrade, --user, --multi-version, --uninstall, --no-deps, --force-installation-into-system-dir
+[-1788718090155680000.000s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/maria/agri_ws/install/agri_sensors/share/ament_index/resource_index/packages/agri_sensors
+[-1788718090155680000.000s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/maria/agri_ws/install/agri_sensors/share/agri_sensors/package.xml
+[-1788718090155680000.000s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/maria/agri_ws/install/agri_sensors/lib/agri_sensors/soil_sensor_node
+[-1788718090155680000.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maria/agri_ws/build/agri_sensors': CMAKE_PREFIX_PATH=/home/maria/agri_ws/install/agri_interfaces:/home/maria/agri_ws/install/agri_simulation:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor:/home/maria/ros2_lyrical/ros2-linux/opt/gz_utils_vendor:/home/maria/ros2_lyrical/ros2-linux/opt/gz_cmake_vendor:/home/maria/ros2_lyrical/ros2-linux:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/maria/agri_ws/build/agri_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages:/home/maria/agri_ws/build/agri_orchestrator:/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages:/home/maria/agri_ws/build/agri_robot_control:/home/maria/agri_ws/install/agri_robot_control/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor/lib/python:/home/maria/ros2_lyrical/ros2-linux/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maria/agri_ws/build/agri_sensors/build --no-deps symlink_data --force
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('agri_sensors', 'pythonpath_develop')
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/agri_ws/build/agri_sensors/share/agri_sensors/hook/pythonpath_develop.ps1'
+[-1788718090155680000.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maria/agri_ws/build/agri_sensors' returned '0': CMAKE_PREFIX_PATH=/home/maria/agri_ws/install/agri_interfaces:/home/maria/agri_ws/install/agri_simulation:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor:/home/maria/ros2_lyrical/ros2-linux/opt/gz_utils_vendor:/home/maria/ros2_lyrical/ros2-linux/opt/gz_cmake_vendor:/home/maria/ros2_lyrical/ros2-linux:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/maria/agri_ws/build/agri_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_interfaces/lib/python3.14/site-packages:/home/maria/agri_ws/build/agri_orchestrator:/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages:/home/maria/agri_ws/build/agri_robot_control:/home/maria/agri_ws/install/agri_robot_control/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_orchestrator/lib/python3.14/site-packages:/home/maria/agri_ws/install/agri_irrigation/lib/python3.14/site-packages:/home/maria/ros2_lyrical/ros2-linux/opt/gz_math_vendor/lib/python:/home/maria/ros2_lyrical/ros2-linux/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maria/agri_ws/build/agri_sensors/build --no-deps symlink_data --force
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maria/agri_ws/build/agri_sensors/share/agri_sensors/hook/pythonpath_develop.dsv'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/agri_ws/build/agri_sensors/share/agri_sensors/hook/pythonpath_develop.sh'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.environment:checking '/home/maria/agri_ws/install/agri_sensors' for CMake module files
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.environment:checking '/home/maria/agri_ws/install/agri_sensors' for CMake config files
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.environment:checking '/home/maria/agri_ws/install/agri_sensors/lib'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.environment:checking '/home/maria/agri_ws/install/agri_sensors/bin'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.environment:checking '/home/maria/agri_ws/install/agri_sensors/lib/pkgconfig/agri_sensors.pc'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.environment:checking '/home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('agri_sensors', 'pythonpath')
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/agri_ws/install/agri_sensors/share/agri_sensors/hook/pythonpath.ps1'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maria/agri_ws/install/agri_sensors/share/agri_sensors/hook/pythonpath.dsv'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/agri_ws/install/agri_sensors/share/agri_sensors/hook/pythonpath.sh'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.environment:checking '/home/maria/agri_ws/install/agri_sensors/bin'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(agri_sensors)
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/agri_ws/install/agri_sensors/share/agri_sensors/package.ps1'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maria/agri_ws/install/agri_sensors/share/agri_sensors/package.dsv'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/agri_ws/install/agri_sensors/share/agri_sensors/package.sh'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/agri_ws/install/agri_sensors/share/agri_sensors/package.bash'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/agri_ws/install/agri_sensors/share/agri_sensors/package.zsh'
+[-1788718090155680000.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maria/agri_ws/install/agri_sensors/share/colcon-core/packages/agri_sensors)
+[-1788718090155680000.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[-1788718090155680000.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[-1788718090155680000.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[-1788718090155680000.000s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[-1788718090155680000.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[-1788718090155680000.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[-1788718090155680000.000s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[-1788718090155680000.000s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maria/agri_ws/install/local_setup.ps1'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/maria/agri_ws/install/_local_setup_util_ps1.py'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maria/agri_ws/install/setup.ps1'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maria/agri_ws/install/local_setup.sh'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/maria/agri_ws/install/_local_setup_util_sh.py'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maria/agri_ws/install/setup.sh'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maria/agri_ws/install/local_setup.bash'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maria/agri_ws/install/setup.bash'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maria/agri_ws/install/local_setup.zsh'
+[-1788718090155680000.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maria/agri_ws/install/setup.zsh'

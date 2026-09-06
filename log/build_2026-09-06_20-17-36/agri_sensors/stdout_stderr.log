@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating agri_sensors.egg-info
+writing agri_sensors.egg-info/PKG-INFO
+writing dependency_links to agri_sensors.egg-info/dependency_links.txt
+writing entry points to agri_sensors.egg-info/entry_points.txt
+writing requirements to agri_sensors.egg-info/requires.txt
+writing top-level names to agri_sensors.egg-info/top_level.txt
+writing manifest file 'agri_sensors.egg-info/SOURCES.txt'
+reading manifest file 'agri_sensors.egg-info/SOURCES.txt'
+writing manifest file 'agri_sensors.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/maria/agri_ws/install/agri_sensors/lib/python3.14/site-packages/agri-sensors.egg-link (link to .)
+Installing soil_sensor_node script to /home/maria/agri_ws/install/agri_sensors/lib/agri_sensors
+
+Installed /home/maria/agri_ws/build/agri_sensors
+running symlink_data
+creating /home/maria/agri_ws/install/agri_sensors/share/ament_index/resource_index/packages
+symbolically linking /home/maria/agri_ws/build/agri_sensors/resource/agri_sensors -> /home/maria/agri_ws/install/agri_sensors/share/ament_index/resource_index/packages
+symbolically linking /home/maria/agri_ws/build/agri_sensors/package.xml -> /home/maria/agri_ws/install/agri_sensors/share/agri_sensors

@@ -1,5 +1,8 @@
 import sys
 import statistics
+import csv
+from itertools import zip_longest
+from pathlib import Path
 
 import rclpy
 from rclpy.serialization import deserialize_message
@@ -62,6 +65,59 @@ def calculate_statistics(values, name):
     print(f'  Jitter medio: {jitter:.3f} ms')
     print(f'  P95: {p95:.3f} ms')
     print(f'  P99: {p99:.3f} ms')
+
+
+def export_latency_csv(
+    bag_path,
+    sensor_to_orchestrator,
+    orchestrator_to_valve,
+    irrigation_total,
+    robot_command_to_cmd_vel
+):
+    bag = Path(bag_path)
+
+    output_path = (
+        bag.parent
+        / f'{bag.name}_latencies.csv'
+    )
+
+    with open(
+        output_path,
+        'w',
+        newline='',
+        encoding='utf-8'
+    ) as csv_file:
+
+        writer = csv.writer(csv_file)
+
+        writer.writerow([
+            'sample',
+            'sensor_to_orchestrator_ms',
+            'orchestrator_to_valve_ms',
+            'irrigation_total_ms',
+            'robot_command_to_cmd_vel_ms'
+        ])
+
+        rows = zip_longest(
+            sensor_to_orchestrator,
+            orchestrator_to_valve,
+            irrigation_total,
+            robot_command_to_cmd_vel,
+            fillvalue=''
+        )
+
+        for sample_index, row in enumerate(
+            rows,
+            start=1
+        ):
+            writer.writerow([
+                sample_index,
+                *row
+            ])
+
+    print(
+        f'\nCSV exportado en: {output_path}'
+    )
 
 
 def main():
@@ -243,6 +299,18 @@ def main():
             robot_command_to_cmd_vel.append(
                 latency_ms
             )
+
+    # --------------------------------------------------
+    # Exportar muestras individuales a CSV
+    # --------------------------------------------------
+
+    export_latency_csv(
+        bag_path,
+        sensor_to_orchestrator,
+        orchestrator_to_valve,
+        irrigation_total,
+        robot_command_to_cmd_vel
+    )
 
     # --------------------------------------------------
     # RESULTADOS
